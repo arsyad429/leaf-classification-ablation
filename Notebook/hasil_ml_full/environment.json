@@ -1,0 +1,13 @@
+{
+  "python": "d:\\AnacondaPython\\envs\\ai_env\\python.exe",
+  "version": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:36:49) [MSC v.1944 64 bit (AMD64)]",
+  "sklearn": "1.7.2",
+  "opencv": "5.0.0",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "smoke": false,
+  "torch_installed_version": "2.11.0+cu128",
+  "cuda_available": null,
+  "gpu": null,
+  "gpu_probe_status": "Tidak diperiksa; notebook ML menggunakan CPU tanpa impor PyTorch.",
+  "model_backend": "scikit-learn CPU; OpenCV CPU"
+}

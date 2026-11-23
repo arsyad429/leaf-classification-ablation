@@ -1,0 +1,4 @@
+fold,input,feature,model,image,true,pred,correct
+1,N,F7,SVM,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+2,N,F7,SVM,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+1,N,F7,SVM,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
