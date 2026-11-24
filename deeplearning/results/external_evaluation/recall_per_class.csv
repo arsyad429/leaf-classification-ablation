@@ -1,0 +1,217 @@
+input,architecture,initialization,augmentation,learning_rate,epochs,label,correct,photos,recall
+N,resnet50,pretrained,False,0.0001,11,Aglaonema,11,25,0.44
+N,resnet50,pretrained,False,0.0001,11,Daun nangka,16,25,0.64
+N,resnet50,pretrained,False,0.0001,11,Kamboja jepang,8,25,0.32
+N,resnet50,pretrained,False,0.0001,11,Lidah metua,17,25,0.68
+N,resnet50,pretrained,False,0.0001,11,Paku tanduk rusa,25,25,1.0
+N,resnet50,pretrained,False,0.0001,11,Peperomium semangka,25,25,1.0
+N,resnet50,pretrained,True,0.0001,12,Aglaonema,4,25,0.16
+N,resnet50,pretrained,True,0.0001,12,Daun nangka,20,25,0.8
+N,resnet50,pretrained,True,0.0001,12,Kamboja jepang,6,25,0.24
+N,resnet50,pretrained,True,0.0001,12,Lidah metua,14,25,0.56
+N,resnet50,pretrained,True,0.0001,12,Paku tanduk rusa,25,25,1.0
+N,resnet50,pretrained,True,0.0001,12,Peperomium semangka,23,25,0.92
+N,resnet50,scratch,False,0.001,1,Aglaonema,0,25,0.0
+N,resnet50,scratch,False,0.001,1,Daun nangka,0,25,0.0
+N,resnet50,scratch,False,0.001,1,Kamboja jepang,0,25,0.0
+N,resnet50,scratch,False,0.001,1,Lidah metua,0,25,0.0
+N,resnet50,scratch,False,0.001,1,Paku tanduk rusa,25,25,1.0
+N,resnet50,scratch,False,0.001,1,Peperomium semangka,0,25,0.0
+N,resnet50,scratch,True,0.001,1,Aglaonema,0,25,0.0
+N,resnet50,scratch,True,0.001,1,Daun nangka,0,25,0.0
+N,resnet50,scratch,True,0.001,1,Kamboja jepang,0,25,0.0
+N,resnet50,scratch,True,0.001,1,Lidah metua,0,25,0.0
+N,resnet50,scratch,True,0.001,1,Paku tanduk rusa,25,25,1.0
+N,resnet50,scratch,True,0.001,1,Peperomium semangka,0,25,0.0
+N,vit_b_16,pretrained,False,0.0001,20,Aglaonema,10,25,0.4
+N,vit_b_16,pretrained,False,0.0001,20,Daun nangka,22,25,0.88
+N,vit_b_16,pretrained,False,0.0001,20,Kamboja jepang,6,25,0.24
+N,vit_b_16,pretrained,False,0.0001,20,Lidah metua,21,25,0.84
+N,vit_b_16,pretrained,False,0.0001,20,Paku tanduk rusa,22,25,0.88
+N,vit_b_16,pretrained,False,0.0001,20,Peperomium semangka,13,25,0.52
+N,vit_b_16,pretrained,True,0.0001,12,Aglaonema,14,25,0.56
+N,vit_b_16,pretrained,True,0.0001,12,Daun nangka,20,25,0.8
+N,vit_b_16,pretrained,True,0.0001,12,Kamboja jepang,7,25,0.28
+N,vit_b_16,pretrained,True,0.0001,12,Lidah metua,15,25,0.6
+N,vit_b_16,pretrained,True,0.0001,12,Paku tanduk rusa,23,25,0.92
+N,vit_b_16,pretrained,True,0.0001,12,Peperomium semangka,13,25,0.52
+N,vit_b_16,scratch,False,0.0003,13,Aglaonema,5,25,0.2
+N,vit_b_16,scratch,False,0.0003,13,Daun nangka,14,25,0.56
+N,vit_b_16,scratch,False,0.0003,13,Kamboja jepang,3,25,0.12
+N,vit_b_16,scratch,False,0.0003,13,Lidah metua,4,25,0.16
+N,vit_b_16,scratch,False,0.0003,13,Paku tanduk rusa,7,25,0.28
+N,vit_b_16,scratch,False,0.0003,13,Peperomium semangka,1,25,0.04
+N,vit_b_16,scratch,True,0.0003,15,Aglaonema,5,25,0.2
+N,vit_b_16,scratch,True,0.0003,15,Daun nangka,0,25,0.0
+N,vit_b_16,scratch,True,0.0003,15,Kamboja jepang,2,25,0.08
+N,vit_b_16,scratch,True,0.0003,15,Lidah metua,0,25,0.0
+N,vit_b_16,scratch,True,0.0003,15,Paku tanduk rusa,17,25,0.68
+N,vit_b_16,scratch,True,0.0003,15,Peperomium semangka,0,25,0.0
+N,swin_t,pretrained,False,0.0001,12,Aglaonema,13,25,0.52
+N,swin_t,pretrained,False,0.0001,12,Daun nangka,22,25,0.88
+N,swin_t,pretrained,False,0.0001,12,Kamboja jepang,7,25,0.28
+N,swin_t,pretrained,False,0.0001,12,Lidah metua,19,25,0.76
+N,swin_t,pretrained,False,0.0001,12,Paku tanduk rusa,24,25,0.96
+N,swin_t,pretrained,False,0.0001,12,Peperomium semangka,18,25,0.72
+N,swin_t,pretrained,True,0.0001,12,Aglaonema,14,25,0.56
+N,swin_t,pretrained,True,0.0001,12,Daun nangka,22,25,0.88
+N,swin_t,pretrained,True,0.0001,12,Kamboja jepang,5,25,0.2
+N,swin_t,pretrained,True,0.0001,12,Lidah metua,16,25,0.64
+N,swin_t,pretrained,True,0.0001,12,Paku tanduk rusa,25,25,1.0
+N,swin_t,pretrained,True,0.0001,12,Peperomium semangka,19,25,0.76
+N,swin_t,scratch,False,0.0003,11,Aglaonema,5,25,0.2
+N,swin_t,scratch,False,0.0003,11,Daun nangka,3,25,0.12
+N,swin_t,scratch,False,0.0003,11,Kamboja jepang,0,25,0.0
+N,swin_t,scratch,False,0.0003,11,Lidah metua,1,25,0.04
+N,swin_t,scratch,False,0.0003,11,Paku tanduk rusa,20,25,0.8
+N,swin_t,scratch,False,0.0003,11,Peperomium semangka,4,25,0.16
+N,swin_t,scratch,True,0.0003,14,Aglaonema,4,25,0.16
+N,swin_t,scratch,True,0.0003,14,Daun nangka,13,25,0.52
+N,swin_t,scratch,True,0.0003,14,Kamboja jepang,0,25,0.0
+N,swin_t,scratch,True,0.0003,14,Lidah metua,4,25,0.16
+N,swin_t,scratch,True,0.0003,14,Paku tanduk rusa,10,25,0.4
+N,swin_t,scratch,True,0.0003,14,Peperomium semangka,0,25,0.0
+E,resnet50,pretrained,False,0.0001,15,Aglaonema,7,25,0.28
+E,resnet50,pretrained,False,0.0001,15,Daun nangka,19,25,0.76
+E,resnet50,pretrained,False,0.0001,15,Kamboja jepang,8,25,0.32
+E,resnet50,pretrained,False,0.0001,15,Lidah metua,17,25,0.68
+E,resnet50,pretrained,False,0.0001,15,Paku tanduk rusa,24,25,0.96
+E,resnet50,pretrained,False,0.0001,15,Peperomium semangka,22,25,0.88
+E,resnet50,pretrained,True,0.0001,12,Aglaonema,5,25,0.2
+E,resnet50,pretrained,True,0.0001,12,Daun nangka,18,25,0.72
+E,resnet50,pretrained,True,0.0001,12,Kamboja jepang,11,25,0.44
+E,resnet50,pretrained,True,0.0001,12,Lidah metua,14,25,0.56
+E,resnet50,pretrained,True,0.0001,12,Paku tanduk rusa,25,25,1.0
+E,resnet50,pretrained,True,0.0001,12,Peperomium semangka,20,25,0.8
+E,resnet50,scratch,False,0.001,1,Aglaonema,0,25,0.0
+E,resnet50,scratch,False,0.001,1,Daun nangka,0,25,0.0
+E,resnet50,scratch,False,0.001,1,Kamboja jepang,0,25,0.0
+E,resnet50,scratch,False,0.001,1,Lidah metua,7,25,0.28
+E,resnet50,scratch,False,0.001,1,Paku tanduk rusa,19,25,0.76
+E,resnet50,scratch,False,0.001,1,Peperomium semangka,0,25,0.0
+E,resnet50,scratch,True,0.001,1,Aglaonema,0,25,0.0
+E,resnet50,scratch,True,0.001,1,Daun nangka,0,25,0.0
+E,resnet50,scratch,True,0.001,1,Kamboja jepang,0,25,0.0
+E,resnet50,scratch,True,0.001,1,Lidah metua,25,25,1.0
+E,resnet50,scratch,True,0.001,1,Paku tanduk rusa,0,25,0.0
+E,resnet50,scratch,True,0.001,1,Peperomium semangka,0,25,0.0
+E,vit_b_16,pretrained,False,3e-05,20,Aglaonema,11,25,0.44
+E,vit_b_16,pretrained,False,3e-05,20,Daun nangka,19,25,0.76
+E,vit_b_16,pretrained,False,3e-05,20,Kamboja jepang,9,25,0.36
+E,vit_b_16,pretrained,False,3e-05,20,Lidah metua,19,25,0.76
+E,vit_b_16,pretrained,False,3e-05,20,Paku tanduk rusa,23,25,0.92
+E,vit_b_16,pretrained,False,3e-05,20,Peperomium semangka,12,25,0.48
+E,vit_b_16,pretrained,True,0.0001,12,Aglaonema,14,25,0.56
+E,vit_b_16,pretrained,True,0.0001,12,Daun nangka,21,25,0.84
+E,vit_b_16,pretrained,True,0.0001,12,Kamboja jepang,5,25,0.2
+E,vit_b_16,pretrained,True,0.0001,12,Lidah metua,16,25,0.64
+E,vit_b_16,pretrained,True,0.0001,12,Paku tanduk rusa,24,25,0.96
+E,vit_b_16,pretrained,True,0.0001,12,Peperomium semangka,16,25,0.64
+E,vit_b_16,scratch,False,0.0003,15,Aglaonema,7,25,0.28
+E,vit_b_16,scratch,False,0.0003,15,Daun nangka,3,25,0.12
+E,vit_b_16,scratch,False,0.0003,15,Kamboja jepang,0,25,0.0
+E,vit_b_16,scratch,False,0.0003,15,Lidah metua,1,25,0.04
+E,vit_b_16,scratch,False,0.0003,15,Paku tanduk rusa,21,25,0.84
+E,vit_b_16,scratch,False,0.0003,15,Peperomium semangka,1,25,0.04
+E,vit_b_16,scratch,True,0.0003,13,Aglaonema,8,25,0.32
+E,vit_b_16,scratch,True,0.0003,13,Daun nangka,3,25,0.12
+E,vit_b_16,scratch,True,0.0003,13,Kamboja jepang,0,25,0.0
+E,vit_b_16,scratch,True,0.0003,13,Lidah metua,9,25,0.36
+E,vit_b_16,scratch,True,0.0003,13,Paku tanduk rusa,7,25,0.28
+E,vit_b_16,scratch,True,0.0003,13,Peperomium semangka,0,25,0.0
+E,swin_t,pretrained,False,0.0001,11,Aglaonema,15,25,0.6
+E,swin_t,pretrained,False,0.0001,11,Daun nangka,22,25,0.88
+E,swin_t,pretrained,False,0.0001,11,Kamboja jepang,4,25,0.16
+E,swin_t,pretrained,False,0.0001,11,Lidah metua,15,25,0.6
+E,swin_t,pretrained,False,0.0001,11,Paku tanduk rusa,25,25,1.0
+E,swin_t,pretrained,False,0.0001,11,Peperomium semangka,20,25,0.8
+E,swin_t,pretrained,True,0.0001,12,Aglaonema,15,25,0.6
+E,swin_t,pretrained,True,0.0001,12,Daun nangka,22,25,0.88
+E,swin_t,pretrained,True,0.0001,12,Kamboja jepang,4,25,0.16
+E,swin_t,pretrained,True,0.0001,12,Lidah metua,15,25,0.6
+E,swin_t,pretrained,True,0.0001,12,Paku tanduk rusa,25,25,1.0
+E,swin_t,pretrained,True,0.0001,12,Peperomium semangka,18,25,0.72
+E,swin_t,scratch,False,0.0003,12,Aglaonema,2,25,0.08
+E,swin_t,scratch,False,0.0003,12,Daun nangka,2,25,0.08
+E,swin_t,scratch,False,0.0003,12,Kamboja jepang,3,25,0.12
+E,swin_t,scratch,False,0.0003,12,Lidah metua,2,25,0.08
+E,swin_t,scratch,False,0.0003,12,Paku tanduk rusa,22,25,0.88
+E,swin_t,scratch,False,0.0003,12,Peperomium semangka,0,25,0.0
+E,swin_t,scratch,True,0.0003,10,Aglaonema,7,25,0.28
+E,swin_t,scratch,True,0.0003,10,Daun nangka,5,25,0.2
+E,swin_t,scratch,True,0.0003,10,Kamboja jepang,0,25,0.0
+E,swin_t,scratch,True,0.0003,10,Lidah metua,2,25,0.08
+E,swin_t,scratch,True,0.0003,10,Paku tanduk rusa,21,25,0.84
+E,swin_t,scratch,True,0.0003,10,Peperomium semangka,0,25,0.0
+S-K,resnet50,pretrained,False,0.0001,11,Aglaonema,14,25,0.56
+S-K,resnet50,pretrained,False,0.0001,11,Daun nangka,20,25,0.8
+S-K,resnet50,pretrained,False,0.0001,11,Kamboja jepang,4,25,0.16
+S-K,resnet50,pretrained,False,0.0001,11,Lidah metua,23,25,0.92
+S-K,resnet50,pretrained,False,0.0001,11,Paku tanduk rusa,20,25,0.8
+S-K,resnet50,pretrained,False,0.0001,11,Peperomium semangka,19,25,0.76
+S-K,resnet50,pretrained,True,0.0001,11,Aglaonema,10,25,0.4
+S-K,resnet50,pretrained,True,0.0001,11,Daun nangka,14,25,0.56
+S-K,resnet50,pretrained,True,0.0001,11,Kamboja jepang,2,25,0.08
+S-K,resnet50,pretrained,True,0.0001,11,Lidah metua,22,25,0.88
+S-K,resnet50,pretrained,True,0.0001,11,Paku tanduk rusa,22,25,0.88
+S-K,resnet50,pretrained,True,0.0001,11,Peperomium semangka,18,25,0.72
+S-K,resnet50,scratch,False,0.001,1,Aglaonema,0,25,0.0
+S-K,resnet50,scratch,False,0.001,1,Daun nangka,0,25,0.0
+S-K,resnet50,scratch,False,0.001,1,Kamboja jepang,0,25,0.0
+S-K,resnet50,scratch,False,0.001,1,Lidah metua,25,25,1.0
+S-K,resnet50,scratch,False,0.001,1,Paku tanduk rusa,0,25,0.0
+S-K,resnet50,scratch,False,0.001,1,Peperomium semangka,0,25,0.0
+S-K,resnet50,scratch,True,0.001,1,Aglaonema,0,25,0.0
+S-K,resnet50,scratch,True,0.001,1,Daun nangka,25,25,1.0
+S-K,resnet50,scratch,True,0.001,1,Kamboja jepang,0,25,0.0
+S-K,resnet50,scratch,True,0.001,1,Lidah metua,0,25,0.0
+S-K,resnet50,scratch,True,0.001,1,Paku tanduk rusa,0,25,0.0
+S-K,resnet50,scratch,True,0.001,1,Peperomium semangka,0,25,0.0
+S-K,vit_b_16,pretrained,False,0.0001,7,Aglaonema,17,25,0.68
+S-K,vit_b_16,pretrained,False,0.0001,7,Daun nangka,25,25,1.0
+S-K,vit_b_16,pretrained,False,0.0001,7,Kamboja jepang,2,25,0.08
+S-K,vit_b_16,pretrained,False,0.0001,7,Lidah metua,16,25,0.64
+S-K,vit_b_16,pretrained,False,0.0001,7,Paku tanduk rusa,22,25,0.88
+S-K,vit_b_16,pretrained,False,0.0001,7,Peperomium semangka,0,25,0.0
+S-K,vit_b_16,pretrained,True,0.0001,6,Aglaonema,11,25,0.44
+S-K,vit_b_16,pretrained,True,0.0001,6,Daun nangka,25,25,1.0
+S-K,vit_b_16,pretrained,True,0.0001,6,Kamboja jepang,2,25,0.08
+S-K,vit_b_16,pretrained,True,0.0001,6,Lidah metua,16,25,0.64
+S-K,vit_b_16,pretrained,True,0.0001,6,Paku tanduk rusa,15,25,0.6
+S-K,vit_b_16,pretrained,True,0.0001,6,Peperomium semangka,0,25,0.0
+S-K,vit_b_16,scratch,False,0.0003,9,Aglaonema,10,25,0.4
+S-K,vit_b_16,scratch,False,0.0003,9,Daun nangka,18,25,0.72
+S-K,vit_b_16,scratch,False,0.0003,9,Kamboja jepang,1,25,0.04
+S-K,vit_b_16,scratch,False,0.0003,9,Lidah metua,2,25,0.08
+S-K,vit_b_16,scratch,False,0.0003,9,Paku tanduk rusa,0,25,0.0
+S-K,vit_b_16,scratch,False,0.0003,9,Peperomium semangka,0,25,0.0
+S-K,vit_b_16,scratch,True,0.0003,12,Aglaonema,2,25,0.08
+S-K,vit_b_16,scratch,True,0.0003,12,Daun nangka,0,25,0.0
+S-K,vit_b_16,scratch,True,0.0003,12,Kamboja jepang,2,25,0.08
+S-K,vit_b_16,scratch,True,0.0003,12,Lidah metua,9,25,0.36
+S-K,vit_b_16,scratch,True,0.0003,12,Paku tanduk rusa,16,25,0.64
+S-K,vit_b_16,scratch,True,0.0003,12,Peperomium semangka,0,25,0.0
+S-K,swin_t,pretrained,False,0.0001,11,Aglaonema,12,25,0.48
+S-K,swin_t,pretrained,False,0.0001,11,Daun nangka,25,25,1.0
+S-K,swin_t,pretrained,False,0.0001,11,Kamboja jepang,2,25,0.08
+S-K,swin_t,pretrained,False,0.0001,11,Lidah metua,18,25,0.72
+S-K,swin_t,pretrained,False,0.0001,11,Paku tanduk rusa,24,25,0.96
+S-K,swin_t,pretrained,False,0.0001,11,Peperomium semangka,1,25,0.04
+S-K,swin_t,pretrained,True,0.0001,11,Aglaonema,13,25,0.52
+S-K,swin_t,pretrained,True,0.0001,11,Daun nangka,25,25,1.0
+S-K,swin_t,pretrained,True,0.0001,11,Kamboja jepang,0,25,0.0
+S-K,swin_t,pretrained,True,0.0001,11,Lidah metua,20,25,0.8
+S-K,swin_t,pretrained,True,0.0001,11,Paku tanduk rusa,25,25,1.0
+S-K,swin_t,pretrained,True,0.0001,11,Peperomium semangka,3,25,0.12
+S-K,swin_t,scratch,False,0.0003,7,Aglaonema,2,25,0.08
+S-K,swin_t,scratch,False,0.0003,7,Daun nangka,7,25,0.28
+S-K,swin_t,scratch,False,0.0003,7,Kamboja jepang,0,25,0.0
+S-K,swin_t,scratch,False,0.0003,7,Lidah metua,12,25,0.48
+S-K,swin_t,scratch,False,0.0003,7,Paku tanduk rusa,10,25,0.4
+S-K,swin_t,scratch,False,0.0003,7,Peperomium semangka,0,25,0.0
+S-K,swin_t,scratch,True,0.0003,10,Aglaonema,10,25,0.4
+S-K,swin_t,scratch,True,0.0003,10,Daun nangka,7,25,0.28
+S-K,swin_t,scratch,True,0.0003,10,Kamboja jepang,0,25,0.0
+S-K,swin_t,scratch,True,0.0003,10,Lidah metua,9,25,0.36
+S-K,swin_t,scratch,True,0.0003,10,Paku tanduk rusa,14,25,0.56
+S-K,swin_t,scratch,True,0.0003,10,Peperomium semangka,0,25,0.0

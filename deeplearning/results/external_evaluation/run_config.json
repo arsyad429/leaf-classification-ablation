@@ -1,0 +1,304 @@
+{
+  "seed": 42,
+  "train_photos": 60,
+  "evaluation_photos": 150,
+  "train_source": "Dataset",
+  "evaluation_source": "Dataset_Sekunder",
+  "pcd_scope": "train_only",
+  "test_transform": "RGB decode, shared 224 resize/pad and ImageNet tensor normalization",
+  "primary_tuning_sha256": "fbfc4250edc02a5c8c36a6f131dd69265f80abef9f36a54dbf72499c281197c2",
+  "secondary_manifest_sha256": "a69717dc424e27163059369e821c5a0db1e838bc7edd7136731212e468be6be5",
+  "runner_sha256": "5c58e9ad6e9a160d932484c7af76db83e23db152971c4ab8c0ce4b2532784c21",
+  "torch": "1.13.1+cu116",
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "recipes": [
+    {
+      "input": "N",
+      "architecture": "resnet50",
+      "initialization": "pretrained",
+      "augmentation": false,
+      "learning_rate": 0.0001,
+      "epochs": 11
+    },
+    {
+      "input": "N",
+      "architecture": "resnet50",
+      "initialization": "pretrained",
+      "augmentation": true,
+      "learning_rate": 0.0001,
+      "epochs": 12
+    },
+    {
+      "input": "N",
+      "architecture": "resnet50",
+      "initialization": "scratch",
+      "augmentation": false,
+      "learning_rate": 0.001,
+      "epochs": 1
+    },
+    {
+      "input": "N",
+      "architecture": "resnet50",
+      "initialization": "scratch",
+      "augmentation": true,
+      "learning_rate": 0.001,
+      "epochs": 1
+    },
+    {
+      "input": "N",
+      "architecture": "vit_b_16",
+      "initialization": "pretrained",
+      "augmentation": false,
+      "learning_rate": 0.0001,
+      "epochs": 20
+    },
+    {
+      "input": "N",
+      "architecture": "vit_b_16",
+      "initialization": "pretrained",
+      "augmentation": true,
+      "learning_rate": 0.0001,
+      "epochs": 12
+    },
+    {
+      "input": "N",
+      "architecture": "vit_b_16",
+      "initialization": "scratch",
+      "augmentation": false,
+      "learning_rate": 0.0003,
+      "epochs": 13
+    },
+    {
+      "input": "N",
+      "architecture": "vit_b_16",
+      "initialization": "scratch",
+      "augmentation": true,
+      "learning_rate": 0.0003,
+      "epochs": 15
+    },
+    {
+      "input": "N",
+      "architecture": "swin_t",
+      "initialization": "pretrained",
+      "augmentation": false,
+      "learning_rate": 0.0001,
+      "epochs": 12
+    },
+    {
+      "input": "N",
+      "architecture": "swin_t",
+      "initialization": "pretrained",
+      "augmentation": true,
+      "learning_rate": 0.0001,
+      "epochs": 12
+    },
+    {
+      "input": "N",
+      "architecture": "swin_t",
+      "initialization": "scratch",
+      "augmentation": false,
+      "learning_rate": 0.0003,
+      "epochs": 11
+    },
+    {
+      "input": "N",
+      "architecture": "swin_t",
+      "initialization": "scratch",
+      "augmentation": true,
+      "learning_rate": 0.0003,
+      "epochs": 14
+    },
+    {
+      "input": "E",
+      "architecture": "resnet50",
+      "initialization": "pretrained",
+      "augmentation": false,
+      "learning_rate": 0.0001,
+      "epochs": 15
+    },
+    {
+      "input": "E",
+      "architecture": "resnet50",
+      "initialization": "pretrained",
+      "augmentation": true,
+      "learning_rate": 0.0001,
+      "epochs": 12
+    },
+    {
+      "input": "E",
+      "architecture": "resnet50",
+      "initialization": "scratch",
+      "augmentation": false,
+      "learning_rate": 0.001,
+      "epochs": 1
+    },
+    {
+      "input": "E",
+      "architecture": "resnet50",
+      "initialization": "scratch",
+      "augmentation": true,
+      "learning_rate": 0.001,
+      "epochs": 1
+    },
+    {
+      "input": "E",
+      "architecture": "vit_b_16",
+      "initialization": "pretrained",
+      "augmentation": false,
+      "learning_rate": 3e-05,
+      "epochs": 20
+    },
+    {
+      "input": "E",
+      "architecture": "vit_b_16",
+      "initialization": "pretrained",
+      "augmentation": true,
+      "learning_rate": 0.0001,
+      "epochs": 12
+    },
+    {
+      "input": "E",
+      "architecture": "vit_b_16",
+      "initialization": "scratch",
+      "augmentation": false,
+      "learning_rate": 0.0003,
+      "epochs": 15
+    },
+    {
+      "input": "E",
+      "architecture": "vit_b_16",
+      "initialization": "scratch",
+      "augmentation": true,
+      "learning_rate": 0.0003,
+      "epochs": 13
+    },
+    {
+      "input": "E",
+      "architecture": "swin_t",
+      "initialization": "pretrained",
+      "augmentation": false,
+      "learning_rate": 0.0001,
+      "epochs": 11
+    },
+    {
+      "input": "E",
+      "architecture": "swin_t",
+      "initialization": "pretrained",
+      "augmentation": true,
+      "learning_rate": 0.0001,
+      "epochs": 12
+    },
+    {
+      "input": "E",
+      "architecture": "swin_t",
+      "initialization": "scratch",
+      "augmentation": false,
+      "learning_rate": 0.0003,
+      "epochs": 12
+    },
+    {
+      "input": "E",
+      "architecture": "swin_t",
+      "initialization": "scratch",
+      "augmentation": true,
+      "learning_rate": 0.0003,
+      "epochs": 10
+    },
+    {
+      "input": "S-K",
+      "architecture": "resnet50",
+      "initialization": "pretrained",
+      "augmentation": false,
+      "learning_rate": 0.0001,
+      "epochs": 11
+    },
+    {
+      "input": "S-K",
+      "architecture": "resnet50",
+      "initialization": "pretrained",
+      "augmentation": true,
+      "learning_rate": 0.0001,
+      "epochs": 11
+    },
+    {
+      "input": "S-K",
+      "architecture": "resnet50",
+      "initialization": "scratch",
+      "augmentation": false,
+      "learning_rate": 0.001,
+      "epochs": 1
+    },
+    {
+      "input": "S-K",
+      "architecture": "resnet50",
+      "initialization": "scratch",
+      "augmentation": true,
+      "learning_rate": 0.001,
+      "epochs": 1
+    },
+    {
+      "input": "S-K",
+      "architecture": "vit_b_16",
+      "initialization": "pretrained",
+      "augmentation": false,
+      "learning_rate": 0.0001,
+      "epochs": 7
+    },
+    {
+      "input": "S-K",
+      "architecture": "vit_b_16",
+      "initialization": "pretrained",
+      "augmentation": true,
+      "learning_rate": 0.0001,
+      "epochs": 6
+    },
+    {
+      "input": "S-K",
+      "architecture": "vit_b_16",
+      "initialization": "scratch",
+      "augmentation": false,
+      "learning_rate": 0.0003,
+      "epochs": 9
+    },
+    {
+      "input": "S-K",
+      "architecture": "vit_b_16",
+      "initialization": "scratch",
+      "augmentation": true,
+      "learning_rate": 0.0003,
+      "epochs": 12
+    },
+    {
+      "input": "S-K",
+      "architecture": "swin_t",
+      "initialization": "pretrained",
+      "augmentation": false,
+      "learning_rate": 0.0001,
+      "epochs": 11
+    },
+    {
+      "input": "S-K",
+      "architecture": "swin_t",
+      "initialization": "pretrained",
+      "augmentation": true,
+      "learning_rate": 0.0001,
+      "epochs": 11
+    },
+    {
+      "input": "S-K",
+      "architecture": "swin_t",
+      "initialization": "scratch",
+      "augmentation": false,
+      "learning_rate": 0.0003,
+      "epochs": 7
+    },
+    {
+      "input": "S-K",
+      "architecture": "swin_t",
+      "initialization": "scratch",
+      "augmentation": true,
+      "learning_rate": 0.0003,
+      "epochs": 10
+    }
+  ]
+}
