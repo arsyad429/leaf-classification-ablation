@@ -1,0 +1,181 @@
+fold,region,image,true,pred,correct,mask_source,mask_method
+0,full,aglaonema_10.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+0,full,aglaonema_3.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+0,full,daun_nangka_1.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+0,full,daun_nangka_2.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+0,full,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+0,full,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+0,full,lidah_metua_2.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+0,full,lidah_metua_5.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+0,full,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+0,full,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+0,full,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+0,full,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True,auto_proxy,S-K
+0,foreground,aglaonema_10.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+0,foreground,aglaonema_3.jpg,Aglaonema,Daun nangka,False,auto_proxy,S-K
+0,foreground,daun_nangka_1.jpg,Daun nangka,Aglaonema,False,auto_proxy,S-K
+0,foreground,daun_nangka_2.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+0,foreground,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False,auto_proxy,S-K
+0,foreground,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+0,foreground,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False,auto_proxy,S-K
+0,foreground,lidah_metua_5.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+0,foreground,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+0,foreground,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+0,foreground,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+0,foreground,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True,auto_proxy,S-K
+0,background,aglaonema_10.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+0,background,aglaonema_3.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+0,background,daun_nangka_1.jpg,Daun nangka,Aglaonema,False,auto_proxy,S-K
+0,background,daun_nangka_2.jpg,Daun nangka,Aglaonema,False,auto_proxy,S-K
+0,background,kamboja_jepang_3.jpg,Kamboja jepang,Aglaonema,False,auto_proxy,S-K
+0,background,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+0,background,lidah_metua_2.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+0,background,lidah_metua_5.jpg,Lidah metua,Paku tanduk rusa,False,auto_proxy,S-K
+0,background,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+0,background,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+0,background,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+0,background,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True,auto_proxy,S-K
+1,full,aglaonema_5.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+1,full,aglaonema_8.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+1,full,daun_nangka_4.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+1,full,daun_nangka_9.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+1,full,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False,auto_proxy,S-K
+1,full,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+1,full,lidah_metua_12.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+1,full,lidah_metua_4.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+1,full,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+1,full,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+1,full,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+1,full,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False,auto_proxy,S-K
+1,foreground,aglaonema_5.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+1,foreground,aglaonema_8.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+1,foreground,daun_nangka_4.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+1,foreground,daun_nangka_9.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+1,foreground,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False,auto_proxy,S-K
+1,foreground,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+1,foreground,lidah_metua_12.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+1,foreground,lidah_metua_4.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+1,foreground,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+1,foreground,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+1,foreground,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False,auto_proxy,S-K
+1,foreground,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False,auto_proxy,S-K
+1,background,aglaonema_5.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+1,background,aglaonema_8.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+1,background,daun_nangka_4.jpg,Daun nangka,Aglaonema,False,auto_proxy,S-K
+1,background,daun_nangka_9.jpg,Daun nangka,Aglaonema,False,auto_proxy,S-K
+1,background,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False,auto_proxy,S-K
+1,background,kamboja_jepang_7.jpg,Kamboja jepang,Paku tanduk rusa,False,auto_proxy,S-K
+1,background,lidah_metua_12.jpg,Lidah metua,Aglaonema,False,auto_proxy,S-K
+1,background,lidah_metua_4.jpg,Lidah metua,Paku tanduk rusa,False,auto_proxy,S-K
+1,background,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+1,background,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+1,background,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+1,background,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False,auto_proxy,S-K
+2,full,aglaonema_2.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+2,full,aglaonema_7.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+2,full,daun_nangka_3.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+2,full,daun_nangka_5.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+2,full,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+2,full,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+2,full,lidah_metua_10.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+2,full,lidah_metua_7.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+2,full,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+2,full,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+2,full,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False,auto_proxy,S-K
+2,full,peperomium_semangka_2.jpg,Peperomium semangka,Peperomium semangka,True,auto_proxy,S-K
+2,foreground,aglaonema_2.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+2,foreground,aglaonema_7.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+2,foreground,daun_nangka_3.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+2,foreground,daun_nangka_5.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+2,foreground,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False,auto_proxy,S-K
+2,foreground,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+2,foreground,lidah_metua_10.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+2,foreground,lidah_metua_7.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+2,foreground,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+2,foreground,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+2,foreground,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False,auto_proxy,S-K
+2,foreground,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False,auto_proxy,S-K
+2,background,aglaonema_2.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+2,background,aglaonema_7.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+2,background,daun_nangka_3.jpg,Daun nangka,Kamboja jepang,False,auto_proxy,S-K
+2,background,daun_nangka_5.jpg,Daun nangka,Aglaonema,False,auto_proxy,S-K
+2,background,kamboja_jepang_6.jpg,Kamboja jepang,Aglaonema,False,auto_proxy,S-K
+2,background,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False,auto_proxy,S-K
+2,background,lidah_metua_10.jpg,Lidah metua,Daun nangka,False,auto_proxy,S-K
+2,background,lidah_metua_7.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+2,background,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+2,background,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+2,background,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Kamboja jepang,False,auto_proxy,S-K
+2,background,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False,auto_proxy,S-K
+3,full,aglaonema_4.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+3,full,aglaonema_9.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+3,full,daun_nangka_6.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+3,full,daun_nangka_8.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+3,full,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+3,full,lidah_metua_1.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+3,full,lidah_metua_3.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+3,full,lidah_metua_6.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+3,full,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+3,full,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+3,full,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+3,full,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True,auto_proxy,S-K
+3,foreground,aglaonema_4.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+3,foreground,aglaonema_9.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+3,foreground,daun_nangka_6.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+3,foreground,daun_nangka_8.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+3,foreground,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+3,foreground,lidah_metua_1.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+3,foreground,lidah_metua_3.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+3,foreground,lidah_metua_6.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+3,foreground,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+3,foreground,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+3,foreground,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+3,foreground,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True,auto_proxy,S-K
+3,background,aglaonema_4.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+3,background,aglaonema_9.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+3,background,daun_nangka_6.jpg,Daun nangka,Aglaonema,False,auto_proxy,S-K
+3,background,daun_nangka_8.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+3,background,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False,auto_proxy,S-K
+3,background,lidah_metua_1.jpg,Lidah metua,Aglaonema,False,auto_proxy,S-K
+3,background,lidah_metua_3.jpg,Lidah metua,Kamboja jepang,False,auto_proxy,S-K
+3,background,lidah_metua_6.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+3,background,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False,auto_proxy,S-K
+3,background,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+3,background,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False,auto_proxy,S-K
+3,background,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True,auto_proxy,S-K
+4,full,aglaonema_1.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+4,full,aglaonema_6.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+4,full,daun_nangka_7.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+4,full,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+4,full,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+4,full,lidah_metua_11.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+4,full,lidah_metua_8.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+4,full,lidah_metua_9.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+4,full,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+4,full,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+4,full,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False,auto_proxy,S-K
+4,full,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False,auto_proxy,S-K
+4,foreground,aglaonema_1.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+4,foreground,aglaonema_6.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+4,foreground,daun_nangka_7.jpg,Daun nangka,Daun nangka,True,auto_proxy,S-K
+4,foreground,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+4,foreground,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True,auto_proxy,S-K
+4,foreground,lidah_metua_11.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+4,foreground,lidah_metua_8.jpg,Lidah metua,Lidah metua,True,auto_proxy,S-K
+4,foreground,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False,auto_proxy,S-K
+4,foreground,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+4,foreground,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+4,foreground,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False,auto_proxy,S-K
+4,foreground,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False,auto_proxy,S-K
+4,background,aglaonema_1.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+4,background,aglaonema_6.jpg,Aglaonema,Aglaonema,True,auto_proxy,S-K
+4,background,daun_nangka_7.jpg,Daun nangka,Lidah metua,False,auto_proxy,S-K
+4,background,kamboja_jepang_1.jpg,Kamboja jepang,Daun nangka,False,auto_proxy,S-K
+4,background,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False,auto_proxy,S-K
+4,background,lidah_metua_11.jpg,Lidah metua,Aglaonema,False,auto_proxy,S-K
+4,background,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False,auto_proxy,S-K
+4,background,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False,auto_proxy,S-K
+4,background,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+4,background,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True,auto_proxy,S-K
+4,background,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False,auto_proxy,S-K
+4,background,peperomium_semangka_4.jpg,Peperomium semangka,Peperomium semangka,True,auto_proxy,S-K

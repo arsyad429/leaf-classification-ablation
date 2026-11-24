@@ -1,0 +1,12 @@
+{
+  "reference_commit": "f24733274ab39c8697f3b1e368193a4235d56258",
+  "prediction_rows": 6480,
+  "different_predictions": 0,
+  "predictions_identical": true,
+  "metrics_match_atol_1e12": true,
+  "selected_profiles_identical": true,
+  "selected_parameters_identical": true,
+  "performance_reproduced": true,
+  "time_measurements_compared": false,
+  "model_weights_compared": false
+}

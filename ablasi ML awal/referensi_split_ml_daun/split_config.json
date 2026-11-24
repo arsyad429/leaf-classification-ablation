@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "inner_seeds": [
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "splitter": "StratifiedKFold",
+  "reference_notebook": "EDA_Ablasi_ML_Daun.ipynb",
+  "outer_source": "hasil_ml_full/splits.csv and hasil_ml_full_aug/splits.csv (identical)",
+  "inner_source": "Reconstructed from original split cell using unchanged image order and seed + fold + 1",
+  "sklearn_version": "1.7.2",
+  "files_sha256": {
+    "manifest.csv": "d87dc00e09db223ce82eeda92e91eee598ae386a4442b9c7890f558fc843556a",
+    "outer_splits.csv": "82f3cc7fdf7bd1004761be9c019e4914ed0a0e7aff450fa7fb7de0b82982c020",
+    "inner_splits.csv": "7de7cdd525a60a27cdd67093218fedd81062643b9f0e8a2dfcfc79d2356ed100"
+  }
+}

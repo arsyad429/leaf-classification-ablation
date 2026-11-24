@@ -1,0 +1,721 @@
+fold,condition,vocab_mode,image,true,pred,correct
+0,N,shared_N_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,N,shared_N_vocab,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,N,shared_N_vocab,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,N,shared_N_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,N,shared_N_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,N,shared_N_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,N,shared_N_vocab,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,N,shared_N_vocab,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,N,shared_N_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,shared_N_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,shared_N_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,shared_N_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,N,separate_condition_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,N,separate_condition_vocab,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,N,separate_condition_vocab,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,N,separate_condition_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,N,separate_condition_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,N,separate_condition_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,N,separate_condition_vocab,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,N,separate_condition_vocab,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,N,separate_condition_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,separate_condition_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,separate_condition_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,separate_condition_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,E,shared_N_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E,shared_N_vocab,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,E,shared_N_vocab,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E,shared_N_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E,shared_N_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,E,shared_N_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E,shared_N_vocab,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,E,shared_N_vocab,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E,shared_N_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,shared_N_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,shared_N_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,shared_N_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,E,separate_condition_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E,separate_condition_vocab,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,E,separate_condition_vocab,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E,separate_condition_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E,separate_condition_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,E,separate_condition_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E,separate_condition_vocab,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,E,separate_condition_vocab,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E,separate_condition_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,separate_condition_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,separate_condition_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,separate_condition_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,S-O,shared_N_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-O,shared_N_vocab,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,S-O,shared_N_vocab,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,S-O,shared_N_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,S-O,shared_N_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-O,shared_N_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-O,shared_N_vocab,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,S-O,shared_N_vocab,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-O,shared_N_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-O,shared_N_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,shared_N_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,shared_N_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,S-O,separate_condition_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-O,separate_condition_vocab,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,S-O,separate_condition_vocab,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,S-O,separate_condition_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,S-O,separate_condition_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-O,separate_condition_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-O,separate_condition_vocab,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,S-O,separate_condition_vocab,lidah_metua_5.jpg,Lidah metua,Peperomium semangka,False
+0,S-O,separate_condition_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,separate_condition_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,separate_condition_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-O,separate_condition_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,S-K,shared_N_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-K,shared_N_vocab,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,S-K,shared_N_vocab,daun_nangka_1.jpg,Daun nangka,Aglaonema,False
+0,S-K,shared_N_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,S-K,shared_N_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,S-K,shared_N_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-K,shared_N_vocab,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-K,shared_N_vocab,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-K,shared_N_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,shared_N_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,shared_N_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,shared_N_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,S-K,separate_condition_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-K,separate_condition_vocab,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,S-K,separate_condition_vocab,daun_nangka_1.jpg,Daun nangka,Aglaonema,False
+0,S-K,separate_condition_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,S-K,separate_condition_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,S-K,separate_condition_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-K,separate_condition_vocab,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-K,separate_condition_vocab,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-K,separate_condition_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,separate_condition_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,separate_condition_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,separate_condition_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,E-S-O,shared_N_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,shared_N_vocab,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,shared_N_vocab,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E-S-O,shared_N_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E-S-O,shared_N_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-O,shared_N_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-O,shared_N_vocab,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-O,shared_N_vocab,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E-S-O,shared_N_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,shared_N_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,shared_N_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,shared_N_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,E-S-O,separate_condition_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,separate_condition_vocab,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,separate_condition_vocab,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E-S-O,separate_condition_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E-S-O,separate_condition_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-O,separate_condition_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-O,separate_condition_vocab,lidah_metua_2.jpg,Lidah metua,Peperomium semangka,False
+0,E-S-O,separate_condition_vocab,lidah_metua_5.jpg,Lidah metua,Peperomium semangka,False
+0,E-S-O,separate_condition_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,separate_condition_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,separate_condition_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,separate_condition_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,E-S-K,shared_N_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-K,shared_N_vocab,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E-S-K,shared_N_vocab,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,shared_N_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,shared_N_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-K,shared_N_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-K,shared_N_vocab,lidah_metua_2.jpg,Lidah metua,Kamboja jepang,False
+0,E-S-K,shared_N_vocab,lidah_metua_5.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-K,shared_N_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,shared_N_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,shared_N_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,shared_N_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,E-S-K,separate_condition_vocab,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-K,separate_condition_vocab,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,E-S-K,separate_condition_vocab,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,separate_condition_vocab,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,separate_condition_vocab,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-K,separate_condition_vocab,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-K,separate_condition_vocab,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-K,separate_condition_vocab,lidah_metua_5.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-K,separate_condition_vocab,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,separate_condition_vocab,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,separate_condition_vocab,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,separate_condition_vocab,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+1,N,shared_N_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,N,shared_N_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,N,shared_N_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,N,shared_N_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,N,shared_N_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,N,shared_N_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,N,shared_N_vocab,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,N,shared_N_vocab,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,N,shared_N_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,shared_N_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,shared_N_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,shared_N_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,N,separate_condition_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,N,separate_condition_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,N,separate_condition_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,N,separate_condition_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,N,separate_condition_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,N,separate_condition_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,N,separate_condition_vocab,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,N,separate_condition_vocab,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,N,separate_condition_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,separate_condition_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,separate_condition_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,separate_condition_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E,shared_N_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E,shared_N_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E,shared_N_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E,shared_N_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E,shared_N_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E,shared_N_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,E,shared_N_vocab,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E,shared_N_vocab,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E,shared_N_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,shared_N_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,shared_N_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,shared_N_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E,separate_condition_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E,separate_condition_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E,separate_condition_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E,separate_condition_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E,separate_condition_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E,separate_condition_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,E,separate_condition_vocab,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E,separate_condition_vocab,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E,separate_condition_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,separate_condition_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,separate_condition_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,separate_condition_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,S-O,shared_N_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,S-O,shared_N_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-O,shared_N_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,S-O,shared_N_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,S-O,shared_N_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-O,shared_N_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,S-O,shared_N_vocab,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,S-O,shared_N_vocab,lidah_metua_4.jpg,Lidah metua,Paku tanduk rusa,False
+1,S-O,shared_N_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,shared_N_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,shared_N_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,shared_N_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,S-O,separate_condition_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,S-O,separate_condition_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-O,separate_condition_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,S-O,separate_condition_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,S-O,separate_condition_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,S-O,separate_condition_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,S-O,separate_condition_vocab,lidah_metua_12.jpg,Lidah metua,Paku tanduk rusa,False
+1,S-O,separate_condition_vocab,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-O,separate_condition_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Daun nangka,False
+1,S-O,separate_condition_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,separate_condition_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,separate_condition_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,S-K,shared_N_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,S-K,shared_N_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-K,shared_N_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,S-K,shared_N_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,S-K,shared_N_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,S-K,shared_N_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,S-K,shared_N_vocab,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,S-K,shared_N_vocab,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-K,shared_N_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,shared_N_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,shared_N_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,S-K,shared_N_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,S-K,separate_condition_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,S-K,separate_condition_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-K,separate_condition_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,S-K,separate_condition_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,S-K,separate_condition_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,S-K,separate_condition_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,S-K,separate_condition_vocab,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,S-K,separate_condition_vocab,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-K,separate_condition_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,separate_condition_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,S-K,separate_condition_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,separate_condition_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E-S-O,shared_N_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E-S-O,shared_N_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-O,shared_N_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E-S-O,shared_N_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E-S-O,shared_N_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-O,shared_N_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,E-S-O,shared_N_vocab,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,shared_N_vocab,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,shared_N_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,shared_N_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,shared_N_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,shared_N_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,E-S-O,separate_condition_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E-S-O,separate_condition_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-O,separate_condition_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E-S-O,separate_condition_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E-S-O,separate_condition_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-O,separate_condition_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,E-S-O,separate_condition_vocab,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,separate_condition_vocab,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,separate_condition_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,separate_condition_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,separate_condition_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,separate_condition_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,E-S-K,shared_N_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,shared_N_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,shared_N_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,shared_N_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,shared_N_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,shared_N_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,E-S-K,shared_N_vocab,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,shared_N_vocab,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,shared_N_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-K,shared_N_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,shared_N_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,shared_N_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E-S-K,separate_condition_vocab,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,separate_condition_vocab,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,separate_condition_vocab,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,separate_condition_vocab,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,separate_condition_vocab,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,separate_condition_vocab,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,E-S-K,separate_condition_vocab,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,separate_condition_vocab,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,separate_condition_vocab,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-K,separate_condition_vocab,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,separate_condition_vocab,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,separate_condition_vocab,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+2,N,shared_N_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,N,shared_N_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,N,shared_N_vocab,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,N,shared_N_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,N,shared_N_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,N,shared_N_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,N,shared_N_vocab,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,N,shared_N_vocab,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,N,shared_N_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,shared_N_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,shared_N_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,N,shared_N_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Peperomium semangka,True
+2,N,separate_condition_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,N,separate_condition_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,N,separate_condition_vocab,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,N,separate_condition_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,N,separate_condition_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,N,separate_condition_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,N,separate_condition_vocab,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,N,separate_condition_vocab,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,N,separate_condition_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,separate_condition_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,separate_condition_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,N,separate_condition_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Peperomium semangka,True
+2,E,shared_N_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E,shared_N_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E,shared_N_vocab,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,E,shared_N_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E,shared_N_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,E,shared_N_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E,shared_N_vocab,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E,shared_N_vocab,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E,shared_N_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,shared_N_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,shared_N_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,E,shared_N_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Peperomium semangka,True
+2,E,separate_condition_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E,separate_condition_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E,separate_condition_vocab,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,E,separate_condition_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E,separate_condition_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,E,separate_condition_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E,separate_condition_vocab,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E,separate_condition_vocab,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E,separate_condition_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,separate_condition_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,separate_condition_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,E,separate_condition_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Aglaonema,False
+2,S-O,shared_N_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-O,shared_N_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,S-O,shared_N_vocab,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,S-O,shared_N_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,S-O,shared_N_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,S-O,shared_N_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,S-O,shared_N_vocab,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-O,shared_N_vocab,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,S-O,shared_N_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-O,shared_N_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,shared_N_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,S-O,shared_N_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,S-O,separate_condition_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-O,separate_condition_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,S-O,separate_condition_vocab,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,S-O,separate_condition_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,S-O,separate_condition_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,S-O,separate_condition_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,S-O,separate_condition_vocab,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-O,separate_condition_vocab,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,S-O,separate_condition_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-O,separate_condition_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-O,separate_condition_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,S-O,separate_condition_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,S-K,shared_N_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-K,shared_N_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,S-K,shared_N_vocab,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,S-K,shared_N_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,S-K,shared_N_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,S-K,shared_N_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,S-K,shared_N_vocab,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-K,shared_N_vocab,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,S-K,shared_N_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,shared_N_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,shared_N_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-K,shared_N_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,S-K,separate_condition_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-K,separate_condition_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,S-K,separate_condition_vocab,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,S-K,separate_condition_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,S-K,separate_condition_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,S-K,separate_condition_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,S-K,separate_condition_vocab,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-K,separate_condition_vocab,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,S-K,separate_condition_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,separate_condition_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,separate_condition_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,separate_condition_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,E-S-O,shared_N_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,shared_N_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,shared_N_vocab,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,E-S-O,shared_N_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E-S-O,shared_N_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-O,shared_N_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-O,shared_N_vocab,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,shared_N_vocab,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,shared_N_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,shared_N_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,shared_N_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,E-S-O,shared_N_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,E-S-O,separate_condition_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,separate_condition_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,separate_condition_vocab,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,E-S-O,separate_condition_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E-S-O,separate_condition_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-O,separate_condition_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-O,separate_condition_vocab,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,separate_condition_vocab,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,separate_condition_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,separate_condition_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,separate_condition_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,E-S-O,separate_condition_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,E-S-K,shared_N_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,shared_N_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,shared_N_vocab,daun_nangka_3.jpg,Daun nangka,Kamboja jepang,False
+2,E-S-K,shared_N_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E-S-K,shared_N_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,E-S-K,shared_N_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-K,shared_N_vocab,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,shared_N_vocab,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,shared_N_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,shared_N_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,shared_N_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,shared_N_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,E-S-K,separate_condition_vocab,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,separate_condition_vocab,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,separate_condition_vocab,daun_nangka_3.jpg,Daun nangka,Kamboja jepang,False
+2,E-S-K,separate_condition_vocab,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E-S-K,separate_condition_vocab,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,E-S-K,separate_condition_vocab,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-K,separate_condition_vocab,lidah_metua_10.jpg,Lidah metua,Aglaonema,False
+2,E-S-K,separate_condition_vocab,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,E-S-K,separate_condition_vocab,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,separate_condition_vocab,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,separate_condition_vocab,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-K,separate_condition_vocab,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+3,N,shared_N_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,N,shared_N_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,N,shared_N_vocab,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,N,shared_N_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,N,shared_N_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,N,shared_N_vocab,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,N,shared_N_vocab,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,N,shared_N_vocab,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,N,shared_N_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,shared_N_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,shared_N_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,shared_N_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,N,separate_condition_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,N,separate_condition_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,N,separate_condition_vocab,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,N,separate_condition_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,N,separate_condition_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,N,separate_condition_vocab,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,N,separate_condition_vocab,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,N,separate_condition_vocab,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,N,separate_condition_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,separate_condition_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,separate_condition_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,separate_condition_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,E,shared_N_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E,shared_N_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E,shared_N_vocab,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,E,shared_N_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E,shared_N_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,E,shared_N_vocab,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E,shared_N_vocab,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E,shared_N_vocab,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E,shared_N_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,shared_N_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,shared_N_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,shared_N_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,E,separate_condition_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E,separate_condition_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E,separate_condition_vocab,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,E,separate_condition_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E,separate_condition_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,E,separate_condition_vocab,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E,separate_condition_vocab,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E,separate_condition_vocab,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E,separate_condition_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,separate_condition_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,separate_condition_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,separate_condition_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,S-O,shared_N_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-O,shared_N_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-O,shared_N_vocab,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-O,shared_N_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,S-O,shared_N_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,S-O,shared_N_vocab,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,shared_N_vocab,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,shared_N_vocab,lidah_metua_6.jpg,Lidah metua,Kamboja jepang,False
+3,S-O,shared_N_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,shared_N_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,shared_N_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,shared_N_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,S-O,separate_condition_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-O,separate_condition_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-O,separate_condition_vocab,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-O,separate_condition_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,S-O,separate_condition_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,S-O,separate_condition_vocab,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,S-O,separate_condition_vocab,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,separate_condition_vocab,lidah_metua_6.jpg,Lidah metua,Kamboja jepang,False
+3,S-O,separate_condition_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,separate_condition_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,separate_condition_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,separate_condition_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,S-K,shared_N_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-K,shared_N_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-K,shared_N_vocab,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,S-K,shared_N_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,S-K,shared_N_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,S-K,shared_N_vocab,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,S-K,shared_N_vocab,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,S-K,shared_N_vocab,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,S-K,shared_N_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,shared_N_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,shared_N_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,shared_N_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,S-K,separate_condition_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-K,separate_condition_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-K,separate_condition_vocab,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,S-K,separate_condition_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,S-K,separate_condition_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,S-K,separate_condition_vocab,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,S-K,separate_condition_vocab,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,S-K,separate_condition_vocab,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,S-K,separate_condition_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,separate_condition_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,separate_condition_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,separate_condition_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,E-S-O,shared_N_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,shared_N_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,shared_N_vocab,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,E-S-O,shared_N_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E-S-O,shared_N_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,E-S-O,shared_N_vocab,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,shared_N_vocab,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,shared_N_vocab,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,shared_N_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,shared_N_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,shared_N_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,shared_N_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,E-S-O,separate_condition_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,separate_condition_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,separate_condition_vocab,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,E-S-O,separate_condition_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E-S-O,separate_condition_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,E-S-O,separate_condition_vocab,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,separate_condition_vocab,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,separate_condition_vocab,lidah_metua_6.jpg,Lidah metua,Kamboja jepang,False
+3,E-S-O,separate_condition_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,separate_condition_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,separate_condition_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,separate_condition_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E-S-K,shared_N_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,shared_N_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,shared_N_vocab,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,E-S-K,shared_N_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E-S-K,shared_N_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,E-S-K,shared_N_vocab,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,shared_N_vocab,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,shared_N_vocab,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,shared_N_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,shared_N_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,shared_N_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-K,shared_N_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E-S-K,separate_condition_vocab,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,separate_condition_vocab,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,separate_condition_vocab,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,E-S-K,separate_condition_vocab,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E-S-K,separate_condition_vocab,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,E-S-K,separate_condition_vocab,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,separate_condition_vocab,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,separate_condition_vocab,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,separate_condition_vocab,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,separate_condition_vocab,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,separate_condition_vocab,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,separate_condition_vocab,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+4,N,shared_N_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,N,shared_N_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,N,shared_N_vocab,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,N,shared_N_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,N,shared_N_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,N,shared_N_vocab,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,N,shared_N_vocab,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,N,shared_N_vocab,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,N,shared_N_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,N,shared_N_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,N,shared_N_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,N,shared_N_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,N,separate_condition_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,N,separate_condition_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,N,separate_condition_vocab,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,N,separate_condition_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,N,separate_condition_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,N,separate_condition_vocab,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,N,separate_condition_vocab,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,N,separate_condition_vocab,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,N,separate_condition_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,N,separate_condition_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,N,separate_condition_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,N,separate_condition_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E,shared_N_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E,shared_N_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E,shared_N_vocab,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E,shared_N_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E,shared_N_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,E,shared_N_vocab,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E,shared_N_vocab,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E,shared_N_vocab,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E,shared_N_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E,shared_N_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E,shared_N_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E,shared_N_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E,separate_condition_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E,separate_condition_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E,separate_condition_vocab,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E,separate_condition_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E,separate_condition_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,E,separate_condition_vocab,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E,separate_condition_vocab,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E,separate_condition_vocab,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E,separate_condition_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E,separate_condition_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E,separate_condition_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E,separate_condition_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,S-O,shared_N_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,S-O,shared_N_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-O,shared_N_vocab,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,S-O,shared_N_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-O,shared_N_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-O,shared_N_vocab,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,shared_N_vocab,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,S-O,shared_N_vocab,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,S-O,shared_N_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-O,shared_N_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-O,shared_N_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,S-O,shared_N_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-O,separate_condition_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,S-O,separate_condition_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-O,separate_condition_vocab,daun_nangka_7.jpg,Daun nangka,Paku tanduk rusa,False
+4,S-O,separate_condition_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-O,separate_condition_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,S-O,separate_condition_vocab,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,S-O,separate_condition_vocab,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,S-O,separate_condition_vocab,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,S-O,separate_condition_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-O,separate_condition_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-O,separate_condition_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,S-O,separate_condition_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,shared_N_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,S-K,shared_N_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-K,shared_N_vocab,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,S-K,shared_N_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-K,shared_N_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-K,shared_N_vocab,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,S-K,shared_N_vocab,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,S-K,shared_N_vocab,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,shared_N_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-K,shared_N_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-K,shared_N_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,shared_N_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,separate_condition_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,S-K,separate_condition_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-K,separate_condition_vocab,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,S-K,separate_condition_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-K,separate_condition_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-K,separate_condition_vocab,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,S-K,separate_condition_vocab,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,separate_condition_vocab,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,separate_condition_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-K,separate_condition_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-K,separate_condition_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,separate_condition_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-O,shared_N_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E-S-O,shared_N_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-O,shared_N_vocab,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E-S-O,shared_N_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-O,shared_N_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,E-S-O,shared_N_vocab,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E-S-O,shared_N_vocab,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E-S-O,shared_N_vocab,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E-S-O,shared_N_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-O,shared_N_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-O,shared_N_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E-S-O,shared_N_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E-S-O,separate_condition_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E-S-O,separate_condition_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-O,separate_condition_vocab,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E-S-O,separate_condition_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-O,separate_condition_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,E-S-O,separate_condition_vocab,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E-S-O,separate_condition_vocab,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E-S-O,separate_condition_vocab,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E-S-O,separate_condition_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-O,separate_condition_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-O,separate_condition_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E-S-O,separate_condition_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E-S-K,shared_N_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,shared_N_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,shared_N_vocab,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E-S-K,shared_N_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-K,shared_N_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-K,shared_N_vocab,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-K,shared_N_vocab,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E-S-K,shared_N_vocab,lidah_metua_9.jpg,Lidah metua,Kamboja jepang,False
+4,E-S-K,shared_N_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,shared_N_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,shared_N_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Peperomium semangka,True
+4,E-S-K,shared_N_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-K,separate_condition_vocab,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,separate_condition_vocab,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,separate_condition_vocab,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E-S-K,separate_condition_vocab,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-K,separate_condition_vocab,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-K,separate_condition_vocab,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E-S-K,separate_condition_vocab,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E-S-K,separate_condition_vocab,lidah_metua_9.jpg,Lidah metua,Kamboja jepang,False
+4,E-S-K,separate_condition_vocab,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,separate_condition_vocab,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,separate_condition_vocab,peperomium_semangka_1.jpg,Peperomium semangka,Peperomium semangka,True
+4,E-S-K,separate_condition_vocab,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False

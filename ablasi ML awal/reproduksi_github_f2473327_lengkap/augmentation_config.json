@@ -1,0 +1,30 @@
+{
+  "enabled": true,
+  "types": [
+    "gaussian_noise",
+    "flip",
+    "rotation",
+    "corruption",
+    "brightness",
+    "contrast"
+  ],
+  "copies": 1,
+  "config": {
+    "noise_sigma": [
+      3.0,
+      10.0
+    ],
+    "corruption_fraction": [
+      0.002,
+      0.008
+    ],
+    "brightness_delta": [
+      10.0,
+      20.0
+    ],
+    "contrast_factor": [
+      0.85,
+      1.15
+    ]
+  }
+}

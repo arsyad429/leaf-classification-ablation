@@ -6,7 +6,7 @@ Repositori ini mendokumentasikan eksperimen klasifikasi 6 kelas tanaman dari 60 
 
 **Hasil utama:** konfigurasi citra tanpa enhancement/segmentasi (`N`) dengan SVM dan fitur warna + SIFT–BoVW (`F4`) mencapai akurasi OOF **96,67% (58/60 foto benar)** pada skenario augmentasi. Rata-rata macro-F1 pada 5 outer fold adalah **0,9444 ± 0,1242**. Hasil ini masih eksploratif pada tingkat foto, dengan keterbatasan yang dijelaskan di bawah.
 
-[Buka notebook](Notebook/EDA_Ablasi_ML_Daun.ipynb) · [Hasil baseline](Notebook/hasil_ml_full/) · [Hasil augmentasi](Notebook/hasil_ml_full_aug/)
+[Buka notebook](ablasi%20ML%20awal/EDA_Ablasi_ML_Daun.ipynb) · [Hasil baseline](ablasi%20ML%20awal/hasil_ml_full/) · [Hasil augmentasi](ablasi%20ML%20awal/hasil_ml_full_aug/)
 
 ## Tujuan eksperimen
 
@@ -75,9 +75,9 @@ Warna direpresentasikan oleh histogram HSV dan statistik S/V. Sobel dan Canny me
 
 Skenario augmentasi menambahkan satu varian untuk masing-masing dari enam operasi: Gaussian noise, flip horizontal/vertikal, rotasi 90°/180°/270°, salt-and-pepper corruption, brightness, dan contrast. Dengan citra asli, satu foto train menghasilkan 7 sampel; 48 foto outer-train menjadi 336 sampel untuk fitting.
 
-Augmentasi dilakukan **hanya pada train**, termasuk inner-train saat tuning. Gaussian noise memakai sigma 3–10, corruption fraction 0,002–0,008, brightness ±10–20, dan contrast factor 0,85–1,15. Konfigurasi lengkap tersedia di [augmentation_config.json](Notebook/hasil_ml_full_aug/augmentation_config.json).
+Augmentasi dilakukan **hanya pada train**, termasuk inner-train saat tuning. Gaussian noise memakai sigma 3–10, corruption fraction 0,002–0,008, brightness ±10–20, dan contrast factor 0,85–1,15. Konfigurasi lengkap tersedia di [augmentation_config.json](ablasi%20ML%20awal/hasil_ml_full_aug/augmentation_config.json).
 
-![Contoh augmentasi untuk ilustrasi](Notebook/hasil_ml_full_aug/eda_augmentasi_illustration.png)
+![Contoh augmentasi untuk ilustrasi](ablasi%20ML%20awal/hasil_ml_full_aug/eda_augmentasi_illustration.png)
 
 Panel di atas memakai mode **illustration** yang memperkuat efek untuk keperluan visualisasi. Intensitas pada panel ini tidak boleh dianggap sebagai parameter training; acuannya adalah konfigurasi JSON dan kode `augment_rgb`.
 
@@ -96,7 +96,7 @@ Empat konfigurasi teratas dari masing-masing `summary_108.csv`:
 | Augmentasi | `N` | `F8` | SVM | 0,9444 ± 0,1242 | 96,67% |
 | Augmentasi | `N` | `F5` | SVM | 0,9300 ± 0,0741 | 93,33% |
 
-Sumber: [ranking baseline](Notebook/hasil_ml_full/summary_108.csv) dan [ranking augmentasi](Notebook/hasil_ml_full_aug/summary_108.csv). Skor seri tidak menunjukkan satu konfigurasi lebih unggul dari konfigurasi lain.
+Sumber: [ranking baseline](ablasi%20ML%20awal/hasil_ml_full/summary_108.csv) dan [ranking augmentasi](ablasi%20ML%20awal/hasil_ml_full_aug/summary_108.csv). Skor seri tidak menunjukkan satu konfigurasi lebih unggul dari konfigurasi lain.
 
 Untuk `N–F4–SVM`, baseline menghasilkan 57/60 prediksi benar dan augmentasi 58/60. Macro-F1 yang dihitung dari **seluruh prediksi OOF yang digabung** masing-masing adalah **0,9473** dan **0,9622**. Nilai ini berbeda dari rata-rata macro-F1 antarfold pada tabel karena macro-F1 bukan metrik yang linear. SD pada tabel adalah variasi antarfold, bukan confidence interval.
 
@@ -115,24 +115,24 @@ Pada `N–F4–SVM` dengan augmentasi, dua foto yang salah diklasifikasikan adal
 | `kamboja_jepang_2.jpg` | Kamboja jepang | Lidah metua |
 | `peperomium_semangka_3.jpg` | Peperomium semangka | Lidah metua |
 
-![Confusion matrix OOF N–F4–SVM dengan augmentasi](Notebook/hasil_ml_full_aug/error_analysis_top4/01_N_F4_SVM/confusion_matrix.png)
+![Confusion matrix OOF N–F4–SVM dengan augmentasi](ablasi%20ML%20awal/hasil_ml_full_aug/error_analysis_top4/01_N_F4_SVM/confusion_matrix.png)
 
-Confusion matrix menampilkan hitungan absolut dan normalisasi per kelas. Laporan per kelas, contoh foto salah, dan perbandingan prediksi tersedia di [analisis empat konfigurasi teratas](Notebook/hasil_ml_full_aug/error_analysis_top4/).
+Confusion matrix menampilkan hitungan absolut dan normalisasi per kelas. Laporan per kelas, contoh foto salah, dan perbandingan prediksi tersedia di [analisis empat konfigurasi teratas](ablasi%20ML%20awal/hasil_ml_full_aug/error_analysis_top4/).
 
 ### Feature importance
 
 Permutation importance mengukur penurunan macro-F1 ketika fitur atau blok fitur diacak pada outer-evaluation. Analisis tambahan disediakan untuk `N–F7–SVM` dan `N–F8–SVM`, yang menyamai skor tertinggi selain `F4`.
 
-![Permutation importance per fold N–F7–SVM dengan augmentasi](Notebook/hasil_ml_full_aug/feature_importance_best_non_f4/N_F7_SVM_importance_by_fold.png)
+![Permutation importance per fold N–F7–SVM dengan augmentasi](ablasi%20ML%20awal/hasil_ml_full_aug/feature_importance_best_non_f4/N_F7_SVM_importance_by_fold.png)
 
-Lihat [ringkasan importance per blok](Notebook/hasil_ml_full_aug/feature_importance_best_non_f4/block_importance_summary.csv). Importance bersifat deskriptif, bukan kausal; fitur berkorelasi dapat saling menggantikan. Indeks word BoVW tidak dibandingkan langsung antarfold karena kamusnya berbeda.
+Lihat [ringkasan importance per blok](ablasi%20ML%20awal/hasil_ml_full_aug/feature_importance_best_non_f4/block_importance_summary.csv). Importance bersifat deskriptif, bukan kausal; fitur berkorelasi dapat saling menggantikan. Indeks word BoVW tidak dibandingkan langsung antarfold karena kamusnya berbeda.
 
 ## Struktur repositori
 
 ```text
 leaf-classification-ablation/
 ├── README.md
-└── Notebook/
+└── ablasi ML awal/
     ├── EDA_Ablasi_ML_Daun.ipynb
     ├── hasil_ml_full/                 # Baseline tanpa augmentasi
     │   ├── summary_108.csv
@@ -198,7 +198,7 @@ python -m venv .venv
 source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 python -m pip install numpy pandas matplotlib pillow opencv-python scikit-learn threadpoolctl jupyterlab ipywidgets
-python -m jupyterlab Notebook/EDA_Ablasi_ML_Daun.ipynb
+python -m jupyterlab "ablasi ML awal/EDA_Ablasi_ML_Daun.ipynb"
 ```
 
 Environment yang tercatat menggunakan Python 3.10.20, scikit-learn 1.7.2, dan OpenCV 5.0.0. Perintah instalasi di atas tidak mengunci versi; reproduksi angka yang sama belum dijamin untuk environment lain. Notebook menggunakan CPU dan tidak memerlukan PyTorch/CUDA.
@@ -211,7 +211,7 @@ SEED = 42
 AUGMENTATION_ENABLED = True   # False untuk baseline
 ```
 
-Dengan pengaturan ini, output ditulis ke `Notebook/hasil_ml_full_aug/`; baseline memakai `Notebook/hasil_ml_full/`. `SMOKE_TEST=True` memakai konfigurasi ringkas untuk memeriksa alur dan bukan benchmark final. Menjalankan ulang menulis ke folder hasil sesuai konfigurasi, sehingga simpan salinan hasil lama jika diperlukan.
+Dengan pengaturan ini, output ditulis ke `ablasi ML awal/hasil_ml_full_aug/`; baseline memakai `ablasi ML awal/hasil_ml_full/`. `SMOKE_TEST=True` memakai konfigurasi ringkas untuk memeriksa alur dan bukan benchmark final. Menjalankan ulang menulis ke folder hasil sesuai konfigurasi, sehingga simpan salinan hasil lama jika diperlukan.
 
 Cell error analysis 7b dapat membaca CSV tersimpan tanpa training ulang. Cell feature importance 8 dan 8b membutuhkan objek model serta cache dari kernel training yang masih aktif. Beberapa narasi markdown lama pada notebook belum mengikuti penambahan augmentasi; konfigurasi aktif dan prosedur yang dijelaskan README ini mengacu pada kode serta CSV hasil, termasuk anchor `N–F8–SVM`.
 
@@ -226,3 +226,28 @@ Cell error analysis 7b dapat membaca CSV tersimpan tanpa training ulang. Cell fe
 - Timing berasal dari pengukuran komponen dan cache pada mesin eksperimen; tidak merepresentasikan benchmark deployment yang stabil.
 
 Repositori ini menyimpan notebook dan artefak eksperimen, bukan model siap deployment. Notebook beserta output aslinya dipertahankan tanpa training ulang saat penyusunan dokumentasi ini.
+
+
+## Error analysis ML tambahan dan reproduksi training
+
+Folder yang sebelumnya bernama Notebook kini bernama **ablasi ML awal**. Dataset primer tidak disertakan. Referensi aktif notebook dan script pelaporan disesuaikan dengan nama folder baru.
+
+- [Notebook lengkap dengan output eksekusi](ablasi%20ML%20awal/EDA_Ablasi_ML_Daun_Error_Analysis_Lengkap.ipynb)
+- [Seluruh hasil run reproduksi](ablasi%20ML%20awal/reproduksi_github_f2473327_lengkap/)
+- [Ringkasan pembandingan training](ablasi%20ML%20awal/reproduksi_github_f2473327_lengkap/reproduction_comparison.json)
+- [Analisis tambahan, CSV dan figur](ablasi%20ML%20awal/reproduksi_github_f2473327_lengkap/error_analysis_tambahan/)
+- [Snapshot referensi historis](ablasi%20ML%20awal/referensi_github_f2473327/)
+
+Run reproduksi menghasilkan **6.480 prediksi identik**, skor per fold yang cocok, serta profil dan parameter terpilih yang sama dengan referensi. Ini kesamaan prediksi dan performa, bukan pembandingan bobot model lama.
+
+Analisis tambahan mencakup perubahan prediksi per foto, jumlah SIFT dan perubahan warna, diagnosis mask, separabilitas fitur, kontrol foreground/background dengan Otsu dan K-Means, vocabulary bersama vs per kondisi, dan transfer antar kondisi. Kontrol diagnostik berparameter tetap tanpa augmentasi dibedakan dari benchmark nested CV. Tidak tersedia ground truth mask manual, sehingga background otomatis hanya proxy dan hasilnya bukan bukti kausal shortcut learning.
+
+Untuk training ulang pada notebook lengkap:
+
+    USE_GITHUB_ARTIFACTS = False
+    REPRODUCE_GITHUB_RUN = True
+    RUN_NEW_DIAGNOSTIC_MODELS = True
+
+Pengaturan tersebut menjalankan training sesungguhnya. Untuk membaca artefak lama pilih USE_GITHUB_ARTIFACTS=True, REPRODUCE_GITHUB_RUN=False, dan nonaktifkan model diagnostik baru. Foto primer diperlukan untuk EDA, visualisasi, dan perhitungan fitur. Angka CSV dan output notebook dapat dibaca tanpa training.
+
+Snapshot historis mempertahankan subfolder sumber_github/Notebook dan key manifest asli agar pemeriksaan hash terhadap commit referensi tetap sah. Ini bukan folder notebook aktif. Path mesin lama pada output tersimpan sengaja tidak diubah.

@@ -1,0 +1,69 @@
+condition,true,transition,count
+E,Aglaonema,benar_ke_salah,1
+E,Aglaonema,tetap_benar,9
+E,Daun nangka,tetap_benar,9
+E,Kamboja jepang,benar_ke_salah,1
+E,Kamboja jepang,tetap_benar,7
+E,Kamboja jepang,tetap_salah,1
+E,Lidah metua,tetap_benar,12
+E,Paku tanduk rusa,benar_ke_salah,1
+E,Paku tanduk rusa,tetap_benar,13
+E,Peperomium semangka,tetap_benar,5
+E,Peperomium semangka,tetap_salah,1
+E-S-K,Aglaonema,tetap_benar,10
+E-S-K,Daun nangka,benar_ke_salah,1
+E-S-K,Daun nangka,tetap_benar,8
+E-S-K,Kamboja jepang,tetap_benar,8
+E-S-K,Kamboja jepang,tetap_salah,1
+E-S-K,Lidah metua,benar_ke_salah,3
+E-S-K,Lidah metua,tetap_benar,9
+E-S-K,Paku tanduk rusa,benar_ke_salah,2
+E-S-K,Paku tanduk rusa,tetap_benar,12
+E-S-K,Peperomium semangka,benar_ke_salah,2
+E-S-K,Peperomium semangka,tetap_benar,3
+E-S-K,Peperomium semangka,tetap_salah,1
+E-S-O,Aglaonema,tetap_benar,10
+E-S-O,Daun nangka,tetap_benar,9
+E-S-O,Kamboja jepang,benar_ke_salah,2
+E-S-O,Kamboja jepang,tetap_benar,6
+E-S-O,Kamboja jepang,tetap_salah,1
+E-S-O,Lidah metua,benar_ke_salah,4
+E-S-O,Lidah metua,tetap_benar,8
+E-S-O,Paku tanduk rusa,benar_ke_salah,3
+E-S-O,Paku tanduk rusa,tetap_benar,11
+E-S-O,Peperomium semangka,benar_ke_salah,2
+E-S-O,Peperomium semangka,tetap_benar,3
+E-S-O,Peperomium semangka,tetap_salah,1
+N,Aglaonema,tetap_benar,10
+N,Daun nangka,tetap_benar,9
+N,Kamboja jepang,tetap_benar,8
+N,Kamboja jepang,tetap_salah,1
+N,Lidah metua,tetap_benar,12
+N,Paku tanduk rusa,tetap_benar,14
+N,Peperomium semangka,tetap_benar,5
+N,Peperomium semangka,tetap_salah,1
+S-K,Aglaonema,benar_ke_salah,1
+S-K,Aglaonema,tetap_benar,9
+S-K,Daun nangka,benar_ke_salah,2
+S-K,Daun nangka,tetap_benar,7
+S-K,Kamboja jepang,benar_ke_salah,1
+S-K,Kamboja jepang,tetap_benar,7
+S-K,Kamboja jepang,tetap_salah,1
+S-K,Lidah metua,benar_ke_salah,2
+S-K,Lidah metua,tetap_benar,10
+S-K,Paku tanduk rusa,tetap_benar,14
+S-K,Peperomium semangka,benar_ke_salah,1
+S-K,Peperomium semangka,tetap_benar,4
+S-K,Peperomium semangka,tetap_salah,1
+S-O,Aglaonema,tetap_benar,10
+S-O,Daun nangka,benar_ke_salah,1
+S-O,Daun nangka,tetap_benar,8
+S-O,Kamboja jepang,tetap_benar,8
+S-O,Kamboja jepang,tetap_salah,1
+S-O,Lidah metua,benar_ke_salah,6
+S-O,Lidah metua,tetap_benar,6
+S-O,Paku tanduk rusa,benar_ke_salah,3
+S-O,Paku tanduk rusa,tetap_benar,11
+S-O,Peperomium semangka,benar_ke_salah,3
+S-O,Peperomium semangka,tetap_benar,2
+S-O,Peperomium semangka,tetap_salah,1

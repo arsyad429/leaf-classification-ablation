@@ -22,7 +22,7 @@ def read_csv(path):
 def classical_runs():
     baselines = {}
     for augmentation, folder in ((False, "hasil_ml_full"), (True, "hasil_ml_full_aug")):
-        results = ROOT / "Notebook" / folder
+        results = ROOT / "ablasi ML awal" / folder
         match = dict(input="N", feature="F4", model="SVM")
         folds = {}
         for row in read_csv(results / "metrics_per_fold.csv"):

@@ -1,0 +1,87 @@
+{
+  "python": "d:\\AnacondaPython\\envs\\ai_env\\python.exe",
+  "version": "3.10.20 | packaged by conda-forge | (main, Mar  5 2026, 16:36:49) [MSC v.1944 64 bit (AMD64)]",
+  "sklearn": "1.7.2",
+  "opencv": "5.0.0",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "smoke": false,
+  "torch_installed_version": "2.11.0+cu128",
+  "cuda_available": null,
+  "gpu": null,
+  "gpu_probe_status": "Tidak diperiksa; notebook ML menggunakan CPU tanpa impor PyTorch.",
+  "model_backend": "scikit-learn CPU; OpenCV CPU",
+  "augmentation": {
+    "enabled": true,
+    "types": [
+      "gaussian_noise",
+      "flip",
+      "rotation",
+      "corruption",
+      "brightness",
+      "contrast"
+    ],
+    "copies": 1,
+    "config": {
+      "noise_sigma": [
+        3.0,
+        10.0
+      ],
+      "corruption_fraction": [
+        0.002,
+        0.008
+      ],
+      "brightness_delta": [
+        10.0,
+        20.0
+      ],
+      "contrast_factor": [
+        0.85,
+        1.15
+      ]
+    }
+  },
+  "reproduction_reference": {
+    "commit": "f24733274ab39c8697f3b1e368193a4235d56258",
+    "versions_recorded_by_old_run": {
+      "python": "3.10.20",
+      "sklearn": "1.7.2",
+      "opencv": "5.0.0"
+    }
+  },
+  "numpy": "2.2.6",
+  "scipy": "1.15.2",
+  "pillow": "12.2.0",
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\AnacondaPython\\envs\\ai_env\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-13e2df515630b4a41f92893938845698.dll",
+      "version": "0.3.29",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "filepath": "D:\\AnacondaPython\\envs\\ai_env\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-f07f5a5d207a3a47104dca54d6d0c86a.dll",
+      "version": "0.3.28",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "vcomp",
+      "filepath": "D:\\AnacondaPython\\envs\\ai_env\\vcomp140.dll",
+      "version": null
+    }
+  ],
+  "opencv_threads": 1,
+  "pythonhashseed": null,
+  "note_old_versions": "Versi NumPy/SciPy/Pillow tidak tercatat dalam output run lama, sehingga kesamaan versi historisnya belum dapat dipastikan."
+}

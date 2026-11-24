@@ -1,0 +1,361 @@
+image,condition,true,pred_N,pred_condition,transition,correct_N,correct_cond,mask_fraction,n_sift,n_sift_N,sift_retention_ratio,hue_js,neighbor_margin,margin_delta_vs_N,same_class_knn_ratio
+aglaonema_10.jpg,N,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.1811608165150649,0.0,1.0
+aglaonema_3.jpg,N,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.1569810743520615,0.0,0.8
+daun_nangka_1.jpg,N,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.032322230878173125,0.0,0.6
+daun_nangka_2.jpg,N,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,-0.03136671035625774,0.0,0.8
+kamboja_jepang_3.jpg,N,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.0978695862873749,0.0,0.8
+kamboja_jepang_8.jpg,N,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.08008801139362542,0.0,1.0
+lidah_metua_2.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,-0.00748769742021529,0.0,0.4
+lidah_metua_5.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.002231426158081176,0.0,0.4
+paku_tanduk_rusa_10.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.16534160297796704,0.0,1.0
+paku_tanduk_rusa_12.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.09435124650838811,0.0,1.0
+paku_tanduk_rusa_8.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.1528166784035388,0.0,1.0
+peperomium_semangka_5.jpg,N,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.23193866897203572,0.0,0.8
+aglaonema_10.jpg,E,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.07679859931825188,0.13471691970093802,-0.04644389681412689,1.0
+aglaonema_3.jpg,E,Aglaonema,Aglaonema,Daun nangka,benar_ke_salah,True,False,1.0,300,300,1.0,0.05762733324567812,0.08749316188871417,-0.06948791246334732,0.8
+daun_nangka_1.jpg,E,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.015807061539165914,0.009271400614697223,-0.023050830263475902,0.6
+daun_nangka_2.jpg,E,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.03669078459672009,0.18889145854724082,0.22025816890349856,0.6
+kamboja_jepang_3.jpg,E,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.02327235053060915,0.049056915687561695,-0.0488126705998132,0.8
+kamboja_jepang_8.jpg,E,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.034199111304683893,0.05288873431949673,-0.027199277074128697,0.6
+lidah_metua_2.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.041240943812468046,-0.03044644229695529,-0.02295874487674,0.2
+lidah_metua_5.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.021235736383507037,-0.027898971122889544,-0.03013039728097072,0.2
+paku_tanduk_rusa_10.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.04215332441896128,0.09305320117482416,-0.07228840180314289,1.0
+paku_tanduk_rusa_12.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.032969442749767604,0.07994555553724482,-0.01440569097114329,0.8
+paku_tanduk_rusa_8.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.042332168752891586,0.07752985568441396,-0.07528682271912483,1.0
+peperomium_semangka_5.jpg,E,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,1.0,300,300,1.0,0.016476528853942442,0.16761310752950748,-0.06432556144252824,0.8
+aglaonema_10.jpg,S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.5050846354166667,300,300,1.0,0.5168690507491353,0.40452338209845135,0.22336256558338644,1.0
+aglaonema_3.jpg,S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.5610026041666667,95,300,0.31666666666666665,0.20199639720505783,0.1649458794863214,0.0079648051342599,1.0
+daun_nangka_1.jpg,S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.47591796875,34,300,0.11333333333333333,0.5159569135887165,0.1885258413828337,0.15620361050466058,0.8
+daun_nangka_2.jpg,S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.79884765625,73,300,0.24333333333333335,0.2648616222347229,0.08002807394758903,0.11139478430384676,0.6
+kamboja_jepang_3.jpg,S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.45095703125,14,300,0.04666666666666667,0.5646039405553553,0.05809430866204716,-0.03977527762532774,0.6
+kamboja_jepang_8.jpg,S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.408720703125,78,300,0.26,0.4832030148287019,0.2268425488086932,0.14675453741506778,0.8
+lidah_metua_2.jpg,S-O,Lidah metua,Lidah metua,Peperomium semangka,benar_ke_salah,True,False,0.7698372395833334,300,300,1.0,0.1496330353539566,0.02632121767948202,0.03380891509969731,0.4
+lidah_metua_5.jpg,S-O,Lidah metua,Lidah metua,Peperomium semangka,benar_ke_salah,True,False,0.8450846354166667,300,300,1.0,0.1340543499807375,0.07728747743249666,0.07505605127441548,0.4
+paku_tanduk_rusa_10.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Lidah metua,benar_ke_salah,True,False,0.4937467447916667,5,300,0.016666666666666666,0.47391287730759196,-0.07709329802515419,-0.24243490100312123,0.0
+paku_tanduk_rusa_12.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.295576171875,25,300,0.08333333333333333,0.6388481657536415,-0.02270558086853136,-0.11705682737691947,0.2
+paku_tanduk_rusa_8.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Lidah metua,benar_ke_salah,True,False,0.57416015625,5,300,0.016666666666666666,0.41740891073535097,0.05030808228544011,-0.10250859611809868,0.4
+peperomium_semangka_5.jpg,S-O,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.5974283854166667,16,300,0.05333333333333334,0.19305484016852892,-0.004007248580070345,-0.23594591755210606,0.4
+aglaonema_10.jpg,S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.2217635126450966,0.0406026961300317,1.0
+aglaonema_3.jpg,S-K,Aglaonema,Aglaonema,Daun nangka,benar_ke_salah,True,False,1.0,300,300,1.0,0.0,0.1930692653538494,0.03608819100178792,1.0
+daun_nangka_1.jpg,S-K,Daun nangka,Daun nangka,Aglaonema,benar_ke_salah,True,False,1.0,300,300,1.0,0.0,-0.0287422941161441,-0.06106452499431722,0.4
+daun_nangka_2.jpg,S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.16433907774173145,0.1957057880979892,1.0
+kamboja_jepang_3.jpg,S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.6344303385416666,7,300,0.023333333333333334,0.20955943740641042,-0.0032775873469844436,-0.10114717363435934,0.4
+kamboja_jepang_8.jpg,S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.502529296875,65,300,0.21666666666666667,0.28833024411493924,0.2924038358797655,0.21231582448614006,0.4
+lidah_metua_2.jpg,S-K,Lidah metua,Lidah metua,Peperomium semangka,benar_ke_salah,True,False,0.22107096354166667,0,300,0.0,0.413407498137814,-0.11631603020655312,-0.10882833278633783,0.2
+lidah_metua_5.jpg,S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.4930598958333333,110,300,0.36666666666666664,0.15702721202268524,-0.03976754601856739,-0.041998972176648566,0.6
+paku_tanduk_rusa_10.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.7940104166666667,163,300,0.5433333333333333,0.15573396700679984,0.08026833318639294,-0.0850732697915741,0.4
+paku_tanduk_rusa_12.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.46140625,35,300,0.11666666666666667,0.25589977717946616,0.007165365923698831,-0.08718588058468928,0.4
+paku_tanduk_rusa_8.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.8168131510416666,230,300,0.7666666666666667,0.16423367539162495,-0.001558411471408837,-0.15437508987494764,0.6
+peperomium_semangka_5.jpg,S-K,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.21001302083333334,0,300,0.0,0.2797033557868282,0.3954056591509752,0.16346699017893948,0.4
+aglaonema_10.jpg,E-S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.505,300,300,1.0,0.514598984041473,0.42828805369890066,0.24712723718383575,1.0
+aglaonema_3.jpg,E-S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.8309895833333333,300,300,1.0,0.1942721406388284,0.23491348304570486,0.07793240869364337,1.0
+daun_nangka_1.jpg,E-S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.4749576822916667,37,300,0.12333333333333334,0.5181626645634356,0.19046887225134634,0.15814664137317322,0.8
+daun_nangka_2.jpg,E-S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.797158203125,111,300,0.37,0.2654388748382746,0.16028089702545287,0.1916476073817106,0.4
+kamboja_jepang_3.jpg,E-S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.4513118489583333,45,300,0.15,0.5614353108041035,0.08931492686708752,-0.00855465942028738,0.8
+kamboja_jepang_8.jpg,E-S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.40896809895833336,143,300,0.4766666666666667,0.4854147983645904,0.26844467099264163,0.1883566595990162,1.0
+lidah_metua_2.jpg,E-S-O,Lidah metua,Lidah metua,Peperomium semangka,benar_ke_salah,True,False,0.7694140625,300,300,1.0,0.15312515627524564,0.06605322282834283,0.07354092024855813,0.6
+lidah_metua_5.jpg,E-S-O,Lidah metua,Lidah metua,Peperomium semangka,benar_ke_salah,True,False,0.8501432291666666,300,300,1.0,0.1401981594072517,0.08360996264388282,0.08137853648580164,0.4
+paku_tanduk_rusa_10.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.4935384114583333,7,300,0.023333333333333334,0.47489145272147676,-0.018952561058227388,-0.18429416403619442,0.2
+paku_tanduk_rusa_12.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.295048828125,22,300,0.07333333333333333,0.6396660411284402,0.005882719556731779,-0.08846852695165633,0.4
+paku_tanduk_rusa_8.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Lidah metua,benar_ke_salah,True,False,0.5738834635416666,10,300,0.03333333333333333,0.4164015645346137,0.0555499632446538,-0.09726671515888499,0.4
+peperomium_semangka_5.jpg,E-S-O,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.5789583333333334,7,300,0.023333333333333334,0.21304918448806887,-0.009715013762149723,-0.24165368273418544,0.4
+aglaonema_10.jpg,E-S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.07679859931825188,0.21823212346615262,0.03707130695108771,1.0
+aglaonema_3.jpg,E-S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.05762733324567812,0.08749316188871417,-0.06948791246334732,0.8
+daun_nangka_1.jpg,E-S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.015807061539165914,0.009271400614697223,-0.023050830263475902,0.4
+daun_nangka_2.jpg,E-S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.03669078459672009,0.263762890136814,0.2951296004930717,0.8
+kamboja_jepang_3.jpg,E-S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.5539290364583334,22,300,0.07333333333333333,0.21477725617832139,0.44246990450831625,0.34460031822094134,0.6
+kamboja_jepang_8.jpg,E-S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.45634114583333335,46,300,0.15333333333333332,0.29482098364067366,0.26786855108888014,0.1877805396952547,0.4
+lidah_metua_2.jpg,E-S-K,Lidah metua,Lidah metua,Kamboja jepang,benar_ke_salah,True,False,0.230693359375,0,300,0.0,0.39230768959176116,0.09617348862492515,0.10366118604514045,0.2
+lidah_metua_5.jpg,E-S-K,Lidah metua,Lidah metua,Paku tanduk rusa,benar_ke_salah,True,False,0.5090657552083333,3,300,0.01,0.1494228896368332,-0.04297622847465468,-0.04520765463273586,0.0
+paku_tanduk_rusa_10.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.04215332441896128,0.09305320117482416,-0.07228840180314289,1.0
+paku_tanduk_rusa_12.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.032969442749767604,0.06268037729734754,-0.031670869211040564,0.8
+paku_tanduk_rusa_8.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.042332168752891586,0.07752985568441396,-0.07528682271912483,0.8
+peperomium_semangka_5.jpg,E-S-K,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.170009765625,0,300,0.0,0.27417878325371436,-0.012361521728451555,-0.24430019070048728,0.4
+aglaonema_5.jpg,N,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.10876382981713764,0.0,0.6
+aglaonema_8.jpg,N,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.06804357010132898,0.0,0.8
+daun_nangka_4.jpg,N,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.07684913809422525,0.0,0.4
+daun_nangka_9.jpg,N,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.03153321626679098,0.0,0.8
+kamboja_jepang_2.jpg,N,Kamboja jepang,Lidah metua,Lidah metua,tetap_salah,False,False,1.0,300,300,1.0,0.0,-0.06931005997375152,0.0,0.2
+kamboja_jepang_7.jpg,N,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.11043721587763713,0.0,0.8
+lidah_metua_12.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.018616003400062985,0.0,0.4
+lidah_metua_4.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.08676484967595482,0.0,0.8
+paku_tanduk_rusa_11.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.15518731081573306,0.0,1.0
+paku_tanduk_rusa_2.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.16559335233078457,0.0,1.0
+paku_tanduk_rusa_5.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.1505506147137765,0.0,1.0
+peperomium_semangka_3.jpg,N,Peperomium semangka,Lidah metua,Lidah metua,tetap_salah,False,False,1.0,300,300,1.0,0.0,0.04844954087768614,0.0,0.2
+aglaonema_5.jpg,E,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.05270870533812888,0.18707907820997582,0.07831524839283818,0.6
+aglaonema_8.jpg,E,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.06421466456002685,0.05787240984195141,-0.010171160259377574,0.6
+daun_nangka_4.jpg,E,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.021350504645573493,0.1429769238047881,0.06612778571056285,0.4
+daun_nangka_9.jpg,E,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.01598357827781828,0.03263005256719387,0.001096836300402887,0.8
+kamboja_jepang_2.jpg,E,Kamboja jepang,Lidah metua,Lidah metua,tetap_salah,False,False,1.0,300,300,1.0,0.04869628374033678,-0.09032653558031899,-0.02101647560656747,0.0
+kamboja_jepang_7.jpg,E,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.021470404844388197,0.043714368078401934,-0.06672284779923521,0.8
+lidah_metua_12.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.028757704766985047,0.0022437375708627585,-0.016372265829200226,0.4
+lidah_metua_4.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.10101896063020745,0.0881437947761682,0.0013789451002133718,0.8
+paku_tanduk_rusa_11.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.02332871465069044,0.2017971989743463,0.04660988815861325,1.0
+paku_tanduk_rusa_2.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.02866368436081162,0.02866022381758778,-0.13693312851319678,0.6
+paku_tanduk_rusa_5.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.016408230130665596,0.10812709665785546,-0.04242351805592105,1.0
+peperomium_semangka_3.jpg,E,Peperomium semangka,Lidah metua,Lidah metua,tetap_salah,False,False,1.0,300,300,1.0,0.020141938893591435,0.007927610293521157,-0.04052193058416498,0.4
+aglaonema_5.jpg,S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.3519140625,128,300,0.4266666666666667,0.5791010209349894,0.24928546805783436,0.14052163824069672,1.0
+aglaonema_8.jpg,S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.48240234375,241,300,0.8033333333333333,0.5164073205746821,0.12104004810726604,0.052996478005937056,1.0
+daun_nangka_4.jpg,S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.5720703125,186,300,0.62,0.4405398620623235,0.08962484097973099,0.012775702885505738,0.4
+daun_nangka_9.jpg,S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.682265625,14,300,0.04666666666666667,0.35840436346620047,0.36578314165113973,0.3342499253843487,0.8
+kamboja_jepang_2.jpg,S-O,Kamboja jepang,Lidah metua,Lidah metua,tetap_salah,False,False,0.214287109375,6,300,0.02,0.6779565602531387,-0.005093055647993144,0.06421700432575837,0.2
+kamboja_jepang_7.jpg,S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.2684765625,142,300,0.47333333333333333,0.634030977410835,0.006376807839713062,-0.10406040803792407,0.2
+lidah_metua_12.jpg,S-O,Lidah metua,Lidah metua,Aglaonema,benar_ke_salah,True,False,0.5759342447916667,219,300,0.73,0.4171701131627059,-0.006489503825552436,-0.02510550722561542,0.2
+lidah_metua_4.jpg,S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.27667317708333333,225,300,0.75,0.605437091440153,0.03437868070993587,-0.052386168966018956,0.2
+paku_tanduk_rusa_11.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Daun nangka,benar_ke_salah,True,False,0.46546875,28,300,0.09333333333333334,0.5137691251535664,0.0059670210520715505,-0.1492202897636615,0.4
+paku_tanduk_rusa_2.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.23840169270833333,0,300,0.0,0.7013667500881944,0.4237708866947346,0.2581775343639501,0.6
+paku_tanduk_rusa_5.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.38952473958333333,0,300,0.0,0.6022363598803278,0.35640453310870973,0.20585391839493322,0.2
+peperomium_semangka_3.jpg,S-O,Peperomium semangka,Lidah metua,Lidah metua,tetap_salah,False,False,0.7001106770833333,300,300,1.0,0.2778471159502891,0.03691335826213573,-0.011536182615550408,0.4
+aglaonema_5.jpg,S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.18451725059315266,0.07575342077601502,1.0
+aglaonema_8.jpg,S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.06804357010132898,0.0,0.8
+daun_nangka_4.jpg,S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.13615747633972972,0.059308338245504466,0.6
+daun_nangka_9.jpg,S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.14809332162233368,0.1165601053555427,1.0
+kamboja_jepang_2.jpg,S-K,Kamboja jepang,Lidah metua,Lidah metua,tetap_salah,False,False,0.4917578125,41,300,0.13666666666666666,0.20015037765136673,-0.18202790627570667,-0.11271784630195515,0.0
+kamboja_jepang_7.jpg,S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.404208984375,4,300,0.013333333333333334,0.2384250248444683,0.09634824371263342,-0.01408897216500371,0.6
+lidah_metua_12.jpg,S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,-0.04569988069755411,-0.0643158840976171,0.2
+lidah_metua_4.jpg,S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.8996126302083334,300,300,1.0,0.028877656050978393,0.08950437869246404,0.002739529016509215,0.2
+paku_tanduk_rusa_11.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.7878938802083333,240,300,0.8,0.1378638432009326,0.1440606328735746,-0.011126677942158464,0.4
+paku_tanduk_rusa_2.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.7875618489583334,44,300,0.14666666666666667,0.079014618422425,0.009802229723360522,-0.15579112260742403,0.4
+paku_tanduk_rusa_5.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.5035546875,1,300,0.0033333333333333335,0.33388185882150534,-0.0016634118301217147,-0.15221402654389823,0.4
+peperomium_semangka_3.jpg,S-K,Peperomium semangka,Lidah metua,Lidah metua,tetap_salah,False,False,0.114501953125,0,300,0.0,0.1361825909845731,-0.19305485256685614,-0.24150439344454228,0.0
+aglaonema_5.jpg,E-S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.3519563802083333,148,300,0.49333333333333335,0.5776867115239772,0.20105940228225885,0.09229557246512121,1.0
+aglaonema_8.jpg,E-S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.5001985677083334,242,300,0.8066666666666666,0.5002491895460971,0.24192227199416783,0.17387870189283883,1.0
+daun_nangka_4.jpg,E-S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.56927734375,170,300,0.5666666666666667,0.4369228891736353,0.12483436712301879,0.04798522902879354,0.4
+daun_nangka_9.jpg,E-S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.681787109375,19,300,0.06333333333333334,0.3553450228692433,0.3443071240999527,0.3127739078331617,0.8
+kamboja_jepang_2.jpg,E-S-O,Kamboja jepang,Lidah metua,Lidah metua,tetap_salah,False,False,0.214765625,7,300,0.023333333333333334,0.6750726410165755,-0.03266370883239669,0.036646351141354824,0.4
+kamboja_jepang_7.jpg,E-S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.2740397135416667,174,300,0.58,0.6193229172270519,0.11528617393295447,0.0048489580553173345,0.4
+lidah_metua_12.jpg,E-S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.5791276041666666,213,300,0.71,0.4163938339236919,0.03904491221109144,0.020428908811028452,0.2
+lidah_metua_4.jpg,E-S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.27904947916666667,233,300,0.7766666666666666,0.5967522514012864,0.05802498233673077,-0.028739867339224054,0.4
+paku_tanduk_rusa_11.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.46508138020833334,38,300,0.12666666666666668,0.5134837079354558,-0.007609594060045342,-0.16279690487577841,0.2
+paku_tanduk_rusa_2.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.23848958333333334,1,300,0.0033333333333333335,0.7005173321317845,0.09694022572915602,-0.06865312660162855,0.6
+paku_tanduk_rusa_5.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.389306640625,2,300,0.006666666666666667,0.6024566000418912,0.033945348476320254,-0.11660526623745626,0.6
+peperomium_semangka_3.jpg,E-S-O,Peperomium semangka,Lidah metua,Paku tanduk rusa,tetap_salah,False,False,0.7012141927083333,300,300,1.0,0.28002653676822337,0.04579511207268906,-0.0026544288049970763,0.2
+aglaonema_5.jpg,E-S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.05270870533812888,0.18707907820997582,0.07831524839283818,0.6
+aglaonema_8.jpg,E-S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.06421466456002685,0.08215048367830673,0.014106913576977742,0.6
+daun_nangka_4.jpg,E-S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.021350504645573493,0.1685968337871016,0.09174769569287636,0.4
+daun_nangka_9.jpg,E-S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.01598357827781828,0.1473489560534353,0.1158157397866443,0.8
+kamboja_jepang_2.jpg,E-S-K,Kamboja jepang,Lidah metua,Lidah metua,tetap_salah,False,False,0.471689453125,8,300,0.02666666666666667,0.2006084813221761,0.04047578900134529,0.1097858489750968,0.2
+kamboja_jepang_7.jpg,E-S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.4653125,3,300,0.01,0.1755656608918831,0.5782322721693927,0.46779505629175555,0.8
+lidah_metua_12.jpg,E-S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.028757704766985047,-0.04098986354339508,-0.05960586694345807,0.2
+lidah_metua_4.jpg,E-S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.10101896063020745,-0.002778110796743676,-0.0895429604726985,0.4
+paku_tanduk_rusa_11.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.02332871465069044,0.2017971989743463,0.04660988815861325,1.0
+paku_tanduk_rusa_2.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Lidah metua,benar_ke_salah,True,False,0.770302734375,11,300,0.03666666666666667,0.07423568034460955,-0.004880706239831786,-0.17047405857061634,0.6
+paku_tanduk_rusa_5.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Lidah metua,benar_ke_salah,True,False,0.810888671875,6,300,0.02,0.08092715699915139,0.0011916293656070872,-0.1493589853481694,0.2
+peperomium_semangka_3.jpg,E-S-K,Peperomium semangka,Lidah metua,Lidah metua,tetap_salah,False,False,0.192509765625,0,300,0.0,0.33357876715381013,0.11671730944706278,0.06826776856937664,0.4
+aglaonema_2.jpg,N,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.1497525197238417,0.0,1.0
+aglaonema_7.jpg,N,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.017975368173248216,0.0,0.8
+daun_nangka_3.jpg,N,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.0938240594208786,0.0,0.4
+daun_nangka_5.jpg,N,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.12557980481528955,0.0,0.6
+kamboja_jepang_6.jpg,N,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.0788940718146076,0.0,0.6
+kamboja_jepang_9.jpg,N,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.09767220715905452,0.0,0.8
+lidah_metua_10.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.11542860980651015,0.0,0.4
+lidah_metua_7.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.10132653447646812,0.0,0.2
+paku_tanduk_rusa_14.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.18490943318844485,0.0,1.0
+paku_tanduk_rusa_4.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.06675311395598536,0.0,1.0
+paku_tanduk_rusa_6.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.06460402756565621,0.0,0.6
+peperomium_semangka_2.jpg,N,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.03987979248304293,0.0,0.6
+aglaonema_2.jpg,E,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.05648498746357575,0.1675636994701638,0.017811179746322098,1.0
+aglaonema_7.jpg,E,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.03337026709795824,0.12843974410424944,0.11046437593100122,0.8
+daun_nangka_3.jpg,E,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.010738169698829935,0.013869175213113245,-0.07995488420776535,0.2
+daun_nangka_5.jpg,E,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.018049412230781933,0.08444842687848808,-0.041131377936801466,0.6
+kamboja_jepang_6.jpg,E,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.053117277794454146,-0.014498593873202433,-0.09339266568781003,0.4
+kamboja_jepang_9.jpg,E,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.04107816428831978,0.09899700842543771,0.0013248012663831937,0.8
+lidah_metua_10.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.04763133546798926,0.08652215138154262,-0.02890645842496753,0.6
+lidah_metua_7.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.046554926101372664,0.09853046358298474,-0.0027960708934833822,0.6
+paku_tanduk_rusa_14.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.02916656186640151,0.0818650252246896,-0.10304440796375526,1.0
+paku_tanduk_rusa_4.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.011861212800259958,0.06234414701568134,-0.004408966940304022,0.8
+paku_tanduk_rusa_6.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Daun nangka,benar_ke_salah,True,False,1.0,300,300,1.0,0.008868117429496038,0.007532275519032415,-0.0570717520466238,0.4
+peperomium_semangka_2.jpg,E,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,1.0,300,300,1.0,0.015651987494024428,0.05337361209172381,0.01349381960868088,0.6
+aglaonema_2.jpg,S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.5322688802083333,259,300,0.8633333333333333,0.48456247774742395,0.38898656051084474,0.23923404078700303,1.0
+aglaonema_7.jpg,S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.38307291666666665,139,300,0.4633333333333333,0.5799639901338092,0.136581109902,0.1186057417287518,1.0
+daun_nangka_3.jpg,S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.362060546875,15,300,0.05,0.5609924038113402,0.41821930717884287,0.32439524775796424,0.6
+daun_nangka_5.jpg,S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.5516796875,55,300,0.18333333333333332,0.4630162924314645,0.21229599028413976,0.08671618546885021,0.4
+kamboja_jepang_6.jpg,S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.28168619791666666,151,300,0.5033333333333333,0.639653918663853,-0.017359187518400966,-0.09625325933300857,0.2
+kamboja_jepang_9.jpg,S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.42195963541666665,90,300,0.3,0.5684698540318336,0.14601059224420176,0.04833838508514725,0.6
+lidah_metua_10.jpg,S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.39322591145833335,199,300,0.6633333333333333,0.5188724715371879,0.07524356948802485,-0.0401850403184853,0.6
+lidah_metua_7.jpg,S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.307255859375,5,300,0.016666666666666666,0.5935125760122999,-0.017060937515957886,-0.11838747199242601,0.2
+paku_tanduk_rusa_14.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.49138997395833334,80,300,0.26666666666666666,0.49691676269272267,-0.038302845715121756,-0.2232122789035666,0.2
+paku_tanduk_rusa_4.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.49680989583333335,28,300,0.09333333333333334,0.4976467068432609,-0.09057781807817884,-0.1573309320341642,0.0
+paku_tanduk_rusa_6.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.45138671875,3,300,0.01,0.5594369341926375,-0.5438521941896475,-0.6084562217553037,0.2
+peperomium_semangka_2.jpg,S-O,Peperomium semangka,Peperomium semangka,Lidah metua,benar_ke_salah,True,False,0.4786197916666667,21,300,0.07,0.5041122531530068,-0.02563029463453617,-0.06551008711757911,0.0
+aglaonema_2.jpg,S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.1497525197238417,0.0,1.0
+aglaonema_7.jpg,S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.11412475433423563,0.09614938616098742,1.0
+daun_nangka_3.jpg,S-K,Daun nangka,Daun nangka,Kamboja jepang,benar_ke_salah,True,False,0.8140950520833333,65,300,0.21666666666666667,0.1337244101428067,-0.03715017262529096,-0.13097423204616956,0.4
+daun_nangka_5.jpg,S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.18716987784924063,0.06159007303395109,0.8
+kamboja_jepang_6.jpg,S-K,Kamboja jepang,Kamboja jepang,Paku tanduk rusa,benar_ke_salah,True,False,0.5213606770833333,14,300,0.04666666666666667,0.07628587727202531,-0.09229846455399968,-0.17119253636860726,0.0
+kamboja_jepang_9.jpg,S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.6559765625,119,300,0.39666666666666667,0.24064984273344606,0.29565808223442913,0.19798587507537463,0.4
+lidah_metua_10.jpg,S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.7066861979166666,300,300,1.0,0.15220436057888245,0.052028108556778085,-0.06340050124973207,0.4
+lidah_metua_7.jpg,S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.6701953125,218,300,0.7266666666666667,0.14569791281358208,0.0070142963062045875,-0.09431223817026353,0.4
+paku_tanduk_rusa_14.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.6840787760416667,208,300,0.6933333333333334,0.1862751347764875,0.051048287386732505,-0.13386114580171235,0.8
+paku_tanduk_rusa_4.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.868154296875,300,300,1.0,0.04918725120397063,0.09742248515357034,0.030669371197584977,0.6
+paku_tanduk_rusa_6.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.5435579427083334,3,300,0.01,0.3447833567843276,-0.05570651571847346,-0.12031054328412967,0.4
+peperomium_semangka_2.jpg,S-K,Peperomium semangka,Peperomium semangka,Paku tanduk rusa,benar_ke_salah,True,False,0.4762109375,3,300,0.01,0.17533686005724872,-0.07504205186753486,-0.11492184435057778,0.0
+aglaonema_2.jpg,E-S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.5323014322916667,263,300,0.8766666666666667,0.4828804088092826,0.30788096843293955,0.15812844870909784,1.0
+aglaonema_7.jpg,E-S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.383212890625,129,300,0.43,0.5790144649042467,0.1204285733402911,0.10245320516704289,1.0
+daun_nangka_3.jpg,E-S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.36048828125,21,300,0.07,0.560605791061172,0.36279804505229807,0.2689739856314195,0.6
+daun_nangka_5.jpg,E-S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.5487727864583334,73,300,0.24333333333333335,0.4614398020787075,0.3346512698678182,0.20907146505252863,0.6
+kamboja_jepang_6.jpg,E-S-O,Kamboja jepang,Kamboja jepang,Aglaonema,benar_ke_salah,True,False,0.28183919270833335,233,300,0.7766666666666666,0.6417853809341512,-0.019691134534344373,-0.09858520634895197,0.2
+kamboja_jepang_9.jpg,E-S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.42217122395833334,180,300,0.6,0.5673770958481377,0.18888193667595235,0.09120972951689783,0.8
+lidah_metua_10.jpg,E-S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.39966145833333333,229,300,0.7633333333333333,0.5168380007533333,0.09413719268542889,-0.021291417121081263,0.6
+lidah_metua_7.jpg,E-S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.3085026041666667,12,300,0.04,0.5915518488701721,-0.0015873561777445858,-0.1029138906542127,0.2
+paku_tanduk_rusa_14.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.5133528645833333,96,300,0.32,0.4928158406518954,0.04773481225455926,-0.1371746209338856,0.2
+paku_tanduk_rusa_4.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.496767578125,38,300,0.12666666666666668,0.49706076487421125,-0.08326801613724828,-0.15002113009323365,0.0
+paku_tanduk_rusa_6.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Daun nangka,benar_ke_salah,True,False,0.4507747395833333,0,300,0.0,0.5602967388848845,-0.17244544113832097,-0.2370494687039772,0.0
+peperomium_semangka_2.jpg,E-S-O,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.47892903645833335,29,300,0.09666666666666666,0.5062845614129058,-0.10216172661703896,-0.1420415191000819,0.0
+aglaonema_2.jpg,E-S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.05648498746357575,0.2421786900199663,0.0924261702961246,1.0
+aglaonema_7.jpg,E-S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.03337026709795824,0.17965112569337915,0.16167575752013094,1.0
+daun_nangka_3.jpg,E-S-K,Daun nangka,Daun nangka,Kamboja jepang,benar_ke_salah,True,False,0.799912109375,45,300,0.15,0.129453287255814,-0.09287299682482014,-0.18669705624569874,0.2
+daun_nangka_5.jpg,E-S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.018049412230781933,0.08444842687848808,-0.041131377936801466,0.4
+kamboja_jepang_6.jpg,E-S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.78337890625,127,300,0.42333333333333334,0.06069090018185767,-0.19247048736172973,-0.27136455917633734,0.0
+kamboja_jepang_9.jpg,E-S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.610908203125,142,300,0.47333333333333333,0.263074193623472,0.21823736748424594,0.12056516032519142,0.2
+lidah_metua_10.jpg,E-S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.04763133546798926,-0.02742753058639474,-0.1428561403929049,0.2
+lidah_metua_7.jpg,E-S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.65287109375,58,300,0.19333333333333333,0.15968086094531472,-0.024779141175362767,-0.1261056756518309,0.0
+paku_tanduk_rusa_14.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.02916656186640151,0.0818650252246896,-0.10304440796375526,1.0
+paku_tanduk_rusa_4.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.011861212800259958,0.06234414701568134,-0.004408966940304022,0.8
+paku_tanduk_rusa_6.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.7464453125,8,300,0.02666666666666667,0.1355527139182696,-0.016928194674601722,-0.08153222224025794,0.2
+peperomium_semangka_2.jpg,E-S-K,Peperomium semangka,Peperomium semangka,Lidah metua,benar_ke_salah,True,False,0.21735026041666666,0,300,0.0,0.2203436969409051,0.09971673764194255,0.059836945158899625,0.4
+aglaonema_4.jpg,N,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.044417518681366314,0.0,0.8
+aglaonema_9.jpg,N,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.0776273251174939,0.0,0.8
+daun_nangka_6.jpg,N,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.05894010028430537,0.0,0.6
+daun_nangka_8.jpg,N,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.07191394353151623,0.0,0.6
+kamboja_jepang_4.jpg,N,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,272,272,1.0,0.0,0.06099426146586775,0.0,0.6
+lidah_metua_1.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,-0.009444496326329122,0.0,0.4
+lidah_metua_3.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.01552672759749521,0.0,0.6
+lidah_metua_6.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.04417776052848862,0.0,0.8
+paku_tanduk_rusa_1.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.03425949492650077,0.0,0.8
+paku_tanduk_rusa_13.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.2084044693178923,0.0,1.0
+paku_tanduk_rusa_7.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.19448230312384218,0.0,1.0
+peperomium_semangka_6.jpg,N,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.10515737787329452,0.0,0.6
+aglaonema_4.jpg,E,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.049178925729386994,0.24121649763767558,0.19679897895630927,1.0
+aglaonema_9.jpg,E,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.04377172808996224,0.1285110373973045,0.05088371227981059,0.8
+daun_nangka_6.jpg,E,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.03382256676641359,0.08369856926534829,0.024758468981042912,0.6
+daun_nangka_8.jpg,E,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.02135701902572406,0.06588777914812108,-0.0060261643833951495,0.6
+kamboja_jepang_4.jpg,E,Kamboja jepang,Kamboja jepang,Lidah metua,benar_ke_salah,True,False,1.0,300,272,1.1029411764705883,0.01355525042744903,0.1238845329013405,0.06289027143547274,0.6
+lidah_metua_1.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.183141602482839,0.06987629326709782,0.07932078959342695,0.6
+lidah_metua_3.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.04302778432794579,0.05080106531342898,0.035274337715933766,0.6
+lidah_metua_6.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.04465353421269019,-0.016726196928231445,-0.06090395745672006,0.2
+paku_tanduk_rusa_1.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.04743782745255201,0.07518693603391757,0.0409274411074168,0.8
+paku_tanduk_rusa_13.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.017987117706641756,0.20581116769859506,-0.0025933016192972447,0.8
+paku_tanduk_rusa_7.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.017097800967238574,0.16177442718998666,-0.03270787593385552,1.0
+peperomium_semangka_6.jpg,E,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,1.0,300,300,1.0,0.009005832696241866,0.1415247214621903,0.03636734358889579,0.6
+aglaonema_4.jpg,S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.59337890625,300,300,1.0,0.4513805263612751,0.2807419882462479,0.2363244695648816,1.0
+aglaonema_9.jpg,S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.405810546875,225,300,0.75,0.5669909625563521,0.2662118601456883,0.18858453502819442,1.0
+daun_nangka_6.jpg,S-O,Daun nangka,Daun nangka,Paku tanduk rusa,benar_ke_salah,True,False,0.69822265625,188,300,0.6266666666666667,0.32848610314275734,0.05226337672417077,-0.006676723560134601,0.2
+daun_nangka_8.jpg,S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.6157356770833333,95,300,0.31666666666666665,0.3992344692984399,-0.04163212573191919,-0.11354606926343541,0.2
+kamboja_jepang_4.jpg,S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.153515625,28,272,0.10294117647058823,0.6319474084301316,-0.020941355327134707,-0.08193561679300246,0.2
+lidah_metua_1.jpg,S-O,Lidah metua,Lidah metua,Peperomium semangka,benar_ke_salah,True,False,0.28490885416666667,45,300,0.15,0.5672540964719313,-0.013292543641642078,-0.0038480473153129566,0.2
+lidah_metua_3.jpg,S-O,Lidah metua,Lidah metua,Kamboja jepang,benar_ke_salah,True,False,0.2597200520833333,1,300,0.0033333333333333335,0.5066363382950408,-0.41557249767764576,-0.431099225275141,0.2
+lidah_metua_6.jpg,S-O,Lidah metua,Lidah metua,Kamboja jepang,benar_ke_salah,True,False,0.09107096354166666,6,300,0.02,0.5942197605375094,-0.26857133504322384,-0.31274909557171243,0.0
+paku_tanduk_rusa_1.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.3899869791666667,9,300,0.03,0.6004234829529479,-0.005117646926128407,-0.03937714185262918,0.4
+paku_tanduk_rusa_13.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.63228515625,79,300,0.2633333333333333,0.4040920148353751,0.11022692646160967,-0.09817754285628263,0.4
+paku_tanduk_rusa_7.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.39328125,0,300,0.0,0.566129074989709,0.41985755761142407,0.2253752544875819,0.6
+peperomium_semangka_6.jpg,S-O,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.6539127604166667,53,300,0.17666666666666667,0.18978269481102134,-0.12843755073499336,-0.23359492860828787,0.0
+aglaonema_4.jpg,S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.08239688315286162,0.0379793644714953,1.0
+aglaonema_9.jpg,S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.12624871146321304,0.048621386345719136,0.8
+daun_nangka_6.jpg,S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.05894010028430537,0.0,0.6
+daun_nangka_8.jpg,S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.8232942708333333,300,300,1.0,0.19308661776549663,0.02551538957480634,-0.04639855395670989,0.6
+kamboja_jepang_4.jpg,S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.17370768229166667,0,272,0.0,0.2590855086977483,0.25172235338348625,0.1907280919176185,0.2
+lidah_metua_1.jpg,S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,-0.04668867098036706,-0.03724417465403794,0.6
+lidah_metua_3.jpg,S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.6855436197916667,112,300,0.37333333333333335,0.14306666384885408,0.061371542291385424,0.045844814693890214,0.4
+lidah_metua_6.jpg,S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.44859375,66,300,0.22,0.11290676202192197,-0.04914172626568336,-0.09331948679417199,0.0
+paku_tanduk_rusa_1.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.6071451822916667,9,300,0.03,0.2187801102125478,0.03109207822500209,-0.003167416701498685,1.0
+paku_tanduk_rusa_13.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.8011979166666666,222,300,0.74,0.15171532883965227,0.1290620006006171,-0.07934246871727521,0.8
+paku_tanduk_rusa_7.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.6371842447916667,21,300,0.07,0.18917104715351835,0.04560533477322371,-0.14887696835061848,0.8
+peperomium_semangka_6.jpg,S-K,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.18319986979166666,0,300,0.0,0.3343177202155578,0.39773728570345845,0.29257990783016397,0.4
+aglaonema_4.jpg,E-S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.5943424479166667,300,300,1.0,0.44858068255328654,0.22697383653962414,0.18255631785825782,1.0
+aglaonema_9.jpg,E-S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.422431640625,249,300,0.83,0.5563723251196749,0.19696552997977831,0.11933820486228441,1.0
+daun_nangka_6.jpg,E-S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.6940071614583333,300,300,1.0,0.3265378988569604,0.051216527736541645,-0.007723572547763728,0.2
+daun_nangka_8.jpg,E-S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.61412109375,123,300,0.41,0.3973727606999294,0.08057192860293,0.00865798507141377,0.2
+kamboja_jepang_4.jpg,E-S-O,Kamboja jepang,Kamboja jepang,Paku tanduk rusa,benar_ke_salah,True,False,0.3815690104166667,65,272,0.23897058823529413,0.36517930106810703,-0.03633718387360639,-0.09733144533947413,0.4
+lidah_metua_1.jpg,E-S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.2857975260416667,57,300,0.19,0.566841118648363,-0.06567344907066976,-0.056228952744340636,0.6
+lidah_metua_3.jpg,E-S-O,Lidah metua,Lidah metua,Paku tanduk rusa,benar_ke_salah,True,False,0.260380859375,1,300,0.0033333333333333335,0.5037442448919704,0.022760148544420634,0.007233420946925424,0.6
+lidah_metua_6.jpg,E-S-O,Lidah metua,Lidah metua,Kamboja jepang,benar_ke_salah,True,False,0.0915234375,4,300,0.013333333333333334,0.5852122780413275,-0.10186349678748796,-0.14604125731597659,0.0
+paku_tanduk_rusa_1.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.3898795572916667,12,300,0.04,0.6002623590440903,0.03969820908590443,0.005438714159403654,0.2
+paku_tanduk_rusa_13.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.6317545572916666,74,300,0.24666666666666667,0.40568431866701704,0.13512708188890685,-0.07327738742898546,0.2
+paku_tanduk_rusa_7.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.39288411458333333,1,300,0.0033333333333333335,0.5665515596336878,0.000669533155885919,-0.19381276996795627,0.2
+peperomium_semangka_6.jpg,E-S-O,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.621455078125,34,300,0.11333333333333333,0.22043752601896896,-0.10718898352557794,-0.21234636139887247,0.0
+aglaonema_4.jpg,E-S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.049178925729386994,0.24947685160620275,0.20505933292483644,1.0
+aglaonema_9.jpg,E-S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.04377172808996224,0.17953913533562482,0.10191181021813092,1.0
+daun_nangka_6.jpg,E-S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.03382256676641359,0.08369856926534829,0.024758468981042912,0.6
+daun_nangka_8.jpg,E-S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.8537239583333334,267,300,0.89,0.116417064668227,0.03394599880176012,-0.037967944729756106,0.6
+kamboja_jepang_4.jpg,E-S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.19349283854166666,0,272,0.0,0.2366449674566478,0.22523582677016923,0.16424156530430148,0.2
+lidah_metua_1.jpg,E-S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.183141602482839,0.07642559008212066,0.08587008640844979,0.6
+lidah_metua_3.jpg,E-S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.04302778432794579,0.046182891002415294,0.030656163404920084,0.6
+lidah_metua_6.jpg,E-S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.04465353421269019,-0.017294872272835184,-0.0614726328013238,0.6
+paku_tanduk_rusa_1.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.8076822916666667,65,300,0.21666666666666667,0.13279600744339495,0.06559905649424563,0.03133956156774486,0.8
+paku_tanduk_rusa_13.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.017987117706641756,0.2796628319546333,0.07125836263674101,1.0
+paku_tanduk_rusa_7.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.7336263020833333,13,300,0.043333333333333335,0.12607932633127983,0.0003197772563082693,-0.1941625258675339,0.6
+peperomium_semangka_6.jpg,E-S-K,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.06778971354166667,0,300,0.0,0.6599499171667427,0.08886847131019546,-0.01628890656309906,0.2
+aglaonema_1.jpg,N,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.07393434007298542,0.0,0.6
+aglaonema_6.jpg,N,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.0841138855115976,0.0,0.8
+daun_nangka_7.jpg,N,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.06437147750739813,0.0,0.8
+kamboja_jepang_1.jpg,N,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.047904509036355146,0.0,0.6
+kamboja_jepang_5.jpg,N,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.07356243107817928,0.0,0.8
+lidah_metua_11.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.0848043611182067,0.0,0.6
+lidah_metua_8.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.13260570062304852,0.0,0.4
+lidah_metua_9.jpg,N,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.042068238845724436,0.0,0.6
+paku_tanduk_rusa_3.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.15280471828642017,0.0,1.0
+paku_tanduk_rusa_9.jpeg,N,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.19526428477357985,0.0,1.0
+peperomium_semangka_1.jpg,N,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.02484755271524826,0.0,0.6
+peperomium_semangka_4.jpg,N,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.017809698403106845,0.0,0.4
+aglaonema_1.jpg,E,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0862264224951896,0.03398384541637114,-0.03995049465661429,0.6
+aglaonema_6.jpg,E,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.058460556173347625,0.06798535066020317,-0.016128534851394427,0.8
+daun_nangka_7.jpg,E,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.027115962962737137,-0.015415079432554176,-0.0797865569399523,0.6
+kamboja_jepang_1.jpg,E,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.022827638333277115,0.04508764961824269,-0.0028168594181124593,0.6
+kamboja_jepang_5.jpg,E,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,1.0,300,300,1.0,0.013185295312118777,0.04200996942576684,-0.03155246165241244,0.6
+lidah_metua_11.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.10747702555730632,0.1181085947841605,0.033304233665953795,0.6
+lidah_metua_8.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.05360550909391306,0.0933810781088628,-0.03922462251418572,0.6
+lidah_metua_9.jpg,E,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.054709820468588514,0.11927757017535882,0.0772093313296344,0.6
+paku_tanduk_rusa_3.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.03395333621683534,0.11743500386711438,-0.035369714419305795,1.0
+paku_tanduk_rusa_9.jpeg,E,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0072326470162727245,0.10176778527115747,-0.09349649950242238,0.8
+peperomium_semangka_1.jpg,E,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,1.0,300,300,1.0,0.00912868639938295,0.01728768093358617,-0.0075598717816620885,0.4
+peperomium_semangka_4.jpg,E,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,1.0,300,300,1.0,0.05884027496917431,-0.025331162306951288,-0.04314086071005813,0.2
+aglaonema_1.jpg,S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.31597005208333334,300,300,1.0,0.6464858740702338,0.12549515426510935,0.051560814192123924,1.0
+aglaonema_6.jpg,S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.3964388020833333,162,300,0.54,0.505221485021293,0.24114783464356238,0.15703394913196478,1.0
+daun_nangka_7.jpg,S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.49157877604166667,12,300,0.04,0.4677555735387935,0.04770347986037348,-0.016667997647024653,0.8
+kamboja_jepang_1.jpg,S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.616474609375,248,300,0.8266666666666667,0.44469910577240057,0.07894318773175854,0.031038678695403395,0.8
+kamboja_jepang_5.jpg,S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.179814453125,35,300,0.11666666666666667,0.6030056747940307,-0.06042214150673152,-0.1339845725849108,0.4
+lidah_metua_11.jpg,S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.3308333333333333,9,300,0.03,0.5467680194377575,-0.007047838203415981,-0.09185219932162268,0.6
+lidah_metua_8.jpg,S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.39210611979166665,20,300,0.06666666666666667,0.5343285728618682,-0.03997608617713918,-0.1725817868001877,0.0
+lidah_metua_9.jpg,S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.168671875,15,300,0.05,0.679861985053585,0.027765778219889896,-0.01430246062583454,0.8
+paku_tanduk_rusa_3.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.4349609375,5,300,0.016666666666666666,0.5632364119405698,0.03552628173824708,-0.11727843654817309,0.4
+paku_tanduk_rusa_9.jpeg,S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.46025390625,3,300,0.01,0.5454005934610298,-0.00656586408251596,-0.20183014885609582,0.4
+peperomium_semangka_1.jpg,S-O,Peperomium semangka,Peperomium semangka,Lidah metua,benar_ke_salah,True,False,0.7109407552083333,72,300,0.24,0.2414054046207301,0.01160236020455061,-0.013245192510697648,0.2
+peperomium_semangka_4.jpg,S-O,Peperomium semangka,Peperomium semangka,Lidah metua,benar_ke_salah,True,False,0.24353515625,17,300,0.056666666666666664,0.6073120184112197,-0.1432455291415187,-0.16105522754462553,0.0
+aglaonema_1.jpg,S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.07692091077195935,0.0029865706989739282,0.8
+aglaonema_6.jpg,S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.18346032618934896,0.09934644067775136,1.0
+daun_nangka_7.jpg,S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.8787076822916666,115,300,0.38333333333333336,0.11515253944895924,-0.013500494086611846,-0.07787197159400998,0.6
+kamboja_jepang_1.jpg,S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.7765462239583333,286,300,0.9533333333333334,0.16028914867979444,0.25831031722302444,0.2104058081866693,0.4
+kamboja_jepang_5.jpg,S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.30990234375,0,300,0.0,0.12583601111155981,0.2894889646848512,0.2159265336066719,0.2
+lidah_metua_11.jpg,S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.0,0.017538088440755835,-0.06726627267745086,0.2
+lidah_metua_8.jpg,S-K,Lidah metua,Lidah metua,Paku tanduk rusa,benar_ke_salah,True,False,0.6573763020833333,167,300,0.5566666666666666,0.1782922374635811,0.028175257390634385,-0.10443044323241414,0.4
+lidah_metua_9.jpg,S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.3686165364583333,19,300,0.06333333333333334,0.2720201651188428,0.02361010572109348,-0.018458133124630956,0.2
+paku_tanduk_rusa_3.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.8146647135416667,45,300,0.15,0.0867154042991758,0.044112010396977146,-0.10869270788944302,0.6
+paku_tanduk_rusa_9.jpeg,S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.8849837239583334,86,300,0.2866666666666667,0.0419696437970399,0.013008479556665216,-0.18225580521691465,0.4
+peperomium_semangka_1.jpg,S-K,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.28735677083333333,0,300,0.0,0.24278758875683096,0.003484529309224463,-0.021363023406023796,0.4
+peperomium_semangka_4.jpg,S-K,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.335380859375,0,300,0.0,0.15909723847496385,0.05273223166988538,0.034922533266778535,0.4
+aglaonema_1.jpg,E-S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.31597981770833333,300,300,1.0,0.646486515664389,0.18257662119517165,0.10864228112218623,1.0
+aglaonema_6.jpg,E-S-O,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,0.3960416666666667,183,300,0.61,0.5065321025760194,0.18129130849876948,0.09717742298717189,1.0
+daun_nangka_7.jpg,E-S-O,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,0.4889095052083333,14,300,0.04666666666666667,0.4678404562384689,0.08431009034396193,0.0199386128365638,1.0
+kamboja_jepang_1.jpg,E-S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.6166634114583334,300,300,1.0,0.4427443969019032,0.18350901015099805,0.1356045011146429,0.8
+kamboja_jepang_5.jpg,E-S-O,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.18961588541666666,42,300,0.14,0.5899574340787186,0.0573661509471751,-0.01619628013100418,0.4
+lidah_metua_11.jpg,E-S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.33214192708333334,42,300,0.14,0.5475337160991631,0.10994294764176119,0.025138586523554482,0.8
+lidah_metua_8.jpg,E-S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.39326171875,18,300,0.06,0.5329901851130117,-0.004132063944082543,-0.13673776456713108,0.2
+lidah_metua_9.jpg,E-S-O,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.16871419270833332,16,300,0.05333333333333334,0.6825085304222193,0.02640234733229276,-0.015665891513431677,0.8
+paku_tanduk_rusa_3.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Lidah metua,benar_ke_salah,True,False,0.43484700520833336,2,300,0.006666666666666667,0.5619645566159437,-0.003679902840520655,-0.15648462112694084,0.6
+paku_tanduk_rusa_9.jpeg,E-S-O,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,0.4605989583333333,7,300,0.023333333333333334,0.542705663830726,-0.008536870201355358,-0.2038011549749352,0.4
+peperomium_semangka_1.jpg,E-S-O,Peperomium semangka,Peperomium semangka,Lidah metua,benar_ke_salah,True,False,0.6881705729166666,90,300,0.3,0.27091086270117204,0.024283064628076993,-0.0005644880871712651,0.2
+peperomium_semangka_4.jpg,E-S-O,Peperomium semangka,Peperomium semangka,Lidah metua,benar_ke_salah,True,False,0.277353515625,26,300,0.08666666666666667,0.6028772713320251,-0.15956314496993573,-0.17737284337304257,0.0
+aglaonema_1.jpg,E-S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.0862264224951896,0.03398384541637114,-0.03995049465661429,0.6
+aglaonema_6.jpg,E-S-K,Aglaonema,Aglaonema,Aglaonema,tetap_benar,True,True,1.0,300,300,1.0,0.058460556173347625,0.06798535066020317,-0.016128534851394427,0.8
+daun_nangka_7.jpg,E-S-K,Daun nangka,Daun nangka,Daun nangka,tetap_benar,True,True,1.0,300,300,1.0,0.027115962962737137,0.008080038853545274,-0.05629143865385286,0.6
+kamboja_jepang_1.jpg,E-S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.7174544270833333,216,300,0.72,0.18390011503290893,0.20744456176793213,0.15954005273157698,0.4
+kamboja_jepang_5.jpg,E-S-K,Kamboja jepang,Kamboja jepang,Kamboja jepang,tetap_benar,True,True,0.259423828125,0,300,0.0,0.07888596963720908,0.2880967576763808,0.21453432659820154,0.2
+lidah_metua_11.jpg,E-S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,0.7518912760416666,76,300,0.25333333333333335,0.13694700283612612,-0.030747718618860085,-0.11555207973706678,0.4
+lidah_metua_8.jpg,E-S-K,Lidah metua,Lidah metua,Lidah metua,tetap_benar,True,True,1.0,300,300,1.0,0.05360550909391306,0.03331780300067779,-0.09928789762237072,0.6
+lidah_metua_9.jpg,E-S-K,Lidah metua,Lidah metua,Kamboja jepang,benar_ke_salah,True,False,0.3008984375,0,300,0.0,0.2802900698838568,0.001965887280203091,-0.040102351565521346,0.2
+paku_tanduk_rusa_3.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.03395333621683534,0.11743500386711438,-0.035369714419305795,1.0
+paku_tanduk_rusa_9.jpeg,E-S-K,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,tetap_benar,True,True,1.0,300,300,1.0,0.0072326470162727245,0.10176778527115747,-0.09349649950242238,0.6
+peperomium_semangka_1.jpg,E-S-K,Peperomium semangka,Peperomium semangka,Peperomium semangka,tetap_benar,True,True,0.2821809895833333,0,300,0.0,0.18977829752957723,0.05349990803589506,0.028652355320646798,0.4
+peperomium_semangka_4.jpg,E-S-K,Peperomium semangka,Peperomium semangka,Paku tanduk rusa,benar_ke_salah,True,False,0.29998046875,3,300,0.01,0.1834615143935248,-0.06012531491592581,-0.07793501331903266,0.0

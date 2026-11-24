@@ -1,0 +1,4 @@
+region,mask_source,mask_method,accuracy,macro_f1
+background,auto_proxy,S-O,0.6333333333333333,0.5361528949764244
+foreground,auto_proxy,S-O,0.7,0.6374015418133064
+full,auto_proxy,S-O,0.9166666666666666,0.895886229735559

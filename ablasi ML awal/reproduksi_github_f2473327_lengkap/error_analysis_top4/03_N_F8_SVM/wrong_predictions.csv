@@ -1,0 +1,3 @@
+fold,input,feature,model,image,true,pred,correct
+1,N,F8,SVM,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,N,F8,SVM,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False

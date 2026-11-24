@@ -1,0 +1,2161 @@
+fold,train_condition,test_condition,image,true,pred,correct
+0,N,N,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,N,N,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,N,N,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,N,N,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,N,N,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,N,N,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,N,N,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,N,N,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,N,N,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,N,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,N,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,N,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,N,E,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,N,E,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,N,E,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,N,E,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,N,E,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,N,E,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,N,E,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,N,E,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,N,E,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,E,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,E,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,E,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,N,S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,N,S-O,aglaonema_3.jpg,Aglaonema,Lidah metua,False
+0,N,S-O,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,N,S-O,daun_nangka_2.jpg,Daun nangka,Lidah metua,False
+0,N,S-O,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,N,S-O,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,N,S-O,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,N,S-O,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,N,S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,N,S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,N,S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Lidah metua,False
+0,N,S-O,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,N,S-K,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,N,S-K,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,N,S-K,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,N,S-K,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,N,S-K,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,N,S-K,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,N,S-K,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,N,S-K,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,N,S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,N,S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,S-K,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,N,E-S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,N,E-S-O,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,N,E-S-O,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,N,E-S-O,daun_nangka_2.jpg,Daun nangka,Lidah metua,False
+0,N,E-S-O,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,N,E-S-O,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,N,E-S-O,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,N,E-S-O,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,N,E-S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,N,E-S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,N,E-S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Lidah metua,False
+0,N,E-S-O,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,N,E-S-K,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,N,E-S-K,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,N,E-S-K,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,N,E-S-K,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,N,E-S-K,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,N,E-S-K,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,N,E-S-K,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,N,E-S-K,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,N,E-S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,E-S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,E-S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,N,E-S-K,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,E,N,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E,N,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E,N,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E,N,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E,N,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,E,N,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E,N,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,E,N,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E,N,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,N,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,N,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,N,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,E,E,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E,E,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E,E,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E,E,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E,E,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,E,E,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E,E,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,E,E,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E,E,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,E,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,E,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,E,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,E,S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E,S-O,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,E,S-O,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,E,S-O,daun_nangka_2.jpg,Daun nangka,Lidah metua,False
+0,E,S-O,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,E,S-O,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,E,S-O,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,E,S-O,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E,S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E,S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E,S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E,S-O,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,E,S-K,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E,S-K,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E,S-K,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E,S-K,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E,S-K,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,E,S-K,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,E,S-K,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,E,S-K,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E,S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E,S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,S-K,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,E,E-S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E,E-S-O,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,E,E-S-O,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,E,E-S-O,daun_nangka_2.jpg,Daun nangka,Lidah metua,False
+0,E,E-S-O,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,E,E-S-O,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,E,E-S-O,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,E,E-S-O,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E,E-S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E,E-S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E,E-S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E,E-S-O,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,E,E-S-K,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E,E-S-K,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E,E-S-K,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E,E-S-K,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E,E-S-K,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,E,E-S-K,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,E,E-S-K,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,E,E-S-K,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E,E-S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,E-S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,E-S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E,E-S-K,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,S-O,N,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-O,N,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,S-O,N,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,S-O,N,daun_nangka_2.jpg,Daun nangka,Lidah metua,False
+0,S-O,N,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,S-O,N,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,S-O,N,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,S-O,N,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-O,N,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-O,N,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-O,N,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-O,N,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,S-O,E,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-O,E,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,S-O,E,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,S-O,E,daun_nangka_2.jpg,Daun nangka,Lidah metua,False
+0,S-O,E,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,S-O,E,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,S-O,E,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,S-O,E,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-O,E,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-O,E,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-O,E,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-O,E,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,S-O,S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-O,S-O,aglaonema_3.jpg,Aglaonema,Paku tanduk rusa,False
+0,S-O,S-O,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,S-O,S-O,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,S-O,S-O,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,S-O,S-O,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-O,S-O,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-O,S-O,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-O,S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,S-O,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,S-O,S-K,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-O,S-K,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,S-O,S-K,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,S-O,S-K,daun_nangka_2.jpg,Daun nangka,Lidah metua,False
+0,S-O,S-K,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,S-O,S-K,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-O,S-K,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-O,S-K,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-O,S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,S-K,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,S-O,E-S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-O,E-S-O,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,S-O,E-S-O,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,S-O,E-S-O,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,S-O,E-S-O,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,S-O,E-S-O,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-O,E-S-O,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-O,E-S-O,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-O,E-S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,E-S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,E-S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-O,E-S-O,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,S-O,E-S-K,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-O,E-S-K,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,S-O,E-S-K,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,S-O,E-S-K,daun_nangka_2.jpg,Daun nangka,Lidah metua,False
+0,S-O,E-S-K,kamboja_jepang_3.jpg,Kamboja jepang,Daun nangka,False
+0,S-O,E-S-K,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-O,E-S-K,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-O,E-S-K,lidah_metua_5.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-O,E-S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-O,E-S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-O,E-S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-O,E-S-K,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,S-K,N,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-K,N,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,S-K,N,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,S-K,N,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,S-K,N,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,S-K,N,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,S-K,N,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-K,N,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-K,N,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-K,N,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-K,N,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-K,N,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,S-K,E,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-K,E,aglaonema_3.jpg,Aglaonema,Lidah metua,False
+0,S-K,E,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,S-K,E,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,S-K,E,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,S-K,E,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,S-K,E,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-K,E,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-K,E,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-K,E,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-K,E,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-K,E,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,S-K,S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-K,S-O,aglaonema_3.jpg,Aglaonema,Paku tanduk rusa,False
+0,S-K,S-O,daun_nangka_1.jpg,Daun nangka,Paku tanduk rusa,False
+0,S-K,S-O,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,S-K,S-O,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,S-K,S-O,kamboja_jepang_8.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,S-K,S-O,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-K,S-O,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-K,S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,S-O,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,S-K,S-K,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-K,S-K,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,S-K,S-K,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,S-K,S-K,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,S-K,S-K,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,S-K,S-K,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-K,S-K,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-K,S-K,lidah_metua_5.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-K,S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,S-K,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,S-K,E-S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-K,E-S-O,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,S-K,E-S-O,daun_nangka_1.jpg,Daun nangka,Paku tanduk rusa,False
+0,S-K,E-S-O,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,S-K,E-S-O,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,S-K,E-S-O,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,S-K,E-S-O,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-K,E-S-O,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,S-K,E-S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,E-S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,E-S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,S-K,E-S-O,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,S-K,E-S-K,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,S-K,E-S-K,aglaonema_3.jpg,Aglaonema,Lidah metua,False
+0,S-K,E-S-K,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,S-K,E-S-K,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,S-K,E-S-K,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,S-K,E-S-K,kamboja_jepang_8.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,S-K,E-S-K,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-K,E-S-K,lidah_metua_5.jpg,Lidah metua,Paku tanduk rusa,False
+0,S-K,E-S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-K,E-S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-K,E-S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Lidah metua,False
+0,S-K,E-S-K,peperomium_semangka_5.jpg,Peperomium semangka,Peperomium semangka,True
+0,E-S-O,N,aglaonema_10.jpg,Aglaonema,Paku tanduk rusa,False
+0,E-S-O,N,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,N,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,E-S-O,N,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,E-S-O,N,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,E-S-O,N,kamboja_jepang_8.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,E-S-O,N,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-O,N,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E-S-O,N,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E-S-O,N,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E-S-O,N,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,N,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,E-S-O,E,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,E,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,E,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,E-S-O,E,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,E-S-O,E,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,E-S-O,E,kamboja_jepang_8.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,E-S-O,E,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-O,E,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E-S-O,E,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E-S-O,E,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E-S-O,E,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,E,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,E-S-O,S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,S-O,aglaonema_3.jpg,Aglaonema,Paku tanduk rusa,False
+0,E-S-O,S-O,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E-S-O,S-O,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,E-S-O,S-O,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,E-S-O,S-O,kamboja_jepang_8.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,E-S-O,S-O,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-O,S-O,lidah_metua_5.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-O,S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,S-O,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,E-S-O,S-K,aglaonema_10.jpg,Aglaonema,Paku tanduk rusa,False
+0,E-S-O,S-K,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,S-K,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,E-S-O,S-K,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,E-S-O,S-K,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,E-S-O,S-K,kamboja_jepang_8.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,E-S-O,S-K,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-O,S-K,lidah_metua_5.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-O,S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,S-K,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,E-S-O,E-S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,E-S-O,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,E-S-O,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E-S-O,E-S-O,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,E-S-O,E-S-O,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,E-S-O,E-S-O,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-O,E-S-O,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-O,E-S-O,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E-S-O,E-S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,E-S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,E-S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,E-S-O,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,E-S-O,E-S-K,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,E-S-K,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E-S-O,E-S-K,daun_nangka_1.jpg,Daun nangka,Lidah metua,False
+0,E-S-O,E-S-K,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,E-S-O,E-S-K,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,E-S-O,E-S-K,kamboja_jepang_8.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,E-S-O,E-S-K,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-O,E-S-K,lidah_metua_5.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-O,E-S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E-S-O,E-S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Lidah metua,False
+0,E-S-O,E-S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-O,E-S-K,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,E-S-K,N,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-K,N,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,E-S-K,N,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,N,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,N,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,E-S-K,N,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,E-S-K,N,lidah_metua_2.jpg,Lidah metua,Lidah metua,True
+0,E-S-K,N,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E-S-K,N,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,N,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,N,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,N,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,E-S-K,E,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-K,E,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E-S-K,E,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,E,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,E,kamboja_jepang_3.jpg,Kamboja jepang,Lidah metua,False
+0,E-S-K,E,kamboja_jepang_8.jpg,Kamboja jepang,Lidah metua,False
+0,E-S-K,E,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-K,E,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E-S-K,E,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,E,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,E,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,E,peperomium_semangka_5.jpg,Peperomium semangka,Lidah metua,False
+0,E-S-K,S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-K,S-O,aglaonema_3.jpg,Aglaonema,Paku tanduk rusa,False
+0,E-S-K,S-O,daun_nangka_1.jpg,Daun nangka,Paku tanduk rusa,False
+0,E-S-K,S-O,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,E-S-K,S-O,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,E-S-K,S-O,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-K,S-O,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-K,S-O,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E-S-K,S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,S-O,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,E-S-K,S-K,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-K,S-K,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,E-S-K,S-K,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,S-K,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,S-K,kamboja_jepang_3.jpg,Kamboja jepang,Paku tanduk rusa,False
+0,E-S-K,S-K,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-K,S-K,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-K,S-K,lidah_metua_5.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-K,S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,S-K,peperomium_semangka_5.jpg,Peperomium semangka,Kamboja jepang,False
+0,E-S-K,E-S-O,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-K,E-S-O,aglaonema_3.jpg,Aglaonema,Daun nangka,False
+0,E-S-K,E-S-O,daun_nangka_1.jpg,Daun nangka,Paku tanduk rusa,False
+0,E-S-K,E-S-O,daun_nangka_2.jpg,Daun nangka,Paku tanduk rusa,False
+0,E-S-K,E-S-O,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-K,E-S-O,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-K,E-S-O,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-K,E-S-O,lidah_metua_5.jpg,Lidah metua,Lidah metua,True
+0,E-S-K,E-S-O,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,E-S-O,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,E-S-O,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,E-S-O,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+0,E-S-K,E-S-K,aglaonema_10.jpg,Aglaonema,Aglaonema,True
+0,E-S-K,E-S-K,aglaonema_3.jpg,Aglaonema,Aglaonema,True
+0,E-S-K,E-S-K,daun_nangka_1.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,E-S-K,daun_nangka_2.jpg,Daun nangka,Daun nangka,True
+0,E-S-K,E-S-K,kamboja_jepang_3.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-K,E-S-K,kamboja_jepang_8.jpg,Kamboja jepang,Kamboja jepang,True
+0,E-S-K,E-S-K,lidah_metua_2.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-K,E-S-K,lidah_metua_5.jpg,Lidah metua,Paku tanduk rusa,False
+0,E-S-K,E-S-K,paku_tanduk_rusa_10.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,E-S-K,paku_tanduk_rusa_12.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,E-S-K,paku_tanduk_rusa_8.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+0,E-S-K,E-S-K,peperomium_semangka_5.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,N,N,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,N,N,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,N,N,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,N,N,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,N,N,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,N,N,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,N,N,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,N,N,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,N,N,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,N,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,N,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,N,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,N,E,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,N,E,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,N,E,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,N,E,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,N,E,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,N,E,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,N,E,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,N,E,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,N,E,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,E,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,N,E,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,E,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,N,S-O,aglaonema_5.jpg,Aglaonema,Lidah metua,False
+1,N,S-O,aglaonema_8.jpg,Aglaonema,Lidah metua,False
+1,N,S-O,daun_nangka_4.jpg,Daun nangka,Lidah metua,False
+1,N,S-O,daun_nangka_9.jpg,Daun nangka,Lidah metua,False
+1,N,S-O,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,N,S-O,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,N,S-O,lidah_metua_12.jpg,Lidah metua,Paku tanduk rusa,False
+1,N,S-O,lidah_metua_4.jpg,Lidah metua,Paku tanduk rusa,False
+1,N,S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Lidah metua,False
+1,N,S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,N,S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,N,S-O,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,N,S-K,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,N,S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,N,S-K,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,N,S-K,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,N,S-K,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,N,S-K,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,N,S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,N,S-K,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,N,S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,N,S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,N,S-K,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,N,E-S-O,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,N,E-S-O,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,N,E-S-O,daun_nangka_4.jpg,Daun nangka,Lidah metua,False
+1,N,E-S-O,daun_nangka_9.jpg,Daun nangka,Lidah metua,False
+1,N,E-S-O,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,N,E-S-O,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,N,E-S-O,lidah_metua_12.jpg,Lidah metua,Paku tanduk rusa,False
+1,N,E-S-O,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,N,E-S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Lidah metua,False
+1,N,E-S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,N,E-S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,N,E-S-O,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,N,E-S-K,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,N,E-S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,N,E-S-K,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,N,E-S-K,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,N,E-S-K,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,N,E-S-K,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,N,E-S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,N,E-S-K,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,N,E-S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,N,E-S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,N,E-S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,N,E-S-K,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E,N,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E,N,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E,N,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E,N,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E,N,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E,N,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,E,N,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E,N,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E,N,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,N,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,N,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,N,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E,E,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E,E,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E,E,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E,E,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E,E,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E,E,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,E,E,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E,E,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E,E,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,E,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E,E,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,E,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E,S-O,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E,S-O,aglaonema_8.jpg,Aglaonema,Lidah metua,False
+1,E,S-O,daun_nangka_4.jpg,Daun nangka,Lidah metua,False
+1,E,S-O,daun_nangka_9.jpg,Daun nangka,Lidah metua,False
+1,E,S-O,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E,S-O,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,E,S-O,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E,S-O,lidah_metua_4.jpg,Lidah metua,Paku tanduk rusa,False
+1,E,S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E,S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E,S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E,S-O,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E,S-K,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E,S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E,S-K,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E,S-K,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E,S-K,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E,S-K,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,E,S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E,S-K,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E,S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E,S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E,S-K,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E,E-S-O,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E,E-S-O,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E,E-S-O,daun_nangka_4.jpg,Daun nangka,Lidah metua,False
+1,E,E-S-O,daun_nangka_9.jpg,Daun nangka,Lidah metua,False
+1,E,E-S-O,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E,E-S-O,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,E,E-S-O,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E,E-S-O,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E,E-S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E,E-S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E,E-S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E,E-S-O,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E,E-S-K,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E,E-S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E,E-S-K,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E,E-S-K,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E,E-S-K,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E,E-S-K,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,E,E-S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E,E-S-K,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E,E-S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E,E-S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E,E-S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E,E-S-K,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,S-O,N,aglaonema_5.jpg,Aglaonema,Paku tanduk rusa,False
+1,S-O,N,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-O,N,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,N,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,N,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-O,N,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,S-O,N,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,S-O,N,lidah_metua_4.jpg,Lidah metua,Paku tanduk rusa,False
+1,S-O,N,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,N,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,N,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,S-O,N,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,S-O,E,aglaonema_5.jpg,Aglaonema,Paku tanduk rusa,False
+1,S-O,E,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-O,E,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,E,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,E,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-O,E,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,S-O,E,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,S-O,E,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-O,E,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,E,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,S-O,E,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,E,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,S-O,S-O,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,S-O,S-O,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-O,S-O,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,S-O,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,S-O,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-O,S-O,kamboja_jepang_7.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-O,S-O,lidah_metua_12.jpg,Lidah metua,Paku tanduk rusa,False
+1,S-O,S-O,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-O,S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,S-O,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,S-O,S-K,aglaonema_5.jpg,Aglaonema,Paku tanduk rusa,False
+1,S-O,S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-O,S-K,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,S-K,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,S-K,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-O,S-K,kamboja_jepang_7.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-O,S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,S-O,S-K,lidah_metua_4.jpg,Lidah metua,Paku tanduk rusa,False
+1,S-O,S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,S-K,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,S-O,E-S-O,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,S-O,E-S-O,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-O,E-S-O,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,E-S-O,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,E-S-O,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-O,E-S-O,kamboja_jepang_7.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-O,E-S-O,lidah_metua_12.jpg,Lidah metua,Paku tanduk rusa,False
+1,S-O,E-S-O,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-O,E-S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,E-S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,E-S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,E-S-O,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,S-O,E-S-K,aglaonema_5.jpg,Aglaonema,Paku tanduk rusa,False
+1,S-O,E-S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-O,E-S-K,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,E-S-K,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-O,E-S-K,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-O,E-S-K,kamboja_jepang_7.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-O,E-S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,S-O,E-S-K,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-O,E-S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,E-S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,E-S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-O,E-S-K,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,S-K,N,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,S-K,N,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-K,N,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,S-K,N,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,S-K,N,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,S-K,N,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,S-K,N,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,S-K,N,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-K,N,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,N,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,S-K,N,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,S-K,N,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,S-K,E,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,S-K,E,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-K,E,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,S-K,E,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,S-K,E,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,S-K,E,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,S-K,E,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,S-K,E,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-K,E,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,E,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,S-K,E,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,S-K,E,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,S-K,S-O,aglaonema_5.jpg,Aglaonema,Paku tanduk rusa,False
+1,S-K,S-O,aglaonema_8.jpg,Aglaonema,Lidah metua,False
+1,S-K,S-O,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-K,S-O,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-K,S-O,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-K,S-O,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,S-K,S-O,lidah_metua_12.jpg,Lidah metua,Paku tanduk rusa,False
+1,S-K,S-O,lidah_metua_4.jpg,Lidah metua,Paku tanduk rusa,False
+1,S-K,S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,S-O,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,S-K,S-K,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,S-K,S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-K,S-K,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,S-K,S-K,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,S-K,S-K,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,S-K,S-K,kamboja_jepang_7.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-K,S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,S-K,S-K,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-K,S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,S-K,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,S-K,E-S-O,aglaonema_5.jpg,Aglaonema,Paku tanduk rusa,False
+1,S-K,E-S-O,aglaonema_8.jpg,Aglaonema,Lidah metua,False
+1,S-K,E-S-O,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-K,E-S-O,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,S-K,E-S-O,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-K,E-S-O,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,S-K,E-S-O,lidah_metua_12.jpg,Lidah metua,Paku tanduk rusa,False
+1,S-K,E-S-O,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-K,E-S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,E-S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,E-S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,E-S-O,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,S-K,E-S-K,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,S-K,E-S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,S-K,E-S-K,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,S-K,E-S-K,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,S-K,E-S-K,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-K,E-S-K,kamboja_jepang_7.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,S-K,E-S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,S-K,E-S-K,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,S-K,E-S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,E-S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,E-S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,S-K,E-S-K,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,E-S-O,N,aglaonema_5.jpg,Aglaonema,Paku tanduk rusa,False
+1,E-S-O,N,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-O,N,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,E-S-O,N,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,E-S-O,N,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,E-S-O,N,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-O,N,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,N,lidah_metua_4.jpg,Lidah metua,Paku tanduk rusa,False
+1,E-S-O,N,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-O,N,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-O,N,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-O,N,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,E-S-O,E,aglaonema_5.jpg,Aglaonema,Paku tanduk rusa,False
+1,E-S-O,E,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-O,E,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,E-S-O,E,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,E-S-O,E,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,E-S-O,E,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-O,E,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,E,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,E,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,E,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-O,E,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-O,E,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,E-S-O,S-O,aglaonema_5.jpg,Aglaonema,Paku tanduk rusa,False
+1,E-S-O,S-O,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-O,S-O,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,E-S-O,S-O,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,E-S-O,S-O,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,E-S-O,S-O,kamboja_jepang_7.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,E-S-O,S-O,lidah_metua_12.jpg,Lidah metua,Paku tanduk rusa,False
+1,E-S-O,S-O,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,S-O,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,E-S-O,S-K,aglaonema_5.jpg,Aglaonema,Paku tanduk rusa,False
+1,E-S-O,S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-O,S-K,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,E-S-O,S-K,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,E-S-O,S-K,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,E-S-O,S-K,kamboja_jepang_7.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,E-S-O,S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,S-K,lidah_metua_4.jpg,Lidah metua,Paku tanduk rusa,False
+1,E-S-O,S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,S-K,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,E-S-O,E-S-O,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E-S-O,E-S-O,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-O,E-S-O,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E-S-O,E-S-O,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,E-S-O,E-S-O,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,E-S-O,E-S-O,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-O,E-S-O,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,E-S-O,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,E-S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,E-S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,E-S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,E-S-O,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,E-S-O,E-S-K,aglaonema_5.jpg,Aglaonema,Paku tanduk rusa,False
+1,E-S-O,E-S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-O,E-S-K,daun_nangka_4.jpg,Daun nangka,Paku tanduk rusa,False
+1,E-S-O,E-S-K,daun_nangka_9.jpg,Daun nangka,Paku tanduk rusa,False
+1,E-S-O,E-S-K,kamboja_jepang_2.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,E-S-O,E-S-K,kamboja_jepang_7.jpg,Kamboja jepang,Paku tanduk rusa,False
+1,E-S-O,E-S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,E-S-K,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-O,E-S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,E-S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,E-S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-O,E-S-K,peperomium_semangka_3.jpg,Peperomium semangka,Paku tanduk rusa,False
+1,E-S-K,N,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,N,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,N,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,N,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,N,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,N,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,N,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,N,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,N,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-K,N,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-K,N,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-K,N,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E-S-K,E,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,E,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,E,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,E,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,E,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,E,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,E,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,E,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,E,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-K,E,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-K,E,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-K,E,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E-S-K,S-O,aglaonema_5.jpg,Aglaonema,Lidah metua,False
+1,E-S-K,S-O,aglaonema_8.jpg,Aglaonema,Lidah metua,False
+1,E-S-K,S-O,daun_nangka_4.jpg,Daun nangka,Lidah metua,False
+1,E-S-K,S-O,daun_nangka_9.jpg,Daun nangka,Lidah metua,False
+1,E-S-K,S-O,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,S-O,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,S-O,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,S-O,lidah_metua_4.jpg,Lidah metua,Paku tanduk rusa,False
+1,E-S-K,S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,S-O,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E-S-K,S-K,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,S-K,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,S-K,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,S-K,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,S-K,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,E-S-K,S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,S-K,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-K,S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,S-K,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E-S-K,E-S-O,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,E-S-O,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,E-S-O,daun_nangka_4.jpg,Daun nangka,Kamboja jepang,False
+1,E-S-K,E-S-O,daun_nangka_9.jpg,Daun nangka,Lidah metua,False
+1,E-S-K,E-S-O,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,E-S-O,kamboja_jepang_7.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,E-S-O,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,E-S-O,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,E-S-O,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,E-S-O,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,E-S-O,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,E-S-O,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+1,E-S-K,E-S-K,aglaonema_5.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,E-S-K,aglaonema_8.jpg,Aglaonema,Aglaonema,True
+1,E-S-K,E-S-K,daun_nangka_4.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,E-S-K,daun_nangka_9.jpg,Daun nangka,Daun nangka,True
+1,E-S-K,E-S-K,kamboja_jepang_2.jpg,Kamboja jepang,Lidah metua,False
+1,E-S-K,E-S-K,kamboja_jepang_7.jpg,Kamboja jepang,Kamboja jepang,True
+1,E-S-K,E-S-K,lidah_metua_12.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,E-S-K,lidah_metua_4.jpg,Lidah metua,Lidah metua,True
+1,E-S-K,E-S-K,paku_tanduk_rusa_11.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+1,E-S-K,E-S-K,paku_tanduk_rusa_2.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,E-S-K,paku_tanduk_rusa_5.jpeg,Paku tanduk rusa,Lidah metua,False
+1,E-S-K,E-S-K,peperomium_semangka_3.jpg,Peperomium semangka,Lidah metua,False
+2,N,N,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,N,N,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,N,N,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,N,N,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,N,N,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,N,N,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,N,N,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,N,N,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,N,N,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,N,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,N,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,N,N,peperomium_semangka_2.jpg,Peperomium semangka,Peperomium semangka,True
+2,N,E,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,N,E,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,N,E,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,N,E,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,N,E,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,N,E,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,N,E,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,N,E,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,N,E,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,E,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,E,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,N,E,peperomium_semangka_2.jpg,Peperomium semangka,Peperomium semangka,True
+2,N,S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,N,S-O,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,N,S-O,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,N,S-O,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,N,S-O,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,N,S-O,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,N,S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,N,S-O,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,N,S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Lidah metua,False
+2,N,S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,N,S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,N,S-O,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,N,S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,N,S-K,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,N,S-K,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,N,S-K,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,N,S-K,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,N,S-K,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,N,S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,N,S-K,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,N,S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,N,S-K,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,N,E-S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,N,E-S-O,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,N,E-S-O,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,N,E-S-O,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,N,E-S-O,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,N,E-S-O,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,N,E-S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,N,E-S-O,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,N,E-S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,E-S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,N,E-S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,N,E-S-O,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,N,E-S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,N,E-S-K,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,N,E-S-K,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,N,E-S-K,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,N,E-S-K,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,N,E-S-K,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,N,E-S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,N,E-S-K,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,N,E-S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,E-S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,N,E-S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,N,E-S-K,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,E,N,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E,N,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E,N,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,E,N,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E,N,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,E,N,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E,N,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E,N,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E,N,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,N,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,N,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,E,N,peperomium_semangka_2.jpg,Peperomium semangka,Peperomium semangka,True
+2,E,E,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E,E,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E,E,daun_nangka_3.jpg,Daun nangka,Aglaonema,False
+2,E,E,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E,E,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,E,E,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E,E,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E,E,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E,E,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,E,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,E,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,E,E,peperomium_semangka_2.jpg,Peperomium semangka,Peperomium semangka,True
+2,E,S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E,S-O,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,E,S-O,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,E,S-O,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,E,S-O,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,E,S-O,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,E,S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E,S-O,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E,S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E,S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E,S-O,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,E,S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E,S-K,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E,S-K,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,E,S-K,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E,S-K,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,E,S-K,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,E,S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E,S-K,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,E,S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E,S-K,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,E,E-S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E,E-S-O,aglaonema_7.jpg,Aglaonema,Daun nangka,False
+2,E,E-S-O,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,E,E-S-O,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,E,E-S-O,kamboja_jepang_6.jpg,Kamboja jepang,Daun nangka,False
+2,E,E-S-O,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,E,E-S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E,E-S-O,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E,E-S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,E-S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E,E-S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E,E-S-O,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,E,E-S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E,E-S-K,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E,E-S-K,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,E,E-S-K,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E,E-S-K,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,E,E-S-K,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,E,E-S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E,E-S-K,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E,E-S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,E-S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E,E-S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E,E-S-K,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,S-O,N,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-O,N,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,S-O,N,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,S-O,N,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,S-O,N,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,S-O,N,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,S-O,N,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-O,N,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,S-O,N,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,N,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,N,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,N,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,S-O,E,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-O,E,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,S-O,E,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,S-O,E,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,S-O,E,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,S-O,E,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,S-O,E,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-O,E,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,S-O,E,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,E,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,E,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,E,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,S-O,S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-O,S-O,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,S-O,S-O,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,S-O,S-O,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,S-O,S-O,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,S-O,S-O,kamboja_jepang_9.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,S-O,S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-O,S-O,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,S-O,S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-O,S-O,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,S-O,S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-O,S-K,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,S-O,S-K,daun_nangka_3.jpg,Daun nangka,Paku tanduk rusa,False
+2,S-O,S-K,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,S-O,S-K,kamboja_jepang_6.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,S-O,S-K,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,S-O,S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-O,S-K,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,S-O,S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,S-K,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,S-O,E-S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-O,E-S-O,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,S-O,E-S-O,daun_nangka_3.jpg,Daun nangka,Paku tanduk rusa,False
+2,S-O,E-S-O,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,S-O,E-S-O,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,S-O,E-S-O,kamboja_jepang_9.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,S-O,E-S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-O,E-S-O,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,S-O,E-S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-O,E-S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,E-S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-O,E-S-O,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,S-O,E-S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-O,E-S-K,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,S-O,E-S-K,daun_nangka_3.jpg,Daun nangka,Paku tanduk rusa,False
+2,S-O,E-S-K,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,S-O,E-S-K,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,S-O,E-S-K,kamboja_jepang_9.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,S-O,E-S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-O,E-S-K,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,S-O,E-S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,E-S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-O,E-S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-O,E-S-K,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,S-K,N,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-K,N,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,S-K,N,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,S-K,N,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,S-K,N,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,S-K,N,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,S-K,N,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-K,N,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,S-K,N,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,N,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-K,N,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,S-K,N,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,S-K,E,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-K,E,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,S-K,E,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,S-K,E,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,S-K,E,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,S-K,E,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,S-K,E,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-K,E,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,S-K,E,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-K,E,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-K,E,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,S-K,E,peperomium_semangka_2.jpg,Peperomium semangka,Aglaonema,False
+2,S-K,S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-K,S-O,aglaonema_7.jpg,Aglaonema,Paku tanduk rusa,False
+2,S-K,S-O,daun_nangka_3.jpg,Daun nangka,Paku tanduk rusa,False
+2,S-K,S-O,daun_nangka_5.jpg,Daun nangka,Paku tanduk rusa,False
+2,S-K,S-O,kamboja_jepang_6.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,S-K,S-O,kamboja_jepang_9.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,S-K,S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-K,S-O,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,S-K,S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,S-O,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,S-K,S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-K,S-K,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,S-K,S-K,daun_nangka_3.jpg,Daun nangka,Paku tanduk rusa,False
+2,S-K,S-K,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,S-K,S-K,kamboja_jepang_6.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,S-K,S-K,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,S-K,S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-K,S-K,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,S-K,S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,S-K,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,S-K,E-S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-K,E-S-O,aglaonema_7.jpg,Aglaonema,Paku tanduk rusa,False
+2,S-K,E-S-O,daun_nangka_3.jpg,Daun nangka,Paku tanduk rusa,False
+2,S-K,E-S-O,daun_nangka_5.jpg,Daun nangka,Paku tanduk rusa,False
+2,S-K,E-S-O,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,S-K,E-S-O,kamboja_jepang_9.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,S-K,E-S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-K,E-S-O,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,S-K,E-S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,E-S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,E-S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,E-S-O,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,S-K,E-S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,S-K,E-S-K,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,S-K,E-S-K,daun_nangka_3.jpg,Daun nangka,Paku tanduk rusa,False
+2,S-K,E-S-K,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,S-K,E-S-K,kamboja_jepang_6.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,S-K,E-S-K,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,S-K,E-S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,S-K,E-S-K,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,S-K,E-S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-K,E-S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,S-K,E-S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,S-K,E-S-K,peperomium_semangka_2.jpg,Peperomium semangka,Peperomium semangka,True
+2,E-S-O,N,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,N,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,E-S-O,N,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,E-S-O,N,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,E-S-O,N,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,E-S-O,N,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,E-S-O,N,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,N,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,N,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-O,N,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-O,N,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-O,N,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,E-S-O,E,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,E,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,E-S-O,E,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,E-S-O,E,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,E-S-O,E,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,E-S-O,E,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,E-S-O,E,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,E,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,E,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-O,E,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-O,E,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-O,E,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,E-S-O,S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,S-O,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,S-O,daun_nangka_3.jpg,Daun nangka,Paku tanduk rusa,False
+2,E-S-O,S-O,daun_nangka_5.jpg,Daun nangka,Paku tanduk rusa,False
+2,E-S-O,S-O,kamboja_jepang_6.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,E-S-O,S-O,kamboja_jepang_9.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,E-S-O,S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,S-O,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,E-S-O,S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,S-O,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,E-S-O,S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,S-K,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,E-S-O,S-K,daun_nangka_3.jpg,Daun nangka,Paku tanduk rusa,False
+2,E-S-O,S-K,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,E-S-O,S-K,kamboja_jepang_6.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,E-S-O,S-K,kamboja_jepang_9.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,E-S-O,S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,S-K,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-O,S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,S-K,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,E-S-O,E-S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,E-S-O,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,E-S-O,daun_nangka_3.jpg,Daun nangka,Daun nangka,True
+2,E-S-O,E-S-O,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E-S-O,E-S-O,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,E-S-O,E-S-O,kamboja_jepang_9.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,E-S-O,E-S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,E-S-O,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,E-S-O,E-S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,E-S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,E-S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,E-S-O,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,E-S-O,E-S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-O,E-S-K,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,E-S-O,E-S-K,daun_nangka_3.jpg,Daun nangka,Paku tanduk rusa,False
+2,E-S-O,E-S-K,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,E-S-O,E-S-K,kamboja_jepang_6.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,E-S-O,E-S-K,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-O,E-S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-O,E-S-K,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,E-S-O,E-S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-O,E-S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-O,E-S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-O,E-S-K,peperomium_semangka_2.jpg,Peperomium semangka,Paku tanduk rusa,False
+2,E-S-K,N,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,N,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,N,daun_nangka_3.jpg,Daun nangka,Aglaonema,False
+2,E-S-K,N,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E-S-K,N,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,E-S-K,N,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,E-S-K,N,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,N,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,N,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,N,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,N,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,E-S-K,N,peperomium_semangka_2.jpg,Peperomium semangka,Aglaonema,False
+2,E-S-K,E,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,E,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,E,daun_nangka_3.jpg,Daun nangka,Aglaonema,False
+2,E-S-K,E,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E-S-K,E,kamboja_jepang_6.jpg,Kamboja jepang,Aglaonema,False
+2,E-S-K,E,kamboja_jepang_9.jpg,Kamboja jepang,Lidah metua,False
+2,E-S-K,E,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,E,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,E,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,E,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,E,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Daun nangka,False
+2,E-S-K,E,peperomium_semangka_2.jpg,Peperomium semangka,Aglaonema,False
+2,E-S-K,S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,S-O,aglaonema_7.jpg,Aglaonema,Lidah metua,False
+2,E-S-K,S-O,daun_nangka_3.jpg,Daun nangka,Kamboja jepang,False
+2,E-S-K,S-O,daun_nangka_5.jpg,Daun nangka,Lidah metua,False
+2,E-S-K,S-O,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-K,S-O,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-K,S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,S-O,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-K,S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-K,S-O,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,E-S-K,S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,S-K,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,S-K,daun_nangka_3.jpg,Daun nangka,Kamboja jepang,False
+2,E-S-K,S-K,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E-S-K,S-K,kamboja_jepang_6.jpg,Kamboja jepang,Lidah metua,False
+2,E-S-K,S-K,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-K,S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,S-K,lidah_metua_7.jpg,Lidah metua,Paku tanduk rusa,False
+2,E-S-K,S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-K,S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-K,S-K,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,E-S-K,E-S-O,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,E-S-O,aglaonema_7.jpg,Aglaonema,Paku tanduk rusa,False
+2,E-S-K,E-S-O,daun_nangka_3.jpg,Daun nangka,Lidah metua,False
+2,E-S-K,E-S-O,daun_nangka_5.jpg,Daun nangka,Kamboja jepang,False
+2,E-S-K,E-S-O,kamboja_jepang_6.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-K,E-S-O,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-K,E-S-O,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,E-S-O,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,E-S-O,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,E-S-O,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,E-S-O,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Kamboja jepang,False
+2,E-S-K,E-S-O,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+2,E-S-K,E-S-K,aglaonema_2.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,E-S-K,aglaonema_7.jpg,Aglaonema,Aglaonema,True
+2,E-S-K,E-S-K,daun_nangka_3.jpg,Daun nangka,Kamboja jepang,False
+2,E-S-K,E-S-K,daun_nangka_5.jpg,Daun nangka,Daun nangka,True
+2,E-S-K,E-S-K,kamboja_jepang_6.jpg,Kamboja jepang,Paku tanduk rusa,False
+2,E-S-K,E-S-K,kamboja_jepang_9.jpg,Kamboja jepang,Kamboja jepang,True
+2,E-S-K,E-S-K,lidah_metua_10.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,E-S-K,lidah_metua_7.jpg,Lidah metua,Lidah metua,True
+2,E-S-K,E-S-K,paku_tanduk_rusa_14.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,E-S-K,paku_tanduk_rusa_4.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+2,E-S-K,E-S-K,paku_tanduk_rusa_6.jpeg,Paku tanduk rusa,Lidah metua,False
+2,E-S-K,E-S-K,peperomium_semangka_2.jpg,Peperomium semangka,Lidah metua,False
+3,N,N,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,N,N,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,N,N,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,N,N,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,N,N,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,N,N,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,N,N,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,N,N,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,N,N,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,N,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,N,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,N,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,N,E,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,N,E,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,N,E,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,N,E,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,N,E,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,N,E,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,N,E,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,N,E,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,N,E,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,E,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,E,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,E,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,N,S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,N,S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,N,S-O,daun_nangka_6.jpg,Daun nangka,Lidah metua,False
+3,N,S-O,daun_nangka_8.jpg,Daun nangka,Lidah metua,False
+3,N,S-O,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,N,S-O,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,N,S-O,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,N,S-O,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,N,S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,N,S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Lidah metua,False
+3,N,S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,N,S-O,peperomium_semangka_6.jpg,Peperomium semangka,Kamboja jepang,False
+3,N,S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,N,S-K,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,N,S-K,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,N,S-K,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,N,S-K,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,N,S-K,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,N,S-K,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,N,S-K,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,N,S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,N,S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,N,S-K,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,N,E-S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,N,E-S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,N,E-S-O,daun_nangka_6.jpg,Daun nangka,Lidah metua,False
+3,N,E-S-O,daun_nangka_8.jpg,Daun nangka,Lidah metua,False
+3,N,E-S-O,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,N,E-S-O,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,N,E-S-O,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,N,E-S-O,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,N,E-S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,N,E-S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Lidah metua,False
+3,N,E-S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,N,E-S-O,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,N,E-S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,N,E-S-K,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,N,E-S-K,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,N,E-S-K,daun_nangka_8.jpg,Daun nangka,Aglaonema,False
+3,N,E-S-K,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,N,E-S-K,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,N,E-S-K,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,N,E-S-K,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,N,E-S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,N,E-S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,N,E-S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,N,E-S-K,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E,N,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E,N,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E,N,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,E,N,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E,N,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,E,N,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E,N,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E,N,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E,N,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,N,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,N,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,N,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,E,E,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E,E,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E,E,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,E,E,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E,E,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,E,E,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E,E,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E,E,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E,E,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,E,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,E,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,E,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,E,S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E,S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E,S-O,daun_nangka_6.jpg,Daun nangka,Lidah metua,False
+3,E,S-O,daun_nangka_8.jpg,Daun nangka,Lidah metua,False
+3,E,S-O,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,E,S-O,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E,S-O,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E,S-O,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E,S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,S-O,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E,S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E,S-K,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E,S-K,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,E,S-K,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E,S-K,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,E,S-K,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E,S-K,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E,S-K,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E,S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,S-K,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E,E-S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E,E-S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E,E-S-O,daun_nangka_6.jpg,Daun nangka,Lidah metua,False
+3,E,E-S-O,daun_nangka_8.jpg,Daun nangka,Lidah metua,False
+3,E,E-S-O,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,E,E-S-O,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E,E-S-O,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E,E-S-O,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E,E-S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,E-S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,E-S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,E-S-O,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E,E-S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E,E-S-K,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E,E-S-K,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,E,E-S-K,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E,E-S-K,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,E,E-S-K,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E,E-S-K,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E,E-S-K,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E,E-S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,E-S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E,E-S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E,E-S-K,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,S-O,N,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-O,N,aglaonema_9.jpg,Aglaonema,Lidah metua,False
+3,S-O,N,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-O,N,daun_nangka_8.jpg,Daun nangka,Aglaonema,False
+3,S-O,N,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,S-O,N,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,N,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,N,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,N,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,N,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,N,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,S-O,N,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,S-O,E,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-O,E,aglaonema_9.jpg,Aglaonema,Lidah metua,False
+3,S-O,E,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-O,E,daun_nangka_8.jpg,Daun nangka,Lidah metua,False
+3,S-O,E,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,S-O,E,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,E,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,S-O,E,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,E,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,E,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,E,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,S-O,E,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,S-O,S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-O,S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-O,S-O,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-O,S-O,daun_nangka_8.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-O,S-O,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,S-O,S-O,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,S-O,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,S-O,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,S-O,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,S-O,S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-O,S-K,aglaonema_9.jpg,Aglaonema,Lidah metua,False
+3,S-O,S-K,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-O,S-K,daun_nangka_8.jpg,Daun nangka,Aglaonema,False
+3,S-O,S-K,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,S-O,S-K,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,S-K,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,S-K,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,S-K,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,S-O,E-S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-O,E-S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-O,E-S-O,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-O,E-S-O,daun_nangka_8.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-O,E-S-O,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,S-O,E-S-O,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,E-S-O,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,E-S-O,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,E-S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,E-S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,E-S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,E-S-O,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,S-O,E-S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-O,E-S-K,aglaonema_9.jpg,Aglaonema,Lidah metua,False
+3,S-O,E-S-K,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-O,E-S-K,daun_nangka_8.jpg,Daun nangka,Aglaonema,False
+3,S-O,E-S-K,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,S-O,E-S-K,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,E-S-K,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,S-O,E-S-K,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-O,E-S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,E-S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,E-S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-O,E-S-K,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,S-K,N,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-K,N,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-K,N,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,S-K,N,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,S-K,N,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,S-K,N,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,S-K,N,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,S-K,N,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-K,N,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,N,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,N,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,N,peperomium_semangka_6.jpg,Peperomium semangka,Aglaonema,False
+3,S-K,E,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-K,E,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-K,E,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-K,E,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,S-K,E,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,S-K,E,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,S-K,E,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,S-K,E,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-K,E,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,S-K,E,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,E,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,E,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,S-K,S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-K,S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-K,S-O,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-K,S-O,daun_nangka_8.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-K,S-O,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,S-K,S-O,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-K,S-O,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-K,S-O,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-K,S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,S-O,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,S-K,S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-K,S-K,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-K,S-K,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,S-K,S-K,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,S-K,S-K,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,S-K,S-K,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,S-K,S-K,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-K,S-K,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-K,S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,S-K,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,S-K,E-S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-K,E-S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-K,E-S-O,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-K,E-S-O,daun_nangka_8.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-K,E-S-O,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,S-K,E-S-O,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-K,E-S-O,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-K,E-S-O,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-K,E-S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,E-S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,E-S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,E-S-O,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,S-K,E-S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,S-K,E-S-K,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,S-K,E-S-K,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,S-K,E-S-K,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,S-K,E-S-K,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,S-K,E-S-K,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,S-K,E-S-K,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,S-K,E-S-K,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,S-K,E-S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,E-S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,E-S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,S-K,E-S-K,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,E-S-O,N,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,N,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,N,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,E-S-O,N,daun_nangka_8.jpg,Daun nangka,Lidah metua,False
+3,E-S-O,N,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,E-S-O,N,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,N,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,N,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,N,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,N,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,N,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-O,N,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E-S-O,E,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,E,aglaonema_9.jpg,Aglaonema,Lidah metua,False
+3,E-S-O,E,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,E-S-O,E,daun_nangka_8.jpg,Daun nangka,Lidah metua,False
+3,E-S-O,E,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,E-S-O,E,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,E,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E-S-O,E,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,E,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,E,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,E,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-O,E,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E-S-O,S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,S-O,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,E-S-O,S-O,daun_nangka_8.jpg,Daun nangka,Paku tanduk rusa,False
+3,E-S-O,S-O,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,E-S-O,S-O,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,S-O,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,S-O,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,S-O,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,E-S-O,S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,S-K,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,S-K,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,E-S-O,S-K,daun_nangka_8.jpg,Daun nangka,Aglaonema,False
+3,E-S-O,S-K,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,E-S-O,S-K,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,S-K,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,S-K,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,S-K,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,E-S-O,E-S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,E-S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,E-S-O,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,E-S-O,E-S-O,daun_nangka_8.jpg,Daun nangka,Paku tanduk rusa,False
+3,E-S-O,E-S-O,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,E-S-O,E-S-O,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,E-S-O,lidah_metua_3.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,E-S-O,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,E-S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,E-S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,E-S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,E-S-O,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,E-S-O,E-S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-O,E-S-K,aglaonema_9.jpg,Aglaonema,Lidah metua,False
+3,E-S-O,E-S-K,daun_nangka_6.jpg,Daun nangka,Paku tanduk rusa,False
+3,E-S-O,E-S-K,daun_nangka_8.jpg,Daun nangka,Lidah metua,False
+3,E-S-O,E-S-K,kamboja_jepang_4.jpg,Kamboja jepang,Paku tanduk rusa,False
+3,E-S-O,E-S-K,lidah_metua_1.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,E-S-K,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E-S-O,E-S-K,lidah_metua_6.jpg,Lidah metua,Paku tanduk rusa,False
+3,E-S-O,E-S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,E-S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,E-S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-O,E-S-K,peperomium_semangka_6.jpg,Peperomium semangka,Paku tanduk rusa,False
+3,E-S-K,N,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,N,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,N,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,E-S-K,N,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E-S-K,N,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,E-S-K,N,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,N,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,N,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,N,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,N,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,N,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,N,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E-S-K,E,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,E,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,E,daun_nangka_6.jpg,Daun nangka,Lidah metua,False
+3,E-S-K,E,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E-S-K,E,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,E-S-K,E,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,E,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,E,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,E,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,E,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,E,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,E,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E-S-K,S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,S-O,daun_nangka_6.jpg,Daun nangka,Lidah metua,False
+3,E-S-K,S-O,daun_nangka_8.jpg,Daun nangka,Lidah metua,False
+3,E-S-K,S-O,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,E-S-K,S-O,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,S-O,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,S-O,lidah_metua_6.jpg,Lidah metua,Kamboja jepang,False
+3,E-S-K,S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-K,S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-K,S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-K,S-O,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E-S-K,S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,S-K,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,S-K,daun_nangka_6.jpg,Daun nangka,Daun nangka,True
+3,E-S-K,S-K,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E-S-K,S-K,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,E-S-K,S-K,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,S-K,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,S-K,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-K,S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-K,S-K,peperomium_semangka_6.jpg,Peperomium semangka,Peperomium semangka,True
+3,E-S-K,E-S-O,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,E-S-O,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,E-S-O,daun_nangka_6.jpg,Daun nangka,Lidah metua,False
+3,E-S-K,E-S-O,daun_nangka_8.jpg,Daun nangka,Lidah metua,False
+3,E-S-K,E-S-O,kamboja_jepang_4.jpg,Kamboja jepang,Lidah metua,False
+3,E-S-K,E-S-O,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,E-S-O,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,E-S-O,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,E-S-O,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-K,E-S-O,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-K,E-S-O,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-K,E-S-O,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+3,E-S-K,E-S-K,aglaonema_4.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,E-S-K,aglaonema_9.jpg,Aglaonema,Aglaonema,True
+3,E-S-K,E-S-K,daun_nangka_6.jpg,Daun nangka,Lidah metua,False
+3,E-S-K,E-S-K,daun_nangka_8.jpg,Daun nangka,Daun nangka,True
+3,E-S-K,E-S-K,kamboja_jepang_4.jpg,Kamboja jepang,Kamboja jepang,True
+3,E-S-K,E-S-K,lidah_metua_1.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,E-S-K,lidah_metua_3.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,E-S-K,lidah_metua_6.jpg,Lidah metua,Lidah metua,True
+3,E-S-K,E-S-K,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-K,E-S-K,paku_tanduk_rusa_13.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+3,E-S-K,E-S-K,paku_tanduk_rusa_7.jpeg,Paku tanduk rusa,Lidah metua,False
+3,E-S-K,E-S-K,peperomium_semangka_6.jpg,Peperomium semangka,Lidah metua,False
+4,N,N,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,N,N,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,N,N,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,N,N,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,N,N,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,N,N,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,N,N,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,N,N,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,N,N,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,N,N,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,N,N,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,N,N,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,N,E,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,N,E,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,N,E,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,N,E,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,N,E,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,N,E,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,N,E,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,N,E,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,N,E,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,N,E,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,N,E,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,N,E,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,N,S-O,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,N,S-O,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,N,S-O,daun_nangka_7.jpg,Daun nangka,Lidah metua,False
+4,N,S-O,kamboja_jepang_1.jpg,Kamboja jepang,Lidah metua,False
+4,N,S-O,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,N,S-O,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,N,S-O,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,N,S-O,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,N,S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,N,S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Lidah metua,False
+4,N,S-O,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,N,S-O,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,N,S-K,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,N,S-K,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,N,S-K,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,N,S-K,kamboja_jepang_1.jpg,Kamboja jepang,Lidah metua,False
+4,N,S-K,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,N,S-K,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,N,S-K,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,N,S-K,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,N,S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,N,S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Lidah metua,False
+4,N,S-K,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,N,S-K,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,N,E-S-O,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,N,E-S-O,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,N,E-S-O,daun_nangka_7.jpg,Daun nangka,Lidah metua,False
+4,N,E-S-O,kamboja_jepang_1.jpg,Kamboja jepang,Lidah metua,False
+4,N,E-S-O,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,N,E-S-O,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,N,E-S-O,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,N,E-S-O,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,N,E-S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,N,E-S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Lidah metua,False
+4,N,E-S-O,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,N,E-S-O,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,N,E-S-K,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,N,E-S-K,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,N,E-S-K,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,N,E-S-K,kamboja_jepang_1.jpg,Kamboja jepang,Lidah metua,False
+4,N,E-S-K,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,N,E-S-K,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,N,E-S-K,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,N,E-S-K,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,N,E-S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,N,E-S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,N,E-S-K,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,N,E-S-K,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E,N,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E,N,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E,N,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E,N,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E,N,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,E,N,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E,N,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E,N,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E,N,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E,N,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E,N,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E,N,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E,E,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E,E,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E,E,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E,E,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E,E,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,E,E,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E,E,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E,E,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E,E,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E,E,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E,E,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E,E,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E,S-O,aglaonema_1.jpg,Aglaonema,Lidah metua,False
+4,E,S-O,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E,S-O,daun_nangka_7.jpg,Daun nangka,Lidah metua,False
+4,E,S-O,kamboja_jepang_1.jpg,Kamboja jepang,Lidah metua,False
+4,E,S-O,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,E,S-O,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E,S-O,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E,S-O,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E,S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,E,S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Lidah metua,False
+4,E,S-O,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E,S-O,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E,S-K,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E,S-K,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E,S-K,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E,S-K,kamboja_jepang_1.jpg,Kamboja jepang,Lidah metua,False
+4,E,S-K,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,E,S-K,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E,S-K,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,E,S-K,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E,S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,E,S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Lidah metua,False
+4,E,S-K,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E,S-K,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E,E-S-O,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E,E-S-O,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E,E-S-O,daun_nangka_7.jpg,Daun nangka,Lidah metua,False
+4,E,E-S-O,kamboja_jepang_1.jpg,Kamboja jepang,Lidah metua,False
+4,E,E-S-O,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,E,E-S-O,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E,E-S-O,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E,E-S-O,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E,E-S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,E,E-S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Lidah metua,False
+4,E,E-S-O,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E,E-S-O,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E,E-S-K,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E,E-S-K,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E,E-S-K,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E,E-S-K,kamboja_jepang_1.jpg,Kamboja jepang,Lidah metua,False
+4,E,E-S-K,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,E,E-S-K,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E,E-S-K,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E,E-S-K,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E,E-S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E,E-S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E,E-S-K,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E,E-S-K,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,S-O,N,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,S-O,N,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-O,N,daun_nangka_7.jpg,Daun nangka,Lidah metua,False
+4,S-O,N,kamboja_jepang_1.jpg,Kamboja jepang,Lidah metua,False
+4,S-O,N,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,S-O,N,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,S-O,N,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,S-O,N,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,N,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,S-O,N,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Lidah metua,False
+4,S-O,N,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,S-O,N,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,S-O,E,aglaonema_1.jpg,Aglaonema,Lidah metua,False
+4,S-O,E,aglaonema_6.jpg,Aglaonema,Lidah metua,False
+4,S-O,E,daun_nangka_7.jpg,Daun nangka,Lidah metua,False
+4,S-O,E,kamboja_jepang_1.jpg,Kamboja jepang,Lidah metua,False
+4,S-O,E,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,S-O,E,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,S-O,E,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,S-O,E,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,S-O,E,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,S-O,E,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Lidah metua,False
+4,S-O,E,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-O,E,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,S-O,S-O,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,S-O,S-O,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-O,S-O,daun_nangka_7.jpg,Daun nangka,Paku tanduk rusa,False
+4,S-O,S-O,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-O,S-O,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,S-O,S-O,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,S-O,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,S-O,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-O,S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-O,S-O,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-O,S-O,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-O,S-K,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,S-O,S-K,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-O,S-K,daun_nangka_7.jpg,Daun nangka,Aglaonema,False
+4,S-O,S-K,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-O,S-K,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,S-O,S-K,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,S-O,S-K,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,S-K,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-O,S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-O,S-K,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-O,S-K,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-O,E-S-O,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,S-O,E-S-O,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-O,E-S-O,daun_nangka_7.jpg,Daun nangka,Paku tanduk rusa,False
+4,S-O,E-S-O,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-O,E-S-O,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,S-O,E-S-O,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,E-S-O,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,E-S-O,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,E-S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-O,E-S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-O,E-S-O,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-O,E-S-O,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-O,E-S-K,aglaonema_1.jpg,Aglaonema,Lidah metua,False
+4,S-O,E-S-K,aglaonema_6.jpg,Aglaonema,Lidah metua,False
+4,S-O,E-S-K,daun_nangka_7.jpg,Daun nangka,Lidah metua,False
+4,S-O,E-S-K,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-O,E-S-K,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,S-O,E-S-K,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,E-S-K,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,S-O,E-S-K,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-O,E-S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,S-O,E-S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Lidah metua,False
+4,S-O,E-S-K,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-O,E-S-K,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,N,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,S-K,N,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-K,N,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,S-K,N,kamboja_jepang_1.jpg,Kamboja jepang,Lidah metua,False
+4,S-K,N,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,S-K,N,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,S-K,N,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,S-K,N,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,S-K,N,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-K,N,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Daun nangka,False
+4,S-K,N,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,S-K,N,peperomium_semangka_4.jpg,Peperomium semangka,Aglaonema,False
+4,S-K,E,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,S-K,E,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-K,E,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,S-K,E,kamboja_jepang_1.jpg,Kamboja jepang,Aglaonema,False
+4,S-K,E,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,S-K,E,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,S-K,E,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,S-K,E,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,S-K,E,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,S-K,E,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Daun nangka,False
+4,S-K,E,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,S-K,E,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,S-K,S-O,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,S-K,S-O,aglaonema_6.jpg,Aglaonema,Paku tanduk rusa,False
+4,S-K,S-O,daun_nangka_7.jpg,Daun nangka,Paku tanduk rusa,False
+4,S-K,S-O,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-K,S-O,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,S-K,S-O,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,S-O,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,S-O,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-K,S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-K,S-O,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,S-O,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,S-K,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,S-K,S-K,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-K,S-K,daun_nangka_7.jpg,Daun nangka,Paku tanduk rusa,False
+4,S-K,S-K,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-K,S-K,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-K,S-K,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,S-K,S-K,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,S-K,S-K,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-K,S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-K,S-K,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,S-K,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,E-S-O,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,S-K,E-S-O,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-K,E-S-O,daun_nangka_7.jpg,Daun nangka,Paku tanduk rusa,False
+4,S-K,E-S-O,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-K,E-S-O,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,S-K,E-S-O,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,E-S-O,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,E-S-O,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,E-S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-K,E-S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,S-K,E-S-O,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,E-S-O,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,E-S-K,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,S-K,E-S-K,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,S-K,E-S-K,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,S-K,E-S-K,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-K,E-S-K,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,S-K,E-S-K,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,E-S-K,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,S-K,E-S-K,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,S-K,E-S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,S-K,E-S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Daun nangka,False
+4,S-K,E-S-K,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,S-K,E-S-K,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-O,N,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,E-S-O,N,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-O,N,daun_nangka_7.jpg,Daun nangka,Lidah metua,False
+4,E-S-O,N,kamboja_jepang_1.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,E-S-O,N,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,E-S-O,N,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,N,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,N,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,N,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,E-S-O,N,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-O,N,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-O,N,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E-S-O,E,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,E-S-O,E,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-O,E,daun_nangka_7.jpg,Daun nangka,Lidah metua,False
+4,E-S-O,E,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-O,E,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,E-S-O,E,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,E,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,E,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,E,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,E-S-O,E,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Lidah metua,False
+4,E-S-O,E,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-O,E,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E-S-O,S-O,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,E-S-O,S-O,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-O,S-O,daun_nangka_7.jpg,Daun nangka,Paku tanduk rusa,False
+4,E-S-O,S-O,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-O,S-O,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,E-S-O,S-O,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,S-O,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,S-O,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-O,S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-O,S-O,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-O,S-O,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-O,S-K,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,E-S-O,S-K,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-O,S-K,daun_nangka_7.jpg,Daun nangka,Paku tanduk rusa,False
+4,E-S-O,S-K,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-O,S-K,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,E-S-O,S-K,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,S-K,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,S-K,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-O,S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-O,S-K,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-O,S-K,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-O,E-S-O,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E-S-O,E-S-O,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-O,E-S-O,daun_nangka_7.jpg,Daun nangka,Paku tanduk rusa,False
+4,E-S-O,E-S-O,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-O,E-S-O,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,E-S-O,E-S-O,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,E-S-O,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,E-S-O,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,E-S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-O,E-S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-O,E-S-O,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-O,E-S-O,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-O,E-S-K,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,E-S-O,E-S-K,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-O,E-S-K,daun_nangka_7.jpg,Daun nangka,Lidah metua,False
+4,E-S-O,E-S-K,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-O,E-S-K,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,E-S-O,E-S-K,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,E-S-K,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,E-S-K,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-O,E-S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Lidah metua,False
+4,E-S-O,E-S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Lidah metua,False
+4,E-S-O,E-S-K,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-O,E-S-K,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-K,N,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,N,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,N,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E-S-K,N,kamboja_jepang_1.jpg,Kamboja jepang,Daun nangka,False
+4,E-S-K,N,kamboja_jepang_5.jpg,Kamboja jepang,Lidah metua,False
+4,E-S-K,N,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E-S-K,N,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E-S-K,N,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E-S-K,N,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,N,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,N,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E-S-K,N,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E-S-K,E,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,E,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,E,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E-S-K,E,kamboja_jepang_1.jpg,Kamboja jepang,Aglaonema,False
+4,E-S-K,E,kamboja_jepang_5.jpg,Kamboja jepang,Aglaonema,False
+4,E-S-K,E,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E-S-K,E,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E-S-K,E,lidah_metua_9.jpg,Lidah metua,Lidah metua,True
+4,E-S-K,E,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,E,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,E,peperomium_semangka_1.jpg,Peperomium semangka,Lidah metua,False
+4,E-S-K,E,peperomium_semangka_4.jpg,Peperomium semangka,Lidah metua,False
+4,E-S-K,S-O,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,E-S-K,S-O,aglaonema_6.jpg,Aglaonema,Paku tanduk rusa,False
+4,E-S-K,S-O,daun_nangka_7.jpg,Daun nangka,Paku tanduk rusa,False
+4,E-S-K,S-O,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-K,S-O,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,E-S-K,S-O,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-K,S-O,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-K,S-O,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-K,S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,S-O,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-K,S-O,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-K,S-K,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,S-K,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,S-K,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E-S-K,S-K,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-K,S-K,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-K,S-K,lidah_metua_11.jpg,Lidah metua,Lidah metua,True
+4,E-S-K,S-K,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-K,S-K,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-K,S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,S-K,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-K,S-K,peperomium_semangka_4.jpg,Peperomium semangka,Kamboja jepang,False
+4,E-S-K,E-S-O,aglaonema_1.jpg,Aglaonema,Paku tanduk rusa,False
+4,E-S-K,E-S-O,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,E-S-O,daun_nangka_7.jpg,Daun nangka,Paku tanduk rusa,False
+4,E-S-K,E-S-O,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-K,E-S-O,kamboja_jepang_5.jpg,Kamboja jepang,Paku tanduk rusa,False
+4,E-S-K,E-S-O,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-K,E-S-O,lidah_metua_8.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-K,E-S-O,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-K,E-S-O,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,E-S-O,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,E-S-O,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-K,E-S-O,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-K,E-S-K,aglaonema_1.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,E-S-K,aglaonema_6.jpg,Aglaonema,Aglaonema,True
+4,E-S-K,E-S-K,daun_nangka_7.jpg,Daun nangka,Daun nangka,True
+4,E-S-K,E-S-K,kamboja_jepang_1.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-K,E-S-K,kamboja_jepang_5.jpg,Kamboja jepang,Kamboja jepang,True
+4,E-S-K,E-S-K,lidah_metua_11.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-K,E-S-K,lidah_metua_8.jpg,Lidah metua,Lidah metua,True
+4,E-S-K,E-S-K,lidah_metua_9.jpg,Lidah metua,Paku tanduk rusa,False
+4,E-S-K,E-S-K,paku_tanduk_rusa_3.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,E-S-K,paku_tanduk_rusa_9.jpeg,Paku tanduk rusa,Paku tanduk rusa,True
+4,E-S-K,E-S-K,peperomium_semangka_1.jpg,Peperomium semangka,Paku tanduk rusa,False
+4,E-S-K,E-S-K,peperomium_semangka_4.jpg,Peperomium semangka,Paku tanduk rusa,False

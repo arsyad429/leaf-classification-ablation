@@ -1,0 +1,580 @@
+{
+  "commit": "f24733274ab39c8697f3b1e368193a4235d56258",
+  "files": [
+    {
+      "path": "Notebook/EDA_Ablasi_ML_Daun.ipynb",
+      "sha": "4f5d5a2ada509864705612c1527c491384e93458",
+      "size": 15020396
+    },
+    {
+      "path": "Notebook/hasil_ml_full/block_importance.csv",
+      "sha": "56d034a1b645c7b4dafc560fb771cf6de2a6f5c3",
+      "size": 1053
+    },
+    {
+      "path": "Notebook/hasil_ml_full/class_errors_all_108.csv",
+      "sha": "35c93be8848cfbce7f9e03eea7c9ef57c613747f",
+      "size": 37904
+    },
+    {
+      "path": "Notebook/hasil_ml_full/classification_report_selected.csv",
+      "sha": "4deb02cf1dce1541d48ba2d529b134d1932b3c54",
+      "size": 527
+    },
+    {
+      "path": "Notebook/hasil_ml_full/confusion_pairs_selected.csv",
+      "sha": "65959a47ae413f2b471d5f28478647eee23a4917",
+      "size": 115
+    },
+    {
+      "path": "Notebook/hasil_ml_full/environment.json",
+      "sha": "9f7063e11910a26d6de247ed701fb14759be4f75",
+      "size": 516
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/01_E_F4_SVM/class_errors.csv",
+      "sha": "e409a9f9e54a9ac36c8829f1d7f6cf46086d845a",
+      "size": 229
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/01_E_F4_SVM/classification_report.csv",
+      "sha": "4deb02cf1dce1541d48ba2d529b134d1932b3c54",
+      "size": 527
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/01_E_F4_SVM/confusion_matrix.png",
+      "sha": "c42a79e4001dd697e4c9282797fb9ba55788259a",
+      "size": 86244
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/01_E_F4_SVM/confusion_pairs.csv",
+      "sha": "65959a47ae413f2b471d5f28478647eee23a4917",
+      "size": 115
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/01_E_F4_SVM/metrics_per_fold.csv",
+      "sha": "dff6f47b8ae577be9cc3dd5fdbd5d068dde2ad28",
+      "size": 1206
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/01_E_F4_SVM/wrong_examples_original.png",
+      "sha": "cab4f7143ece8c84f1a3692a77406b3a05623eaf",
+      "size": 745085
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/01_E_F4_SVM/wrong_predictions.csv",
+      "sha": "2dc378f7884171f7835f40035debfe21f862310b",
+      "size": 263
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/02_N_F4_SVM/class_errors.csv",
+      "sha": "e409a9f9e54a9ac36c8829f1d7f6cf46086d845a",
+      "size": 229
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/02_N_F4_SVM/classification_report.csv",
+      "sha": "4deb02cf1dce1541d48ba2d529b134d1932b3c54",
+      "size": 527
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/02_N_F4_SVM/confusion_matrix.png",
+      "sha": "b51e60d0b683e11542fdd98947c160092d993196",
+      "size": 86578
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/02_N_F4_SVM/confusion_pairs.csv",
+      "sha": "65959a47ae413f2b471d5f28478647eee23a4917",
+      "size": 115
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/02_N_F4_SVM/metrics_per_fold.csv",
+      "sha": "df7fe0fd210ced256ccb2947e8b9cef6ba04f308",
+      "size": 1217
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/02_N_F4_SVM/wrong_examples_original.png",
+      "sha": "b074077d00cffeccd70d1ca83130abbca2c04bd1",
+      "size": 745325
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/02_N_F4_SVM/wrong_predictions.csv",
+      "sha": "452ef10e91715eb060708ecb8e4c30f7c18c0553",
+      "size": 263
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/03_N_F7_SVM/class_errors.csv",
+      "sha": "e409a9f9e54a9ac36c8829f1d7f6cf46086d845a",
+      "size": 229
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/03_N_F7_SVM/classification_report.csv",
+      "sha": "4deb02cf1dce1541d48ba2d529b134d1932b3c54",
+      "size": 527
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/03_N_F7_SVM/confusion_matrix.png",
+      "sha": "e17e913443cbdb05c020fe898102a7afa0e15fc5",
+      "size": 86599
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/03_N_F7_SVM/confusion_pairs.csv",
+      "sha": "65959a47ae413f2b471d5f28478647eee23a4917",
+      "size": 115
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/03_N_F7_SVM/metrics_per_fold.csv",
+      "sha": "6837d598e7ecabb6dd1a11642090ce267a0c04a1",
+      "size": 1219
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/03_N_F7_SVM/wrong_examples_original.png",
+      "sha": "56325b7c8d1809b9d917832089cf251ae25306e2",
+      "size": 745377
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/03_N_F7_SVM/wrong_predictions.csv",
+      "sha": "598a038760509ace532bf1c7e8134c25b751cbd6",
+      "size": 263
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/04_N_F8_SVM/class_errors.csv",
+      "sha": "e409a9f9e54a9ac36c8829f1d7f6cf46086d845a",
+      "size": 229
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/04_N_F8_SVM/classification_report.csv",
+      "sha": "4deb02cf1dce1541d48ba2d529b134d1932b3c54",
+      "size": 527
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/04_N_F8_SVM/confusion_matrix.png",
+      "sha": "04539793f385878243ebdab900c9014218ae5e22",
+      "size": 86685
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/04_N_F8_SVM/confusion_pairs.csv",
+      "sha": "65959a47ae413f2b471d5f28478647eee23a4917",
+      "size": 115
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/04_N_F8_SVM/metrics_per_fold.csv",
+      "sha": "f24854a0132f7d98dceaba2959ee11a4b64ea394",
+      "size": 1215
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/04_N_F8_SVM/wrong_examples_original.png",
+      "sha": "e2b2c4d893cc5b31c013236166aefea494b72311",
+      "size": 745470
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/04_N_F8_SVM/wrong_predictions.csv",
+      "sha": "cd51298f756173105afbacea7711ee5bf3a9aa3f",
+      "size": 263
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/class_errors_top4.csv",
+      "sha": "bafa12fd674fe74b1c36086c931f92c3d30e62a3",
+      "size": 1035
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/metrics_per_fold_top4.csv",
+      "sha": "5a3be5a86d79931254bbf81477f9ca207203d194",
+      "size": 4377
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/perbandingan_prediksi_per_foto.csv",
+      "sha": "36c55792286be5186b19f6deb870c2847798ee03",
+      "size": 6966
+    },
+    {
+      "path": "Notebook/hasil_ml_full/error_analysis_top4/ringkasan_top4.csv",
+      "sha": "9b198085ac72671177a01546f004e2ce6eb3abf7",
+      "size": 377
+    },
+    {
+      "path": "Notebook/hasil_ml_full/feature_importance_best_non_f4/N_F7_SVM_importance_by_fold.png",
+      "sha": "46ab356a4a03eac7f9841e8635248a2347e6a330",
+      "size": 114275
+    },
+    {
+      "path": "Notebook/hasil_ml_full/feature_importance_best_non_f4/N_F8_SVM_importance_by_fold.png",
+      "sha": "c59283022dc56638dac243aad373b5953a137875",
+      "size": 116277
+    },
+    {
+      "path": "Notebook/hasil_ml_full/feature_importance_best_non_f4/block_importance_by_fold.csv",
+      "sha": "35949efb4990c0a0c16c689eb77a30126e1c07e1",
+      "size": 1821
+    },
+    {
+      "path": "Notebook/hasil_ml_full/feature_importance_best_non_f4/block_importance_summary.csv",
+      "sha": "e010ba50c004402824c6a5512a2e4cbd49dab3c9",
+      "size": 403
+    },
+    {
+      "path": "Notebook/hasil_ml_full/feature_importance_best_non_f4/permutation_importance_by_fold.csv",
+      "sha": "9563a3b9b0b0cafd52d88d377fdb8fbc7a4fcd9d",
+      "size": 31662
+    },
+    {
+      "path": "Notebook/hasil_ml_full/feature_importance_best_non_f4/selected_configurations.csv",
+      "sha": "4ae66fb158155e9c4324aee3a12a12ab1d45e930",
+      "size": 212
+    },
+    {
+      "path": "Notebook/hasil_ml_full/feature_qc_profile0.csv",
+      "sha": "769d4039ef53677e5ccca60d615a1844af01c1db",
+      "size": 12629
+    },
+    {
+      "path": "Notebook/hasil_ml_full/inner_tuning.csv",
+      "sha": "0bf46e9cb7a4a7327206f56d9c8974ba4d678ce4",
+      "size": 352328
+    },
+    {
+      "path": "Notebook/hasil_ml_full/manifest_audit.csv",
+      "sha": "06d510321feba90dd578e9a46f66f22b444071ef",
+      "size": 12967
+    },
+    {
+      "path": "Notebook/hasil_ml_full/metrics_per_fold.csv",
+      "sha": "f286a015d3b89d00d632bd41e6846efc146e4e75",
+      "size": 129772
+    },
+    {
+      "path": "Notebook/hasil_ml_full/oof_predictions.csv",
+      "sha": "74676d5ae9e3c98e8be89b23dc7642a5760ca4e6",
+      "size": 435399
+    },
+    {
+      "path": "Notebook/hasil_ml_full/paired_deltas.csv",
+      "sha": "f123f04b0f82ecba1058c9e5637b0b40bd24f436",
+      "size": 52871
+    },
+    {
+      "path": "Notebook/hasil_ml_full/permutation_importance_by_fold.csv",
+      "sha": "00be5e251cee8c9e6a4f8996025991775725e560",
+      "size": 27023
+    },
+    {
+      "path": "Notebook/hasil_ml_full/qc_pcd.csv",
+      "sha": "0be6c9fab1b9e5beae0cf80d4deb7797a4bbe89d",
+      "size": 33391
+    },
+    {
+      "path": "Notebook/hasil_ml_full/rf_impurity_importance_by_fold.csv",
+      "sha": "2d6839bbab13467a85c64b76b6edbda42b7b18ef",
+      "size": 12282
+    },
+    {
+      "path": "Notebook/hasil_ml_full/selected_profiles.json",
+      "sha": "e2d7bcb85210734706f79837d63f3ce86d44738d",
+      "size": 842
+    },
+    {
+      "path": "Notebook/hasil_ml_full/splits.csv",
+      "sha": "716d2af8de5a67a5aae2085e1d79ab1d317ffc7d",
+      "size": 28663
+    },
+    {
+      "path": "Notebook/hasil_ml_full/summary_108.csv",
+      "sha": "22e14c6df343e9799446d2db8185ecce92ec27b6",
+      "size": 9108
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/augmentation_config.json",
+      "sha": "8d020bab5a1decc8e6c3375f246dd2e80d7a806c",
+      "size": 424
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/block_importance.csv",
+      "sha": "b83c5c961fccc44d248490a6ba088a742dd9e312",
+      "size": 1047
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/class_errors_all_108.csv",
+      "sha": "d0a4fe19cb5dcf5b6f49afe786d50401ae9aebbc",
+      "size": 38236
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/classification_report_selected.csv",
+      "sha": "7d63371b82a8e10093b91c71a9f7b545d83b2bf8",
+      "size": 552
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/confusion_pairs_selected.csv",
+      "sha": "ad1f45c810d044bf220d1d9d38873e755285d2f6",
+      "size": 83
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/eda_augmentasi_illustration.png",
+      "sha": "434a3fafb6e439677c4eb0aee2889a872724cc21",
+      "size": 4279679
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/eda_contoh_augmentasi.png",
+      "sha": "a167a02dd232e14465d5abb4e446440313675f94",
+      "size": 7728785
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/eda_corruption_detail_illustration.png",
+      "sha": "5bd84604c4ee4fae1d39d7d89d293a9e619af33e",
+      "size": 111743
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/eda_detail_corruption.png",
+      "sha": "2ef5fd6820e281bdad104a79508b8e3f74deecc4",
+      "size": 650373
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/01_N_F4_SVM/class_errors.csv",
+      "sha": "ab90917bca6b8ebd0045fe2254847e37b07a75df",
+      "size": 213
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/01_N_F4_SVM/classification_report.csv",
+      "sha": "7d63371b82a8e10093b91c71a9f7b545d83b2bf8",
+      "size": 552
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/01_N_F4_SVM/confusion_matrix.png",
+      "sha": "8f316ad8c14e10596df28a5fd0e1f418ffb67783",
+      "size": 83668
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/01_N_F4_SVM/confusion_pairs.csv",
+      "sha": "ad1f45c810d044bf220d1d9d38873e755285d2f6",
+      "size": 83
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/01_N_F4_SVM/metrics_per_fold.csv",
+      "sha": "982214242f007dd6a891ab81bb5bc395773278bf",
+      "size": 1402
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/01_N_F4_SVM/wrong_examples_original.png",
+      "sha": "084d20562442d3bb5517d15172a0370957966cbd",
+      "size": 476797
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/01_N_F4_SVM/wrong_predictions.csv",
+      "sha": "00ed2d9ce1bbffa7fa8ac2f0f30b47928a705f2e",
+      "size": 192
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/02_N_F7_SVM/class_errors.csv",
+      "sha": "ab90917bca6b8ebd0045fe2254847e37b07a75df",
+      "size": 213
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/02_N_F7_SVM/classification_report.csv",
+      "sha": "7d63371b82a8e10093b91c71a9f7b545d83b2bf8",
+      "size": 552
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/02_N_F7_SVM/confusion_matrix.png",
+      "sha": "e3be0b11e444774a5736951ae80bd07657ba4ca3",
+      "size": 83862
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/02_N_F7_SVM/confusion_pairs.csv",
+      "sha": "ad1f45c810d044bf220d1d9d38873e755285d2f6",
+      "size": 83
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/02_N_F7_SVM/metrics_per_fold.csv",
+      "sha": "9f3ae002f8d36bdc9a408d7dfbfb8bc32c2b4b54",
+      "size": 1417
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/02_N_F7_SVM/wrong_examples_original.png",
+      "sha": "bcca6a4604bbc80bbc821b3cb51a75856b6cda85",
+      "size": 476914
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/02_N_F7_SVM/wrong_predictions.csv",
+      "sha": "8ce6bf0e80c2cf2b85742c488b67af2b3e401e98",
+      "size": 192
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/03_N_F8_SVM/class_errors.csv",
+      "sha": "ab90917bca6b8ebd0045fe2254847e37b07a75df",
+      "size": 213
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/03_N_F8_SVM/classification_report.csv",
+      "sha": "7d63371b82a8e10093b91c71a9f7b545d83b2bf8",
+      "size": 552
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/03_N_F8_SVM/confusion_matrix.png",
+      "sha": "6edfcbe368d9ee23c0d1cc07e45e3ab5b3a1f911",
+      "size": 84161
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/03_N_F8_SVM/confusion_pairs.csv",
+      "sha": "ad1f45c810d044bf220d1d9d38873e755285d2f6",
+      "size": 83
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/03_N_F8_SVM/metrics_per_fold.csv",
+      "sha": "a69c06e582892281f1c0c7e4248007185a7f1755",
+      "size": 1418
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/03_N_F8_SVM/wrong_examples_original.png",
+      "sha": "22706a5f8e1524edefae564cd76574865c5f2d0e",
+      "size": 477165
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/03_N_F8_SVM/wrong_predictions.csv",
+      "sha": "4d64de9f5e41a86a1af940e8f2bfe78edce3b3e2",
+      "size": 192
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/04_N_F5_SVM/class_errors.csv",
+      "sha": "b9c04abd5d6017ae79e36aa946663fe1773172a4",
+      "size": 228
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/04_N_F5_SVM/classification_report.csv",
+      "sha": "7fa99194c8834168bd20e34c53af6a4fa4568a46",
+      "size": 628
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/04_N_F5_SVM/confusion_matrix.png",
+      "sha": "67132704878677c7bdbe5f197ac335caa5b7bf07",
+      "size": 86180
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/04_N_F5_SVM/confusion_pairs.csv",
+      "sha": "b92dcf98ba41ab088d886ac2f9eb9aca491e4386",
+      "size": 143
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/04_N_F5_SVM/metrics_per_fold.csv",
+      "sha": "e8ecbd4c7b13f9bb18fd3199a43ef7351109d61d",
+      "size": 1475
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/04_N_F5_SVM/wrong_examples_original.png",
+      "sha": "5fe154b4a221c7b6c96de8bf0f4e3eabcb8c9c34",
+      "size": 1104944
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/04_N_F5_SVM/wrong_predictions.csv",
+      "sha": "ed35a6cd941dc42a420c04a9c5ec1de968b711ba",
+      "size": 316
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/class_errors_top4.csv",
+      "sha": "10521b833c3441d5b694f00c9a82ef7ea6bcc105",
+      "size": 986
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/metrics_per_fold_top4.csv",
+      "sha": "932557a19e2baaefe19094c834858f823f9aa79e",
+      "size": 5037
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/perbandingan_prediksi_per_foto.csv",
+      "sha": "2409b3752d372ffaf76ba49dd4f3d77a262056ea",
+      "size": 6996
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/error_analysis_top4/ringkasan_top4.csv",
+      "sha": "5b2b10037cf1d2cd468b1796c6a6948d3dfe8c30",
+      "size": 367
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/feature_importance_best_non_f4/N_F7_SVM_importance_by_fold.png",
+      "sha": "d079e7a44e37ffd585238eb7cac2f952eb45f3cc",
+      "size": 118155
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/feature_importance_best_non_f4/N_F8_SVM_importance_by_fold.png",
+      "sha": "cfe2f81915e89e69c2212a8d69d7a990f562d5bd",
+      "size": 115263
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/feature_importance_best_non_f4/block_importance_by_fold.csv",
+      "sha": "86dd140b603b9abaf8422aa78d15a31f6b9e4e5a",
+      "size": 1815
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/feature_importance_best_non_f4/block_importance_summary.csv",
+      "sha": "512b7a42472ce1fc8780a1044e10d8796516a735",
+      "size": 402
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/feature_importance_best_non_f4/permutation_importance_by_fold.csv",
+      "sha": "b6649746f51aa7947643046d94e18131a901ba7b",
+      "size": 39419
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/feature_importance_best_non_f4/selected_configurations.csv",
+      "sha": "eeede8dcbbbbc93cde284365cb99b3df60b35716",
+      "size": 242
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/feature_qc_profile0.csv",
+      "sha": "769d4039ef53677e5ccca60d615a1844af01c1db",
+      "size": 12629
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/inner_tuning.csv",
+      "sha": "fa69806958a5fc0b13cf490b54a5b0a2c8ab7b3a",
+      "size": 351583
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/manifest_audit.csv",
+      "sha": "06d510321feba90dd578e9a46f66f22b444071ef",
+      "size": 12967
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/metrics_per_fold.csv",
+      "sha": "6d8c9de11b173746cf031a969dedab39ed189acd",
+      "size": 148436
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/oof_predictions.csv",
+      "sha": "32217a60f6869a3bd05fb8659a098ec69655820d",
+      "size": 435727
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/paired_deltas.csv",
+      "sha": "2bf48bec6715d279a6e352c338d3ded41479436b",
+      "size": 52146
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/permutation_importance_by_fold.csv",
+      "sha": "96164c4c21d82e89978343a76cc2eed523050bc8",
+      "size": 33576
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/qc_pcd.csv",
+      "sha": "2fd0d89a8a55c584c8fc68d9d37bcceb694cca89",
+      "size": 33386
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/rf_impurity_importance_by_fold.csv",
+      "sha": "7a8fc5fce9be4b1f671b98cd63a539b6d5a0d608",
+      "size": 14407
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/selected_profiles.json",
+      "sha": "52e07b08ef28d90c41f63f305b04e827b99d5a69",
+      "size": 842
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/splits.csv",
+      "sha": "716d2af8de5a67a5aae2085e1d79ab1d317ffc7d",
+      "size": 28663
+    },
+    {
+      "path": "Notebook/hasil_ml_full_aug/summary_108.csv",
+      "sha": "e22f81c22b8d8aa3460d97b243fc135704c95bea",
+      "size": 9180
+    }
+  ]
+}

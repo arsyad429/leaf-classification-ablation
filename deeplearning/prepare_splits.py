@@ -82,8 +82,8 @@ def partition(indices, labels, folds, seed):
 
 
 def split_files():
-    baseline = PROJECT / "Notebook" / "hasil_ml_full"
-    augmented = PROJECT / "Notebook" / "hasil_ml_full_aug"
+    baseline = PROJECT / "ablasi ML awal" / "hasil_ml_full"
+    augmented = PROJECT / "ablasi ML awal" / "hasil_ml_full_aug"
     outer_source = baseline / "splits.csv"
     outer_bytes = outer_source.read_bytes()
     if outer_bytes != (augmented / "splits.csv").read_bytes():

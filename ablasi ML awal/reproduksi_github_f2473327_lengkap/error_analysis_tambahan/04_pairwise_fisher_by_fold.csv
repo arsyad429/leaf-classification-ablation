@@ -1,0 +1,451 @@
+fold,condition,class_a,class_b,fisher_pair
+0,N,Aglaonema,Daun nangka,0.7300933711180946
+0,N,Aglaonema,Kamboja jepang,0.5676181980888391
+0,N,Aglaonema,Lidah metua,0.5798459057654448
+0,N,Aglaonema,Paku tanduk rusa,0.7924610183772689
+0,N,Aglaonema,Peperomium semangka,0.6022177965605421
+0,N,Daun nangka,Kamboja jepang,0.8211864189266416
+0,N,Daun nangka,Lidah metua,0.8306017178151882
+0,N,Daun nangka,Paku tanduk rusa,0.5173807815010292
+0,N,Daun nangka,Peperomium semangka,0.9483822903140314
+0,N,Kamboja jepang,Lidah metua,0.451791763289872
+0,N,Kamboja jepang,Paku tanduk rusa,0.8260740641506258
+0,N,Kamboja jepang,Peperomium semangka,0.568059008456152
+0,N,Lidah metua,Paku tanduk rusa,0.6360910881812893
+0,N,Lidah metua,Peperomium semangka,0.46999340649262983
+0,N,Paku tanduk rusa,Peperomium semangka,0.8177825763215315
+0,E,Aglaonema,Daun nangka,0.8271070963900038
+0,E,Aglaonema,Kamboja jepang,0.49251098136933047
+0,E,Aglaonema,Lidah metua,0.5094749191721589
+0,E,Aglaonema,Paku tanduk rusa,0.7253634881682554
+0,E,Aglaonema,Peperomium semangka,0.48614021452989886
+0,E,Daun nangka,Kamboja jepang,0.8009244332152959
+0,E,Daun nangka,Lidah metua,0.8323343799300625
+0,E,Daun nangka,Paku tanduk rusa,0.45962002609775854
+0,E,Daun nangka,Peperomium semangka,0.8875219404338933
+0,E,Kamboja jepang,Lidah metua,0.42484127761411733
+0,E,Kamboja jepang,Paku tanduk rusa,0.7514720867844012
+0,E,Kamboja jepang,Peperomium semangka,0.49986856912423033
+0,E,Lidah metua,Paku tanduk rusa,0.5321579649247034
+0,E,Lidah metua,Peperomium semangka,0.38025518759662785
+0,E,Paku tanduk rusa,Peperomium semangka,0.5621892970464556
+0,S-O,Aglaonema,Daun nangka,1.1741197544358737
+0,S-O,Aglaonema,Kamboja jepang,0.5868096457602934
+0,S-O,Aglaonema,Lidah metua,0.21970033903279457
+0,S-O,Aglaonema,Paku tanduk rusa,0.3423379902462337
+0,S-O,Aglaonema,Peperomium semangka,0.7519341112514333
+0,S-O,Daun nangka,Kamboja jepang,0.3600630709111056
+0,S-O,Daun nangka,Lidah metua,0.4981971804708559
+0,S-O,Daun nangka,Paku tanduk rusa,0.4616113665318004
+0,S-O,Daun nangka,Peperomium semangka,0.9789189804823365
+0,S-O,Kamboja jepang,Lidah metua,0.2624618745780374
+0,S-O,Kamboja jepang,Paku tanduk rusa,0.28866940721879186
+0,S-O,Kamboja jepang,Peperomium semangka,0.4491170389323973
+0,S-O,Lidah metua,Paku tanduk rusa,0.20260325994699643
+0,S-O,Lidah metua,Peperomium semangka,0.23127701458042432
+0,S-O,Paku tanduk rusa,Peperomium semangka,0.2760173127358429
+0,S-K,Aglaonema,Daun nangka,0.6576166338617951
+0,S-K,Aglaonema,Kamboja jepang,0.5180886417447381
+0,S-K,Aglaonema,Lidah metua,0.24613721236823044
+0,S-K,Aglaonema,Paku tanduk rusa,0.32715926813767493
+0,S-K,Aglaonema,Peperomium semangka,0.39231900116435625
+0,S-K,Daun nangka,Kamboja jepang,0.33608966726258616
+0,S-K,Daun nangka,Lidah metua,0.39177323714594897
+0,S-K,Daun nangka,Paku tanduk rusa,0.2844484449572107
+0,S-K,Daun nangka,Peperomium semangka,0.4336500573121304
+0,S-K,Kamboja jepang,Lidah metua,0.3947562784228805
+0,S-K,Kamboja jepang,Paku tanduk rusa,0.29874909577433595
+0,S-K,Kamboja jepang,Peperomium semangka,0.3575038109946
+0,S-K,Lidah metua,Paku tanduk rusa,0.27707973691514204
+0,S-K,Lidah metua,Peperomium semangka,0.3165163570026467
+0,S-K,Paku tanduk rusa,Peperomium semangka,0.3185899204312061
+0,E-S-O,Aglaonema,Daun nangka,1.230513470069656
+0,E-S-O,Aglaonema,Kamboja jepang,0.4261920840998301
+0,E-S-O,Aglaonema,Lidah metua,0.18003735481682304
+0,E-S-O,Aglaonema,Paku tanduk rusa,0.2145811236354369
+0,E-S-O,Aglaonema,Peperomium semangka,0.7434245495162496
+0,E-S-O,Daun nangka,Kamboja jepang,0.3702613816928261
+0,E-S-O,Daun nangka,Lidah metua,0.31246078553597234
+0,E-S-O,Daun nangka,Paku tanduk rusa,0.24993714737659103
+0,E-S-O,Daun nangka,Peperomium semangka,1.0512953962596
+0,E-S-O,Kamboja jepang,Lidah metua,0.16566924783520554
+0,E-S-O,Kamboja jepang,Paku tanduk rusa,0.19794870410525026
+0,E-S-O,Kamboja jepang,Peperomium semangka,0.38477540663345683
+0,E-S-O,Lidah metua,Paku tanduk rusa,0.17195577074356735
+0,E-S-O,Lidah metua,Peperomium semangka,0.15484042984362273
+0,E-S-O,Paku tanduk rusa,Peperomium semangka,0.2346979349300865
+0,E-S-K,Aglaonema,Daun nangka,0.76941671867655
+0,E-S-K,Aglaonema,Kamboja jepang,0.5330572400061412
+0,E-S-K,Aglaonema,Lidah metua,0.3510000296166758
+0,E-S-K,Aglaonema,Paku tanduk rusa,0.28578781922681284
+0,E-S-K,Aglaonema,Peperomium semangka,0.5888324158583856
+0,E-S-K,Daun nangka,Kamboja jepang,0.29872756120034655
+0,E-S-K,Daun nangka,Lidah metua,0.5500880674108307
+0,E-S-K,Daun nangka,Paku tanduk rusa,0.25770075025341316
+0,E-S-K,Daun nangka,Peperomium semangka,0.6554877414680552
+0,E-S-K,Kamboja jepang,Lidah metua,0.43324721191331805
+0,E-S-K,Kamboja jepang,Paku tanduk rusa,0.3668607192647379
+0,E-S-K,Kamboja jepang,Peperomium semangka,0.47017071955426354
+0,E-S-K,Lidah metua,Paku tanduk rusa,0.19891386042123263
+0,E-S-K,Lidah metua,Peperomium semangka,0.4786993075735282
+0,E-S-K,Paku tanduk rusa,Peperomium semangka,0.4369837491740998
+1,N,Aglaonema,Daun nangka,0.5516692913607294
+1,N,Aglaonema,Kamboja jepang,0.5853769970067806
+1,N,Aglaonema,Lidah metua,0.566287188831352
+1,N,Aglaonema,Paku tanduk rusa,0.6513034753237767
+1,N,Aglaonema,Peperomium semangka,0.6487036345341008
+1,N,Daun nangka,Kamboja jepang,0.8501582250227198
+1,N,Daun nangka,Lidah metua,0.7854138088994121
+1,N,Daun nangka,Paku tanduk rusa,0.5628875160118276
+1,N,Daun nangka,Peperomium semangka,0.8624023525993172
+1,N,Kamboja jepang,Lidah metua,0.4919593787335779
+1,N,Kamboja jepang,Paku tanduk rusa,0.9129462811566159
+1,N,Kamboja jepang,Peperomium semangka,0.6532144483295533
+1,N,Lidah metua,Paku tanduk rusa,0.6496056806632468
+1,N,Lidah metua,Peperomium semangka,0.5258333211871635
+1,N,Paku tanduk rusa,Peperomium semangka,0.7113857647446471
+1,E,Aglaonema,Daun nangka,0.6700129306156747
+1,E,Aglaonema,Kamboja jepang,0.5025953083113224
+1,E,Aglaonema,Lidah metua,0.4413731050039363
+1,E,Aglaonema,Paku tanduk rusa,0.6568204765674308
+1,E,Aglaonema,Peperomium semangka,0.5857584698793747
+1,E,Daun nangka,Kamboja jepang,0.9349959784405957
+1,E,Daun nangka,Lidah metua,0.7486874316652538
+1,E,Daun nangka,Paku tanduk rusa,0.4835798242054316
+1,E,Daun nangka,Peperomium semangka,0.826345473844038
+1,E,Kamboja jepang,Lidah metua,0.481443241112814
+1,E,Kamboja jepang,Paku tanduk rusa,0.9188041681001282
+1,E,Kamboja jepang,Peperomium semangka,0.6953089433152384
+1,E,Lidah metua,Paku tanduk rusa,0.4926938479179133
+1,E,Lidah metua,Peperomium semangka,0.4308133241910539
+1,E,Paku tanduk rusa,Peperomium semangka,0.5912442874102379
+1,S-O,Aglaonema,Daun nangka,1.0525632976574566
+1,S-O,Aglaonema,Kamboja jepang,0.9290236222769997
+1,S-O,Aglaonema,Lidah metua,0.18207007136274797
+1,S-O,Aglaonema,Paku tanduk rusa,0.17973031321313426
+1,S-O,Aglaonema,Peperomium semangka,0.5547888699633293
+1,S-O,Daun nangka,Kamboja jepang,0.3686087631409632
+1,S-O,Daun nangka,Lidah metua,0.40434850841171904
+1,S-O,Daun nangka,Paku tanduk rusa,0.29952169370269643
+1,S-O,Daun nangka,Peperomium semangka,0.9129922622753545
+1,S-O,Kamboja jepang,Lidah metua,0.2772234710927801
+1,S-O,Kamboja jepang,Paku tanduk rusa,0.2898531957783703
+1,S-O,Kamboja jepang,Peperomium semangka,0.6390792274882817
+1,S-O,Lidah metua,Paku tanduk rusa,0.11227364342185106
+1,S-O,Lidah metua,Peperomium semangka,0.16104882601856707
+1,S-O,Paku tanduk rusa,Peperomium semangka,0.18695998104881148
+1,S-K,Aglaonema,Daun nangka,0.5660211762216134
+1,S-K,Aglaonema,Kamboja jepang,0.521283998586495
+1,S-K,Aglaonema,Lidah metua,0.2463432217740484
+1,S-K,Aglaonema,Paku tanduk rusa,0.24377149776289858
+1,S-K,Aglaonema,Peperomium semangka,0.5546874597619491
+1,S-K,Daun nangka,Kamboja jepang,0.37819947574208534
+1,S-K,Daun nangka,Lidah metua,0.31931042695753464
+1,S-K,Daun nangka,Paku tanduk rusa,0.19825759575516524
+1,S-K,Daun nangka,Peperomium semangka,0.5388469689048265
+1,S-K,Kamboja jepang,Lidah metua,0.36213717769447634
+1,S-K,Kamboja jepang,Paku tanduk rusa,0.30032418509940734
+1,S-K,Kamboja jepang,Peperomium semangka,0.45294810642720484
+1,S-K,Lidah metua,Paku tanduk rusa,0.24173972938871485
+1,S-K,Lidah metua,Peperomium semangka,0.37957937007510245
+1,S-K,Paku tanduk rusa,Peperomium semangka,0.2966408466039187
+1,E-S-O,Aglaonema,Daun nangka,1.1961680348493675
+1,E-S-O,Aglaonema,Kamboja jepang,1.0522723704499064
+1,E-S-O,Aglaonema,Lidah metua,0.2836002416953074
+1,E-S-O,Aglaonema,Paku tanduk rusa,0.22687682445475726
+1,E-S-O,Aglaonema,Peperomium semangka,0.5555684840806255
+1,E-S-O,Daun nangka,Kamboja jepang,0.506460831678781
+1,E-S-O,Daun nangka,Lidah metua,0.4016028747759167
+1,E-S-O,Daun nangka,Paku tanduk rusa,0.33195796170436387
+1,E-S-O,Daun nangka,Peperomium semangka,0.9856299798994512
+1,E-S-O,Kamboja jepang,Lidah metua,0.2919963330479729
+1,E-S-O,Kamboja jepang,Paku tanduk rusa,0.3385721711662019
+1,E-S-O,Kamboja jepang,Peperomium semangka,0.6845179235392068
+1,E-S-O,Lidah metua,Paku tanduk rusa,0.2412658022312283
+1,E-S-O,Lidah metua,Peperomium semangka,0.2500356650070052
+1,E-S-O,Paku tanduk rusa,Peperomium semangka,0.3186302324990709
+1,E-S-K,Aglaonema,Daun nangka,0.6435703708050936
+1,E-S-K,Aglaonema,Kamboja jepang,0.8114788087308501
+1,E-S-K,Aglaonema,Lidah metua,0.22466891637551686
+1,E-S-K,Aglaonema,Paku tanduk rusa,0.31702797388595605
+1,E-S-K,Aglaonema,Peperomium semangka,0.4655214461288671
+1,E-S-K,Daun nangka,Kamboja jepang,0.5189945939392651
+1,E-S-K,Daun nangka,Lidah metua,0.2360229091143867
+1,E-S-K,Daun nangka,Paku tanduk rusa,0.28488641352294175
+1,E-S-K,Daun nangka,Peperomium semangka,0.5227417406341494
+1,E-S-K,Kamboja jepang,Lidah metua,0.39952497046758656
+1,E-S-K,Kamboja jepang,Paku tanduk rusa,0.6238550511468828
+1,E-S-K,Kamboja jepang,Peperomium semangka,0.4920553204832673
+1,E-S-K,Lidah metua,Paku tanduk rusa,0.16186023725439444
+1,E-S-K,Lidah metua,Peperomium semangka,0.32557294878694254
+1,E-S-K,Paku tanduk rusa,Peperomium semangka,0.45593057690914085
+2,N,Aglaonema,Daun nangka,0.7576050084549718
+2,N,Aglaonema,Kamboja jepang,0.6496929140284842
+2,N,Aglaonema,Lidah metua,0.535069126608584
+2,N,Aglaonema,Paku tanduk rusa,0.7275886541154818
+2,N,Aglaonema,Peperomium semangka,0.603633588302097
+2,N,Daun nangka,Kamboja jepang,1.181668371440276
+2,N,Daun nangka,Lidah metua,0.89036383504513
+2,N,Daun nangka,Paku tanduk rusa,0.745623084720989
+2,N,Daun nangka,Peperomium semangka,1.1937055819995792
+2,N,Kamboja jepang,Lidah metua,0.5158430502917869
+2,N,Kamboja jepang,Paku tanduk rusa,0.8903609965379884
+2,N,Kamboja jepang,Peperomium semangka,0.6188531046354083
+2,N,Lidah metua,Paku tanduk rusa,0.5826017756581535
+2,N,Lidah metua,Peperomium semangka,0.45735246601742635
+2,N,Paku tanduk rusa,Peperomium semangka,0.6901481095879616
+2,E,Aglaonema,Daun nangka,0.7857613288255383
+2,E,Aglaonema,Kamboja jepang,0.5021906194617254
+2,E,Aglaonema,Lidah metua,0.43465549677989146
+2,E,Aglaonema,Paku tanduk rusa,0.610898135401391
+2,E,Aglaonema,Peperomium semangka,0.5782678449504407
+2,E,Daun nangka,Kamboja jepang,1.137269887329393
+2,E,Daun nangka,Lidah metua,0.8953296222885031
+2,E,Daun nangka,Paku tanduk rusa,0.7955196880514993
+2,E,Daun nangka,Peperomium semangka,1.0717922823990849
+2,E,Kamboja jepang,Lidah metua,0.43941157928709035
+2,E,Kamboja jepang,Paku tanduk rusa,0.8123373891149099
+2,E,Kamboja jepang,Peperomium semangka,0.5873491582818083
+2,E,Lidah metua,Paku tanduk rusa,0.4554328352541852
+2,E,Lidah metua,Peperomium semangka,0.36348295524190705
+2,E,Paku tanduk rusa,Peperomium semangka,0.5920075469655269
+2,S-O,Aglaonema,Daun nangka,0.8497339289421846
+2,S-O,Aglaonema,Kamboja jepang,0.6122556689306208
+2,S-O,Aglaonema,Lidah metua,0.2080085822003516
+2,S-O,Aglaonema,Paku tanduk rusa,0.2857282797902858
+2,S-O,Aglaonema,Peperomium semangka,0.5541724491285084
+2,S-O,Daun nangka,Kamboja jepang,0.31672675544798834
+2,S-O,Daun nangka,Lidah metua,0.4045500316113034
+2,S-O,Daun nangka,Paku tanduk rusa,0.4274617346700509
+2,S-O,Daun nangka,Peperomium semangka,0.8329250597409611
+2,S-O,Kamboja jepang,Lidah metua,0.23956024745252089
+2,S-O,Kamboja jepang,Paku tanduk rusa,0.3669624358774272
+2,S-O,Kamboja jepang,Peperomium semangka,0.530439332411474
+2,S-O,Lidah metua,Paku tanduk rusa,0.16302842234083822
+2,S-O,Lidah metua,Peperomium semangka,0.16025517099270126
+2,S-O,Paku tanduk rusa,Peperomium semangka,0.27823567682621037
+2,S-K,Aglaonema,Daun nangka,0.6878026866532837
+2,S-K,Aglaonema,Kamboja jepang,0.7051210299020223
+2,S-K,Aglaonema,Lidah metua,0.2002445484865199
+2,S-K,Aglaonema,Paku tanduk rusa,0.19720718387075273
+2,S-K,Aglaonema,Peperomium semangka,0.829628035021955
+2,S-K,Daun nangka,Kamboja jepang,0.6791166736531099
+2,S-K,Daun nangka,Lidah metua,0.35286361968549085
+2,S-K,Daun nangka,Paku tanduk rusa,0.16687261945274734
+2,S-K,Daun nangka,Peperomium semangka,1.0454968514565368
+2,S-K,Kamboja jepang,Lidah metua,0.4284896952743485
+2,S-K,Kamboja jepang,Paku tanduk rusa,0.3014209322860567
+2,S-K,Kamboja jepang,Peperomium semangka,0.6452510338157823
+2,S-K,Lidah metua,Paku tanduk rusa,0.16875998519693308
+2,S-K,Lidah metua,Peperomium semangka,0.39476552438537066
+2,S-K,Paku tanduk rusa,Peperomium semangka,0.29698747335926434
+2,E-S-O,Aglaonema,Daun nangka,1.1545773950449407
+2,E-S-O,Aglaonema,Kamboja jepang,0.6387437674392111
+2,E-S-O,Aglaonema,Lidah metua,0.15121911516520278
+2,E-S-O,Aglaonema,Paku tanduk rusa,0.1710930892458673
+2,E-S-O,Aglaonema,Peperomium semangka,0.5179176320580356
+2,E-S-O,Daun nangka,Kamboja jepang,0.4211874627796764
+2,E-S-O,Daun nangka,Lidah metua,0.2519916509065896
+2,E-S-O,Daun nangka,Paku tanduk rusa,0.21271312035809917
+2,E-S-O,Daun nangka,Peperomium semangka,0.9874691383259508
+2,E-S-O,Kamboja jepang,Lidah metua,0.1394483998409192
+2,E-S-O,Kamboja jepang,Paku tanduk rusa,0.22436000727661762
+2,E-S-O,Kamboja jepang,Peperomium semangka,0.5025169975460685
+2,E-S-O,Lidah metua,Paku tanduk rusa,0.1305574794542927
+2,E-S-O,Lidah metua,Peperomium semangka,0.14922777115847777
+2,E-S-O,Paku tanduk rusa,Peperomium semangka,0.18577567715767448
+2,E-S-K,Aglaonema,Daun nangka,0.7565289358190235
+2,E-S-K,Aglaonema,Kamboja jepang,0.6643873247591183
+2,E-S-K,Aglaonema,Lidah metua,0.17844444017947697
+2,E-S-K,Aglaonema,Paku tanduk rusa,0.20881699877260332
+2,E-S-K,Aglaonema,Peperomium semangka,0.41392566978151124
+2,E-S-K,Daun nangka,Kamboja jepang,0.623883788915611
+2,E-S-K,Daun nangka,Lidah metua,0.26736272113589377
+2,E-S-K,Daun nangka,Paku tanduk rusa,0.3077944010348305
+2,E-S-K,Daun nangka,Peperomium semangka,0.5175729445230154
+2,E-S-K,Kamboja jepang,Lidah metua,0.43631235937823903
+2,E-S-K,Kamboja jepang,Paku tanduk rusa,0.5716846430584056
+2,E-S-K,Kamboja jepang,Peperomium semangka,0.4793174118510169
+2,E-S-K,Lidah metua,Paku tanduk rusa,0.14966801080930803
+2,E-S-K,Lidah metua,Peperomium semangka,0.3012396986522994
+2,E-S-K,Paku tanduk rusa,Peperomium semangka,0.39791463097695823
+3,N,Aglaonema,Daun nangka,0.5549136586720864
+3,N,Aglaonema,Kamboja jepang,0.5817929273624078
+3,N,Aglaonema,Lidah metua,0.5179561439520382
+3,N,Aglaonema,Paku tanduk rusa,0.5577312295288112
+3,N,Aglaonema,Peperomium semangka,0.5474955095794227
+3,N,Daun nangka,Kamboja jepang,0.7959747683558165
+3,N,Daun nangka,Lidah metua,0.8120500228249112
+3,N,Daun nangka,Paku tanduk rusa,0.48558951390819083
+3,N,Daun nangka,Peperomium semangka,0.8815175293362915
+3,N,Kamboja jepang,Lidah metua,0.46505723517467534
+3,N,Kamboja jepang,Paku tanduk rusa,0.7707971384095555
+3,N,Kamboja jepang,Peperomium semangka,0.5279028808447395
+3,N,Lidah metua,Paku tanduk rusa,0.6652348458552806
+3,N,Lidah metua,Peperomium semangka,0.4624672646861332
+3,N,Paku tanduk rusa,Peperomium semangka,0.7174212512081463
+3,E,Aglaonema,Daun nangka,0.5984496119520526
+3,E,Aglaonema,Kamboja jepang,0.44598438501196985
+3,E,Aglaonema,Lidah metua,0.4083365611160863
+3,E,Aglaonema,Paku tanduk rusa,0.5957547415703315
+3,E,Aglaonema,Peperomium semangka,0.4962192363828412
+3,E,Daun nangka,Kamboja jepang,0.737063534641211
+3,E,Daun nangka,Lidah metua,0.766508653936843
+3,E,Daun nangka,Paku tanduk rusa,0.5602378067295654
+3,E,Daun nangka,Peperomium semangka,0.9313262107161197
+3,E,Kamboja jepang,Lidah metua,0.3750093114996123
+3,E,Kamboja jepang,Paku tanduk rusa,0.7013199828080493
+3,E,Kamboja jepang,Peperomium semangka,0.588012706442481
+3,E,Lidah metua,Paku tanduk rusa,0.5476172766006697
+3,E,Lidah metua,Peperomium semangka,0.4182661063154409
+3,E,Paku tanduk rusa,Peperomium semangka,0.7584567726176454
+3,S-O,Aglaonema,Daun nangka,1.4353983061635829
+3,S-O,Aglaonema,Kamboja jepang,0.5894136187711817
+3,S-O,Aglaonema,Lidah metua,0.3105108616248296
+3,S-O,Aglaonema,Paku tanduk rusa,0.17794782922371327
+3,S-O,Aglaonema,Peperomium semangka,0.5393080678753533
+3,S-O,Daun nangka,Kamboja jepang,0.4745018328488117
+3,S-O,Daun nangka,Lidah metua,1.0425563606013442
+3,S-O,Daun nangka,Paku tanduk rusa,0.5062730942920236
+3,S-O,Daun nangka,Peperomium semangka,1.1676235561011694
+3,S-O,Kamboja jepang,Lidah metua,0.391357940772758
+3,S-O,Kamboja jepang,Paku tanduk rusa,0.311143019247862
+3,S-O,Kamboja jepang,Peperomium semangka,0.5453367316816412
+3,S-O,Lidah metua,Paku tanduk rusa,0.1920412883388549
+3,S-O,Lidah metua,Peperomium semangka,0.22957024635786635
+3,S-O,Paku tanduk rusa,Peperomium semangka,0.2118859860659619
+3,S-K,Aglaonema,Daun nangka,0.5321971021350772
+3,S-K,Aglaonema,Kamboja jepang,0.593998877817772
+3,S-K,Aglaonema,Lidah metua,0.20920811333800993
+3,S-K,Aglaonema,Paku tanduk rusa,0.3214172790429323
+3,S-K,Aglaonema,Peperomium semangka,0.40666076197645046
+3,S-K,Daun nangka,Kamboja jepang,0.40628643866192937
+3,S-K,Daun nangka,Lidah metua,0.3215367798257461
+3,S-K,Daun nangka,Paku tanduk rusa,0.29380856805625155
+3,S-K,Daun nangka,Peperomium semangka,0.40707073686148126
+3,S-K,Kamboja jepang,Lidah metua,0.41362474187654097
+3,S-K,Kamboja jepang,Paku tanduk rusa,0.4090288297591291
+3,S-K,Kamboja jepang,Peperomium semangka,0.37109175735559996
+3,S-K,Lidah metua,Paku tanduk rusa,0.31752121960795854
+3,S-K,Lidah metua,Peperomium semangka,0.2851324302834193
+3,S-K,Paku tanduk rusa,Peperomium semangka,0.3360846067301222
+3,E-S-O,Aglaonema,Daun nangka,1.8335335965799873
+3,E-S-O,Aglaonema,Kamboja jepang,0.6731974875606067
+3,E-S-O,Aglaonema,Lidah metua,0.3792632822520968
+3,E-S-O,Aglaonema,Paku tanduk rusa,0.14839121151822773
+3,E-S-O,Aglaonema,Peperomium semangka,0.5404339407102864
+3,E-S-O,Daun nangka,Kamboja jepang,0.6117140037249755
+3,E-S-O,Daun nangka,Lidah metua,1.3545640167941293
+3,E-S-O,Daun nangka,Paku tanduk rusa,0.3213328509484816
+3,E-S-O,Daun nangka,Peperomium semangka,1.2864422315252286
+3,E-S-O,Kamboja jepang,Lidah metua,0.44779550714098226
+3,E-S-O,Kamboja jepang,Paku tanduk rusa,0.2088963713190834
+3,E-S-O,Kamboja jepang,Peperomium semangka,0.5842606245088457
+3,E-S-O,Lidah metua,Paku tanduk rusa,0.15302816050759918
+3,E-S-O,Lidah metua,Peperomium semangka,0.37996818178482894
+3,E-S-O,Paku tanduk rusa,Peperomium semangka,0.22142401124793915
+3,E-S-K,Aglaonema,Daun nangka,0.585406445788128
+3,E-S-K,Aglaonema,Kamboja jepang,0.6824371706769351
+3,E-S-K,Aglaonema,Lidah metua,0.18360648534308469
+3,E-S-K,Aglaonema,Paku tanduk rusa,0.21381889587771893
+3,E-S-K,Aglaonema,Peperomium semangka,0.47161998318979576
+3,E-S-K,Daun nangka,Kamboja jepang,0.47940645937467546
+3,E-S-K,Daun nangka,Lidah metua,0.26415554630346305
+3,E-S-K,Daun nangka,Paku tanduk rusa,0.28717214297800603
+3,E-S-K,Daun nangka,Peperomium semangka,0.5726249693111679
+3,E-S-K,Kamboja jepang,Lidah metua,0.40158005635777533
+3,E-S-K,Kamboja jepang,Paku tanduk rusa,0.5431182908664333
+3,E-S-K,Kamboja jepang,Peperomium semangka,0.5434122768229377
+3,E-S-K,Lidah metua,Paku tanduk rusa,0.14525869475036174
+3,E-S-K,Lidah metua,Peperomium semangka,0.3777194391092778
+3,E-S-K,Paku tanduk rusa,Peperomium semangka,0.3529915860371821
+4,N,Aglaonema,Daun nangka,0.48510772616954173
+4,N,Aglaonema,Kamboja jepang,0.615004360071461
+4,N,Aglaonema,Lidah metua,0.4525056904576598
+4,N,Aglaonema,Paku tanduk rusa,0.5573818268259759
+4,N,Aglaonema,Peperomium semangka,0.6077208318810251
+4,N,Daun nangka,Kamboja jepang,0.9939758396252786
+4,N,Daun nangka,Lidah metua,0.651953074748513
+4,N,Daun nangka,Paku tanduk rusa,0.5689143042605642
+4,N,Daun nangka,Peperomium semangka,0.9171696494572806
+4,N,Kamboja jepang,Lidah metua,0.4407024952431044
+4,N,Kamboja jepang,Paku tanduk rusa,0.8847206561681359
+4,N,Kamboja jepang,Peperomium semangka,0.7007458428048415
+4,N,Lidah metua,Paku tanduk rusa,0.5364790346248091
+4,N,Lidah metua,Peperomium semangka,0.4518145519313001
+4,N,Paku tanduk rusa,Peperomium semangka,0.6962918074065851
+4,E,Aglaonema,Daun nangka,0.5466134890101377
+4,E,Aglaonema,Kamboja jepang,0.4861534951347705
+4,E,Aglaonema,Lidah metua,0.4263014025148004
+4,E,Aglaonema,Paku tanduk rusa,0.6041874172242809
+4,E,Aglaonema,Peperomium semangka,0.7269406785348275
+4,E,Daun nangka,Kamboja jepang,0.7753538143857527
+4,E,Daun nangka,Lidah metua,0.6597220456715434
+4,E,Daun nangka,Paku tanduk rusa,0.5879706891391349
+4,E,Daun nangka,Peperomium semangka,0.909441523810576
+4,E,Kamboja jepang,Lidah metua,0.37182986201584806
+4,E,Kamboja jepang,Paku tanduk rusa,0.7224762661562945
+4,E,Kamboja jepang,Peperomium semangka,0.6691086406918288
+4,E,Lidah metua,Paku tanduk rusa,0.4271303385201453
+4,E,Lidah metua,Peperomium semangka,0.46483783465920364
+4,E,Paku tanduk rusa,Peperomium semangka,0.7521434016804119
+4,S-O,Aglaonema,Daun nangka,1.2302329274053916
+4,S-O,Aglaonema,Kamboja jepang,0.4871709520610245
+4,S-O,Aglaonema,Lidah metua,0.16327265955387402
+4,S-O,Aglaonema,Paku tanduk rusa,0.24589067922895608
+4,S-O,Aglaonema,Peperomium semangka,0.5458341388819334
+4,S-O,Daun nangka,Kamboja jepang,0.4153691221061294
+4,S-O,Daun nangka,Lidah metua,0.3163951683958539
+4,S-O,Daun nangka,Paku tanduk rusa,0.43233747167947073
+4,S-O,Daun nangka,Peperomium semangka,1.1404408482030124
+4,S-O,Kamboja jepang,Lidah metua,0.19133863750995428
+4,S-O,Kamboja jepang,Paku tanduk rusa,0.320176467490085
+4,S-O,Kamboja jepang,Peperomium semangka,0.5323398437592443
+4,S-O,Lidah metua,Paku tanduk rusa,0.14231722097138788
+4,S-O,Lidah metua,Peperomium semangka,0.14923679588764735
+4,S-O,Paku tanduk rusa,Peperomium semangka,0.2834017222543364
+4,S-K,Aglaonema,Daun nangka,0.4557164845538769
+4,S-K,Aglaonema,Kamboja jepang,0.6340784632105668
+4,S-K,Aglaonema,Lidah metua,0.21841077239815943
+4,S-K,Aglaonema,Paku tanduk rusa,0.1800280424436453
+4,S-K,Aglaonema,Peperomium semangka,0.37238849796381207
+4,S-K,Daun nangka,Kamboja jepang,0.4895014766671149
+4,S-K,Daun nangka,Lidah metua,0.2916909051192424
+4,S-K,Daun nangka,Paku tanduk rusa,0.15492304756886677
+4,S-K,Daun nangka,Peperomium semangka,0.37390969741656077
+4,S-K,Kamboja jepang,Lidah metua,0.40639484029491707
+4,S-K,Kamboja jepang,Paku tanduk rusa,0.25420807266703166
+4,S-K,Kamboja jepang,Peperomium semangka,0.41905101663188365
+4,S-K,Lidah metua,Paku tanduk rusa,0.1644716813429439
+4,S-K,Lidah metua,Peperomium semangka,0.25849788443949917
+4,S-K,Paku tanduk rusa,Peperomium semangka,0.26512730059475287
+4,E-S-O,Aglaonema,Daun nangka,1.4159088104511197
+4,E-S-O,Aglaonema,Kamboja jepang,0.5170785579507308
+4,E-S-O,Aglaonema,Lidah metua,0.1460445205252308
+4,E-S-O,Aglaonema,Paku tanduk rusa,0.1282724408753527
+4,E-S-O,Aglaonema,Peperomium semangka,0.5486068678149069
+4,E-S-O,Daun nangka,Kamboja jepang,0.44377521213912074
+4,E-S-O,Daun nangka,Lidah metua,0.2546006762171502
+4,E-S-O,Daun nangka,Paku tanduk rusa,0.208452990093372
+4,E-S-O,Daun nangka,Peperomium semangka,1.131221313224868
+4,E-S-O,Kamboja jepang,Lidah metua,0.1468267326991536
+4,E-S-O,Kamboja jepang,Paku tanduk rusa,0.15004506699111195
+4,E-S-O,Kamboja jepang,Peperomium semangka,0.5674758572641795
+4,E-S-O,Lidah metua,Paku tanduk rusa,0.13163841951092045
+4,E-S-O,Lidah metua,Peperomium semangka,0.16942665469131435
+4,E-S-O,Paku tanduk rusa,Peperomium semangka,0.1712948172939838
+4,E-S-K,Aglaonema,Daun nangka,0.5435512941204634
+4,E-S-K,Aglaonema,Kamboja jepang,0.6420193451550664
+4,E-S-K,Aglaonema,Lidah metua,0.19028692914057502
+4,E-S-K,Aglaonema,Paku tanduk rusa,0.2267784156405837
+4,E-S-K,Aglaonema,Peperomium semangka,1.2922603391389074
+4,E-S-K,Daun nangka,Kamboja jepang,0.4250937992715363
+4,E-S-K,Daun nangka,Lidah metua,0.24460882130853492
+4,E-S-K,Daun nangka,Paku tanduk rusa,0.25986465317928564
+4,E-S-K,Daun nangka,Peperomium semangka,1.265027227331341
+4,E-S-K,Kamboja jepang,Lidah metua,0.40675176833653787
+4,E-S-K,Kamboja jepang,Paku tanduk rusa,0.47529610095582286
+4,E-S-K,Kamboja jepang,Peperomium semangka,0.8445465059317506
+4,E-S-K,Lidah metua,Paku tanduk rusa,0.16349443259859914
+4,E-S-K,Lidah metua,Peperomium semangka,0.5557943039495588
+4,E-S-K,Paku tanduk rusa,Peperomium semangka,0.7944971524232722

@@ -1,0 +1,5 @@
+fold,input,feature,model,image,true,pred,correct
+2,N,F5,SVM,daun_nangka_3.jpg,Daun nangka,Peperomium semangka,False
+1,N,F5,SVM,daun_nangka_4.jpg,Daun nangka,Kamboja jepang,False
+1,N,F5,SVM,kamboja_jepang_2.jpg,Kamboja jepang,Aglaonema,False
+3,N,F5,SVM,paku_tanduk_rusa_1.jpeg,Paku tanduk rusa,Daun nangka,False
