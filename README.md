@@ -1,14 +1,20 @@
 # Klasifikasi Tanaman dari Citra Daun
 
-**EDA dan studi ablasi pengolahan citra, fitur visual, serta machine learning klasik.**
+**EDA, ablasi pengolahan citra, serta klasifikasi dengan machine learning klasik dan deep learning.**
 
-Repositori ini mendokumentasikan eksperimen klasifikasi 6 kelas tanaman dari 60 citra daun. Sebanyak **108 kombinasi** dibandingkan untuk setiap skenario: 6 kondisi citra × 9 paket fitur × 2 model. Tersedia hasil baseline dan augmentasi, prediksi out-of-fold (OOF), analisis kesalahan, dan feature importance.
+Proyek ini membandingkan SVM, Random Forest, ResNet-50, ViT-B/16, dan Swin-T untuk enam kelas tanaman. Dataset primer berisi **60 foto UB**. Dataset sekunder berisi **150 foto iNaturalist**, masing-masing 25 foto per kelas, untuk evaluasi eksternal.
 
-**Hasil utama:** konfigurasi citra tanpa enhancement/segmentasi (`N`) dengan SVM dan fitur warna + SIFT–BoVW (`F4`) mencapai akurasi OOF **96,67% (58/60 foto benar)** pada skenario augmentasi. Rata-rata macro-F1 pada 5 outer fold adalah **0,9444 ± 0,1242**. Hasil ini masih eksploratif pada tingkat foto, dengan keterbatasan yang dijelaskan di bawah.
+| Evaluasi | Konfigurasi terbaik yang tercatat | Benar | Macro-F1 |
+|---|---|---:|---:|
+| ML klasik, OOF primer | `N–F4–SVM` dengan augmentasi, seri dengan `F7` dan `F8` | 58/60 | 0,9444 |
+| Deep learning, OOF primer | Swin-T pretrained, `N`, augmentasi OFF | 60/60 | 1,0000 |
+| Deep learning, eksternal | Swin-T pretrained, `S-O`, augmentasi OFF | 118/150 | 0,7789 |
 
-[Buka notebook](ablasi%20ML%20awal/EDA_Ablasi_ML_Daun.ipynb) · [Hasil baseline](ablasi%20ML%20awal/hasil_ml_full/) · [Hasil augmentasi](ablasi%20ML%20awal/hasil_ml_full_aug/)
+Macro-F1 primer adalah rata-rata lima outer fold. Macro-F1 eksternal dihitung dari 150 prediksi model yang dilatih pada seluruh 60 foto primer.
 
-## Tujuan eksperimen
+[Notebook ML](ablasi%20ML%20awal/EDA_Ablasi_ML_Daun.ipynb) · [Hasil ML baseline](ablasi%20ML%20awal/hasil_ml_full/) · [Hasil ML augmentasi](ablasi%20ML%20awal/hasil_ml_full_aug/) · [Eksperimen deep learning](#deep-learning) · [Manifest sekunder](Dataset_Sekunder/metadata.csv)
+
+## Tujuan eksperimen ML klasik
 
 - Mengamati distribusi kelas, karakteristik citra, dan duplikat piksel melalui EDA.
 - Membandingkan enhancement CLAHE, segmentasi Otsu, dan segmentasi K-Means.
@@ -30,7 +36,9 @@ Audit yang tersimpan mencakup 60 citra berukuran 960 × 1280 piksel, tanpa dupli
 | Peperomium semangka | 6 |
 | **Total** | **60** |
 
-Nama kelas dipertahankan sesuai metadata eksperimen. **Dataset mentah tidak disertakan.** Gambar contoh yang telah menjadi bagian output notebook tetap tersedia dalam artefak hasil.
+Nama kelas dipertahankan sesuai metadata eksperimen. **Dataset mentah tidak disertakan.** Gambar contoh tersedia dalam output notebook dan artefak visual.
+
+Dataset sekunder mempunyai 150 observasi iNaturalist yang berbeda. Manifest mencatat label lokal, sumber, takson, status identifikasi, lisensi, atribusi, dan hash gambar. Delapan foto berlisensi CC BY-NC. Ikuti lisensi dan atribusi masing-masing foto. [Manifest sekunder](Dataset_Sekunder/metadata.csv) · [Catatan kurasi](Dataset_Sekunder/README.txt)
 
 ## Rancangan ablasi
 
@@ -127,11 +135,64 @@ Permutation importance mengukur penurunan macro-F1 ketika fitur atau blok fitur 
 
 Lihat [ringkasan importance per blok](ablasi%20ML%20awal/hasil_ml_full_aug/feature_importance_best_non_f4/block_importance_summary.csv). Importance bersifat deskriptif, bukan kausal; fitur berkorelasi dapat saling menggantikan. Indeks word BoVW tidak dibandingkan langsung antarfold karena kamusnya berbeda.
 
+## Deep learning
+
+Benchmark memakai ResNet-50, ViT-B/16, dan Swin-T dengan bobot awal ImageNet-1K atau acak. Setiap model diuji dengan augmentasi ON dan OFF. Run awal meliputi `N`, `E`, dan `S-K` (**36 konfigurasi**). Ekstensi Otsu menambah `S-O` dan `E-S-O` (**24 konfigurasi**). Totalnya **60 konfigurasi per protokol evaluasi**.
+
+CLAHE memakai kanal `L*` Lab, clip limit 1,5, dan tile 8 × 8. Otsu memilih ambang per foto pada kanal `a*` Lab dengan threshold biner terbalik. Mask segmentasi menjalani opening dan closing dengan kernel elips 3 × 3. Pada input DL, RGB di luar mask bernilai nol. Model menerima input 224 × 224 dengan resize dan padding yang mempertahankan proporsi. [Kode PCD awal](deeplearning/data.py) · [Kode Otsu](deeplearning/run_otsu.py)
+
+| Protokol | Data latih dan evaluasi | Perlakuan citra |
+|---|---|---|
+| **Primer OOF** | Split ML yang sama. Lima outer fold dengan 48 foto train dan 12 evaluasi per fold. Tiga inner fold untuk memilih learning rate dan durasi. | Kondisi PCD berlaku pada train, validasi, dan evaluasi primer. Augmentasi hanya pada train. |
+| **Evaluasi eksternal** | Fit ulang pada seluruh 60 foto primer. Evaluasi pada 150 foto sekunder yang sama, dengan 25 foto per kelas. | CLAHE, Otsu, K-Means, dan augmentasi hanya pada train. Semua foto sekunder memakai decode RGB, resize, padding, dan normalisasi input yang sama. |
+
+Pada evaluasi eksternal, learning rate dipilih dari rata-rata macro-F1 inner fold primer. Jumlah epoch memakai median epoch terbaik untuk kandidat learning rate terpilih. Recipe dikunci sebelum evaluasi sekunder. Run memakai seed 42, AdamW, batch size 8, dan A100. Batas tuning adalah 20 epoch dengan patience 4 untuk pretrained dan 40 epoch dengan patience 6 untuk bobot acak. [Split primer](deeplearning/splits/) · [Konfigurasi benchmark awal](deeplearning/results/benchmark/run_config.json) · [Recipe eksternal Otsu](deeplearning/results/otsu/external_evaluation/run_config.json)
+
+### Hasil dan bukti visual
+
+| Run | Konfigurasi terbaik menurut macro-F1 | Benar | Macro-F1 | Artefak |
+|---|---|---:|---:|---|
+| Primer awal | Swin-T pretrained, `N`, Aug OFF | 60/60 | 1,0000 | [Ringkasan](deeplearning/results/benchmark/summary.csv) · [Gambar](deeplearning/results/benchmark/figures/) |
+| Primer Otsu | ViT-B/16 pretrained, `E-S-O`, Aug OFF | 58/60 | 0,9708 | [Ringkasan](deeplearning/results/otsu/benchmark/summary.csv) · [Gambar](deeplearning/results/otsu/benchmark/figures/) |
+| Eksternal awal | Swin-T pretrained, `N`, Aug OFF | 103/150 | 0,6844 | [Ringkasan](deeplearning/results/external_evaluation/summary.csv) · [Gambar](deeplearning/results/external_evaluation/figures/) |
+| Eksternal Otsu | Swin-T pretrained, `S-O`, Aug OFF | 118/150 | 0,7789 | [Ringkasan](deeplearning/results/otsu/external_evaluation/summary.csv) · [Gambar](deeplearning/results/otsu/external_evaluation/figures/) |
+
+Pada Swin-T pretrained tanpa augmentasi, `S-O` saat training memberi **15 prediksi benar tambahan** dibanding `N` pada foto sekunder yang sama. Di seluruh 12 pasangan dengan arsitektur, bobot awal, dan status augmentasi setara, `S-O` mengungguli `N` pada **5 pasangan** dengan rata-rata Δ macro-F1 **−0,0038**. Pada run awal, rata-rata Δ macro-F1 terhadap `N` adalah **−0,0027** untuk CLAHE dan **−0,0650** untuk K-Means. Perbandingan ini mencakup recipe yang dituning per kondisi dan satu seed. [Perbandingan eksternal awal](deeplearning/results/external_evaluation/pcd_deltas.csv) · [Perbandingan eksternal Otsu](deeplearning/results/otsu/external_evaluation/pcd_deltas.csv)
+
+Penurunan Swin-T `N` dari 60/60 pada OOF primer menjadi 103/150 pada evaluasi eksternal bersifat deskriptif. Jumlah foto latih dan sumber foto uji sama-sama berubah. Evaluasi eksternal mengukur performa pada set iNaturalist terkurasi. Foto dan pengamat yang berbeda masih bisa memotret individu tanaman yang sama.
+
+### Menjalankan pipeline DL
+
+Jalankan dari root repo dengan CUDA, PyTorch, torchvision, NumPy, Pillow, OpenCV, scikit-learn, threadpoolctl, dan Matplotlib. Environment tercatat memakai PyTorch `1.13.1+cu116`, torchvision `0.14.1+cu116`, scikit-learn `1.2.1`, dan OpenCV `4.10.0`. Sediakan foto primer di `Dataset/<label>/<image>`. Untuk evaluasi eksternal, sediakan foto berdasarkan `download_url` pada manifest di `Dataset_Sekunder/<label>/<image>`.
+
+| Langkah | Perintah |
+|---|---|
+| Verifikasi foto primer dan split | `python -B deeplearning/prepare_splits.py --check` |
+| Smoke test benchmark awal | `python -B deeplearning/run_benchmark.py --smoke` |
+| Benchmark primer awal | `python -B deeplearning/run_benchmark.py` |
+| Evaluasi eksternal awal | `python -B deeplearning/run_external.py` |
+| Benchmark primer Otsu | `python -B deeplearning/run_otsu.py benchmark` |
+| Evaluasi eksternal Otsu | `python -B deeplearning/run_otsu.py external_evaluation` |
+| Buat gambar Otsu dari hasil tersimpan | `python -B deeplearning/plot_otsu.py benchmark` dan `python -B deeplearning/plot_otsu.py external_evaluation` |
+
+Runner memakai jurnal hasil untuk melanjutkan run dengan konfigurasi yang sama. Untuk menghitung ulang dari awal, gunakan salinan kerja dengan direktori output baru atau pisahkan artefak yang sudah dipublikasikan sebelum menjalankan tahap tersebut. Evaluasi eksternal memakai artefak tuning primer yang sesuai. [Runner kontrol PCD tiga seed](deeplearning/run_pcd_control.py)
+
 ## Struktur repositori
 
 ```text
 leaf-classification-ablation/
 ├── README.md
+├── Dataset_Sekunder/                 # Manifest, sumber foto, dan lisensi
+├── deeplearning/
+│   ├── splits/                       # Outer dan inner CV primer
+│   ├── run_benchmark.py
+│   ├── run_external.py
+│   ├── run_otsu.py
+│   ├── plot_otsu.py
+│   └── results/
+│       ├── benchmark/                # DL primer, kondisi awal
+│       ├── external_evaluation/      # Fit 60 primer, uji 150 sekunder
+│       └── otsu/                      # Hasil primer dan eksternal Otsu
 └── ablasi ML awal/
     ├── EDA_Ablasi_ML_Daun.ipynb
     ├── hasil_ml_full/                 # Baseline tanpa augmentasi
@@ -203,7 +264,7 @@ python -m jupyterlab "ablasi ML awal/EDA_Ablasi_ML_Daun.ipynb"
 
 Environment yang tercatat menggunakan Python 3.10.20, scikit-learn 1.7.2, dan OpenCV 5.0.0. Perintah instalasi di atas tidak mengunci versi; reproduksi angka yang sama belum dijamin untuk environment lain. Notebook menggunakan CPU dan tidak memerlukan PyTorch/CUDA.
 
-Jalankan notebook dari root repo atau folder `Notebook`, lalu atur cell setup:
+Jalankan notebook dari root repo atau folder `ablasi ML awal`, lalu atur cell setup:
 
 ```python
 SMOKE_TEST = False
