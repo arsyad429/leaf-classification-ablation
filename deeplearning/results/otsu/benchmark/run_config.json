@@ -1,0 +1,48 @@
+{
+  "stage": "primary_oof",
+  "conditions": [
+    "S-O",
+    "E-S-O"
+  ],
+  "seed": 42,
+  "size": 224,
+  "architectures": [
+    "resnet50",
+    "vit_b_16",
+    "swin_t"
+  ],
+  "gpu": "NVIDIA A100-SXM4-80GB",
+  "torch": "1.13.1+cu116",
+  "opencv": "4.10.0",
+  "sources": {
+    "run_otsu.py": "a006b6ec3de248ae353c661971cb5df6a099cbd414ad53ad6fa96d3b99e3305f",
+    "data.py": "eb6c212c461bcf76c1ab8cdd50d7156bca447d93406fe9be309928c473b7a45e",
+    "training.py": "4195b31ce96a5b6422356bd56a557f42766626605f7e5df27fc9602f9c3fa36b",
+    "run_benchmark.py": "4cb4b99daa4f7d6b4c0b4c74b8960cc0c63af075d5d7b1b1c3f21d059e706386",
+    "run_external.py": "5c58e9ad6e9a160d932484c7af76db83e23db152971c4ab8c0ce4b2532784c21",
+    "images.csv": "734ec0c2b6a4125a61a1ffe2c9a54db50bdf3bb9ac167a86bf03c62669842284",
+    "outer.csv": "82f3cc7fdf7bd1004761be9c019e4914ed0a0e7aff450fa7fb7de0b82982c020",
+    "inner.csv": "fde9d6d733ad483131a4d8c74382d485f3a4e009bf556f91a1f96eda5d6f6b56"
+  },
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "pcd_scope": "train_validation_evaluation",
+  "policies": {
+    "pretrained": {
+      "learning_rates": [
+        3e-05,
+        0.0001
+      ],
+      "max_epochs": 20,
+      "patience": 4
+    },
+    "scratch": {
+      "learning_rates": [
+        0.0003,
+        0.001
+      ],
+      "max_epochs": 40,
+      "patience": 6
+    }
+  }
+}
