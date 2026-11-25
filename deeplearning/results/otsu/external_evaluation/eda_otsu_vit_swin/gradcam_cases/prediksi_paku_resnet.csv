@@ -1,0 +1,51 @@
+input,image,true,prediction,paku_score
+N,inat_677582255.jpg,Paku tanduk rusa,Paku tanduk rusa,0.4856681525707245
+N,inat_683279493.jpg,Paku tanduk rusa,Paku tanduk rusa,0.5184180736541748
+N,inat_695009067.jpg,Paku tanduk rusa,Paku tanduk rusa,0.4772912263870239
+N,inat_697780215.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9836404919624329
+N,inat_707441523.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9700897932052612
+N,inat_708758600.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9224511981010437
+N,inat_715480225.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9697993397712708
+N,inat_716499258.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9059281349182129
+N,inat_721118477.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9836720824241638
+N,inat_721796701.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9314777255058289
+N,inat_728790409.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9909375905990601
+N,inat_734187443.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9613707661628723
+N,inat_734315722.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9925516843795776
+N,inat_734864938.jpg,Paku tanduk rusa,Paku tanduk rusa,0.996614396572113
+N,inat_738565867.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9924847483634949
+N,inat_742720651.jpg,Paku tanduk rusa,Paku tanduk rusa,0.8789856433868408
+N,inat_743198082.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9743500351905823
+N,inat_744184346.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9768102169036865
+N,inat_750739922.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9626215696334839
+N,inat_755266249.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9675807952880859
+N,inat_757327216.jpg,Paku tanduk rusa,Paku tanduk rusa,0.5569983720779419
+N,inat_760659046.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9615727663040161
+N,inat_761080813.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9675605893135071
+N,inat_764229063.jpg,Paku tanduk rusa,Paku tanduk rusa,0.8563891053199768
+N,inat_767327946.jpg,Paku tanduk rusa,Paku tanduk rusa,0.9945091605186462
+S-O,inat_677582255.jpg,Paku tanduk rusa,Peperomium semangka,0.049408551305532455
+S-O,inat_683279493.jpg,Paku tanduk rusa,Peperomium semangka,0.03218122571706772
+S-O,inat_695009067.jpg,Paku tanduk rusa,Peperomium semangka,0.03841203451156616
+S-O,inat_697780215.jpg,Paku tanduk rusa,Peperomium semangka,0.07022123783826828
+S-O,inat_707441523.jpg,Paku tanduk rusa,Peperomium semangka,0.03853748366236687
+S-O,inat_708758600.jpg,Paku tanduk rusa,Peperomium semangka,0.042134787887334824
+S-O,inat_715480225.jpg,Paku tanduk rusa,Lidah metua,0.09675177931785583
+S-O,inat_716499258.jpg,Paku tanduk rusa,Lidah metua,0.2288043051958084
+S-O,inat_721118477.jpg,Paku tanduk rusa,Peperomium semangka,0.01112452894449234
+S-O,inat_721796701.jpg,Paku tanduk rusa,Peperomium semangka,0.05950973555445671
+S-O,inat_728790409.jpg,Paku tanduk rusa,Peperomium semangka,0.028528058901429176
+S-O,inat_734187443.jpg,Paku tanduk rusa,Peperomium semangka,0.08033067733049393
+S-O,inat_734315722.jpg,Paku tanduk rusa,Peperomium semangka,0.02638622559607029
+S-O,inat_734864938.jpg,Paku tanduk rusa,Peperomium semangka,0.14519454538822174
+S-O,inat_738565867.jpg,Paku tanduk rusa,Peperomium semangka,0.1353483349084854
+S-O,inat_742720651.jpg,Paku tanduk rusa,Peperomium semangka,0.017000136896967888
+S-O,inat_743198082.jpg,Paku tanduk rusa,Peperomium semangka,0.07256893813610077
+S-O,inat_744184346.jpg,Paku tanduk rusa,Peperomium semangka,0.031181545928120613
+S-O,inat_750739922.jpg,Paku tanduk rusa,Peperomium semangka,0.04061271250247955
+S-O,inat_755266249.jpg,Paku tanduk rusa,Peperomium semangka,0.23172210156917572
+S-O,inat_757327216.jpg,Paku tanduk rusa,Kamboja jepang,0.039732925593853
+S-O,inat_760659046.jpg,Paku tanduk rusa,Peperomium semangka,0.06687889993190765
+S-O,inat_761080813.jpg,Paku tanduk rusa,Peperomium semangka,0.011735694482922554
+S-O,inat_764229063.jpg,Paku tanduk rusa,Lidah metua,0.026644833385944366
+S-O,inat_767327946.jpg,Paku tanduk rusa,Peperomium semangka,0.09254869073629379

@@ -29,6 +29,8 @@ Perbandingan ini eksploratif pada satu seed dan satu set uji. Pada augmentasi OF
 
 Sumber prediksi dan recipe tersedia di [hasil eksternal awal](../../../external_evaluation/) dan [hasil eksternal Otsu](../). [Manifest foto sekunder](../../../../../Dataset_Sekunder/metadata.csv) mencatat sumber dan atribusi per foto.
 
+[Grad-CAM berpasangan untuk contoh ViT dan Swin serta audit penurunan ResNet pada paku](gradcam_cases/README.md).
+
 ## Regenerasi
 
 Jalankan dari checkout repo dengan Python 3.10+, NumPy, Matplotlib, dan Pillow. Gunakan ZIP kurasi 150 foto sekunder. Skrip memverifikasi hash semua foto yang ditampilkan.

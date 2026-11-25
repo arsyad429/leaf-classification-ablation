@@ -1,0 +1,7 @@
+model,input,seed,learning_rate,epochs,matching_predictions,photos
+vit_b_16,N,42,0.0001,20,150,150
+swin_t,N,42,0.0001,12,150,150
+resnet50,N,42,0.0001,11,150,150
+vit_b_16,S-O,42,0.0001,8,150,150
+swin_t,S-O,42,0.0001,8,150,150
+resnet50,S-O,42,0.0001,13,150,150

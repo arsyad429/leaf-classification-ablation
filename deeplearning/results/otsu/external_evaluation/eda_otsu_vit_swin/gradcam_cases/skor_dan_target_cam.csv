@@ -1,0 +1,33 @@
+image,observation_id,model,input,true,prediction,target_kind,target,score,active,layer
+inat_19219491.jpg,13165279,vit_b_16,N,Kamboja jepang,Daun nangka,true,Kamboja jepang,0.022633442655205727,True,encoder.layers[-1].ln_1 (patch tokens)
+inat_245161059.jpg,142957831,vit_b_16,N,Kamboja jepang,Paku tanduk rusa,true,Kamboja jepang,0.03466179594397545,True,encoder.layers[-1].ln_1 (patch tokens)
+inat_418438754.jpg,235295475,vit_b_16,N,Aglaonema,Lidah metua,true,Aglaonema,0.014726124703884125,True,encoder.layers[-1].ln_1 (patch tokens)
+inat_245774771.jpg,143317996,vit_b_16,N,Peperomium semangka,Paku tanduk rusa,true,Peperomium semangka,0.1399412602186203,True,encoder.layers[-1].ln_1 (patch tokens)
+inat_471692010.jpg,262649369,vit_b_16,N,Daun nangka,Kamboja jepang,true,Daun nangka,0.10902069509029388,True,encoder.layers[-1].ln_1 (patch tokens)
+inat_19219491.jpg,13165279,swin_t,N,Kamboja jepang,Paku tanduk rusa,true,Kamboja jepang,0.012700049206614494,True,features[-1][-1].norm1
+inat_245161059.jpg,142957831,swin_t,N,Kamboja jepang,Paku tanduk rusa,true,Kamboja jepang,0.06816113740205765,True,features[-1][-1].norm1
+inat_418438754.jpg,235295475,swin_t,N,Aglaonema,Lidah metua,true,Aglaonema,0.18143686652183533,True,features[-1][-1].norm1
+inat_245774771.jpg,143317996,swin_t,N,Peperomium semangka,Paku tanduk rusa,true,Peperomium semangka,0.008955546654760838,True,features[-1][-1].norm1
+inat_471692010.jpg,262649369,swin_t,N,Daun nangka,Kamboja jepang,true,Daun nangka,0.09219122678041458,True,features[-1][-1].norm1
+inat_721118477.jpg,393420666,resnet50,N,Paku tanduk rusa,Paku tanduk rusa,true,Paku tanduk rusa,0.9836720824241638,True,layer4[-1]
+inat_728790409.jpg,397357110,resnet50,N,Paku tanduk rusa,Paku tanduk rusa,true,Paku tanduk rusa,0.9909375905990601,True,layer4[-1]
+inat_715480225.jpg,390527216,resnet50,N,Paku tanduk rusa,Paku tanduk rusa,true,Paku tanduk rusa,0.9697993397712708,True,layer4[-1]
+inat_757327216.jpg,411653283,resnet50,N,Paku tanduk rusa,Paku tanduk rusa,true,Paku tanduk rusa,0.5569983720779419,True,layer4[-1]
+inat_19219491.jpg,13165279,vit_b_16,S-O,Kamboja jepang,Kamboja jepang,true,Kamboja jepang,0.556532084941864,True,encoder.layers[-1].ln_1 (patch tokens)
+inat_245161059.jpg,142957831,vit_b_16,S-O,Kamboja jepang,Kamboja jepang,true,Kamboja jepang,0.955812931060791,True,encoder.layers[-1].ln_1 (patch tokens)
+inat_418438754.jpg,235295475,vit_b_16,S-O,Aglaonema,Aglaonema,true,Aglaonema,0.8989176750183105,True,encoder.layers[-1].ln_1 (patch tokens)
+inat_245774771.jpg,143317996,vit_b_16,S-O,Peperomium semangka,Peperomium semangka,true,Peperomium semangka,0.7392264604568481,True,encoder.layers[-1].ln_1 (patch tokens)
+inat_471692010.jpg,262649369,vit_b_16,S-O,Daun nangka,Daun nangka,true,Daun nangka,0.753118097782135,True,encoder.layers[-1].ln_1 (patch tokens)
+inat_19219491.jpg,13165279,swin_t,S-O,Kamboja jepang,Kamboja jepang,true,Kamboja jepang,0.9139577150344849,True,features[-1][-1].norm1
+inat_245161059.jpg,142957831,swin_t,S-O,Kamboja jepang,Kamboja jepang,true,Kamboja jepang,0.6068500280380249,True,features[-1][-1].norm1
+inat_418438754.jpg,235295475,swin_t,S-O,Aglaonema,Aglaonema,true,Aglaonema,0.5242115259170532,True,features[-1][-1].norm1
+inat_245774771.jpg,143317996,swin_t,S-O,Peperomium semangka,Peperomium semangka,true,Peperomium semangka,0.8446677923202515,True,features[-1][-1].norm1
+inat_471692010.jpg,262649369,swin_t,S-O,Daun nangka,Daun nangka,true,Daun nangka,0.816398024559021,True,features[-1][-1].norm1
+inat_721118477.jpg,393420666,resnet50,S-O,Paku tanduk rusa,Peperomium semangka,true,Paku tanduk rusa,0.01112452894449234,True,layer4[-1]
+inat_728790409.jpg,397357110,resnet50,S-O,Paku tanduk rusa,Peperomium semangka,true,Paku tanduk rusa,0.028528058901429176,True,layer4[-1]
+inat_715480225.jpg,390527216,resnet50,S-O,Paku tanduk rusa,Lidah metua,true,Paku tanduk rusa,0.09675177931785583,True,layer4[-1]
+inat_757327216.jpg,411653283,resnet50,S-O,Paku tanduk rusa,Kamboja jepang,true,Paku tanduk rusa,0.039732925593853,True,layer4[-1]
+inat_721118477.jpg,393420666,resnet50,S-O,Paku tanduk rusa,Peperomium semangka,predicted,Peperomium semangka,0.9555407166481018,True,layer4[-1]
+inat_728790409.jpg,397357110,resnet50,S-O,Paku tanduk rusa,Peperomium semangka,predicted,Peperomium semangka,0.8435395956039429,True,layer4[-1]
+inat_715480225.jpg,390527216,resnet50,S-O,Paku tanduk rusa,Lidah metua,predicted,Lidah metua,0.6061391234397888,True,layer4[-1]
+inat_757327216.jpg,411653283,resnet50,S-O,Paku tanduk rusa,Kamboja jepang,predicted,Kamboja jepang,0.3113052546977997,True,layer4[-1]

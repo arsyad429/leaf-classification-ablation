@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "pretrained": true,
+  "augmentation": false,
+  "scopes": [
+    "N",
+    "S-O"
+  ],
+  "target": "true class for paired maps; S-O wrong class also shown for ResNet",
+  "photos": "same 150 unmodified secondary images with common model tensor preparation",
+  "archive_hashes": {
+    "N": "7f37a96f27873276b887ba2388de171cf80b9b0b4e33184cf2b6296bd9654937",
+    "S-O": "d420f5c8417256cb28063c6a5eba0c7919aeb0180051d64483a259451e992b03"
+  },
+  "runner_sha256": "1b83800c3df0b0ad37283b22ee2091185b4978c58d1eda0628f70644265ace00",
+  "selection": {
+    "shared_vit_swin_gains": [
+      "inat_19219491.jpg",
+      "inat_245161059.jpg",
+      "inat_418438754.jpg",
+      "inat_245774771.jpg",
+      "inat_471692010.jpg"
+    ],
+    "resnet_paku_errors": [
+      "inat_721118477.jpg",
+      "inat_728790409.jpg",
+      "inat_715480225.jpg",
+      "inat_757327216.jpg"
+    ]
+  }
+}
