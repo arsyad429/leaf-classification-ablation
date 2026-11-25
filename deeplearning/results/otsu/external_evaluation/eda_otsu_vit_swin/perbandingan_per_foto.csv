@@ -1,0 +1,601 @@
+model,augmentation,image,observation_id,true,pred_n,pred_otsu,change,true_score_n,true_score_otsu
+vit_b_16,False,inat_170703797.jpg,102151904,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.627052366733551,0.6522828340530396
+vit_b_16,False,inat_19219491.jpg,13165279,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.022633442655205727,0.556532084941864
+vit_b_16,False,inat_216154493.jpg,127326246,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.8294923305511475,0.9062629342079163
+vit_b_16,False,inat_21682034.jpg,14554429,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.1296350508928299,0.9505796432495117
+vit_b_16,False,inat_230722694.jpg,135288050,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.9934647679328918,0.8628504872322083
+vit_b_16,False,inat_237087188.jpg,138684842,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.09448323398828506,0.37694087624549866
+vit_b_16,False,inat_245161059.jpg,142957831,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.03466179594397545,0.955812931060791
+vit_b_16,False,inat_245223200.jpg,142995658,Kamboja jepang,Aglaonema,Kamboja jepang,improved,0.021627696231007576,0.9199755787849426
+vit_b_16,False,inat_245411676.jpg,143109712,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.4221210777759552,0.3946015238761902
+vit_b_16,False,inat_245419052.jpg,143114571,Peperomium semangka,Peperomium semangka,Kamboja jepang,regressed,0.5746687650680542,0.28412842750549316
+vit_b_16,False,inat_245584608.jpg,143211897,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9191725850105286,0.7571289539337158
+vit_b_16,False,inat_245774771.jpg,143317996,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.1399412602186203,0.7392264604568481
+vit_b_16,False,inat_246603535.jpg,143758386,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.809343695640564,0.568351149559021
+vit_b_16,False,inat_258868364.jpg,150161071,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9861793518066406,0.9177817702293396
+vit_b_16,False,inat_260721367.jpg,151143233,Aglaonema,Paku tanduk rusa,Kamboja jepang,both_wrong,0.1385122835636139,0.09223605692386627
+vit_b_16,False,inat_26628597.jpg,17502576,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.40780937671661377,0.5880666375160217
+vit_b_16,False,inat_271962762.jpg,157282131,Aglaonema,Aglaonema,Aglaonema,both_correct,0.783250093460083,0.9842952489852905
+vit_b_16,False,inat_272679856.jpg,157734066,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.13302864134311676,0.2546798288822174
+vit_b_16,False,inat_293504294.jpg,169301936,Aglaonema,Lidah metua,Aglaonema,improved,0.41231516003608704,0.9944256544113159
+vit_b_16,False,inat_321390075.jpg,184157779,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9866231083869934,0.9938809871673584
+vit_b_16,False,inat_327995153.jpg,187561223,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.3989359140396118,0.6764657497406006
+vit_b_16,False,inat_340203678.jpg,193652330,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.0033784585539251566,0.8137549161911011
+vit_b_16,False,inat_342074446.jpg,194582717,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9941508173942566,0.9944263696670532
+vit_b_16,False,inat_352783103.jpg,200002159,Peperomium semangka,Daun nangka,Paku tanduk rusa,both_wrong,0.1742701679468155,0.20128872990608215
+vit_b_16,False,inat_355962235.jpg,201632630,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9873977899551392,0.9898501634597778
+vit_b_16,False,inat_361149626.jpg,204330808,Aglaonema,Paku tanduk rusa,Kamboja jepang,both_wrong,0.0010514439782127738,0.0021720847580581903
+vit_b_16,False,inat_396499002.jpg,223752087,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9185225367546082,0.7530193328857422
+vit_b_16,False,inat_418438754.jpg,235295475,Aglaonema,Lidah metua,Aglaonema,improved,0.014726124703884125,0.8989176750183105
+vit_b_16,False,inat_430669233.jpg,241629462,Peperomium semangka,Daun nangka,Kamboja jepang,both_wrong,0.14889393746852875,0.0950951799750328
+vit_b_16,False,inat_459086886.jpg,256098092,Aglaonema,Lidah metua,Aglaonema,improved,0.021637290716171265,0.9027004837989807
+vit_b_16,False,inat_460255957.jpg,256674728,Aglaonema,Paku tanduk rusa,Daun nangka,both_wrong,0.0018303287215530872,0.014400925487279892
+vit_b_16,False,inat_461864786.jpg,257470511,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9664047956466675,0.9961607456207275
+vit_b_16,False,inat_469202669.jpg,261194852,Daun nangka,Daun nangka,Daun nangka,both_correct,0.8797677755355835,0.8224605917930603
+vit_b_16,False,inat_471692010.jpg,262649369,Daun nangka,Kamboja jepang,Daun nangka,improved,0.10902069509029388,0.753118097782135
+vit_b_16,False,inat_472716251.jpg,263164598,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9689385890960693,0.9597927927970886
+vit_b_16,False,inat_473387319.jpg,263502170,Aglaonema,Lidah metua,Aglaonema,improved,0.0024836952798068523,0.8892438411712646
+vit_b_16,False,inat_480386621.jpg,267319528,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9967377781867981,0.9921604990959167
+vit_b_16,False,inat_487066344.jpg,270806749,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9603556990623474,0.9229443669319153
+vit_b_16,False,inat_494933665.jpg,275429247,Daun nangka,Daun nangka,Daun nangka,both_correct,0.996995210647583,0.9577234983444214
+vit_b_16,False,inat_498013053.jpg,277353236,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9599979519844055,0.9904041290283203
+vit_b_16,False,inat_499231407.jpg,278043088,Daun nangka,Daun nangka,Daun nangka,both_correct,0.7994133234024048,0.65097576379776
+vit_b_16,False,inat_505876694.jpg,281605214,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9855837821960449,0.9040417671203613
+vit_b_16,False,inat_507276723.jpg,282351175,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9370947480201721,0.9577512741088867
+vit_b_16,False,inat_510176828.jpg,283907666,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9837017059326172,0.9468654990196228
+vit_b_16,False,inat_53778688.jpg,34190501,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.6150432229042053,0.6556507349014282
+vit_b_16,False,inat_540025071.jpg,299674859,Aglaonema,Aglaonema,Aglaonema,both_correct,0.6462773084640503,0.8819959759712219
+vit_b_16,False,inat_54758184.jpg,34766827,Kamboja jepang,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.0008665294153615832,0.10761536657810211
+vit_b_16,False,inat_552499772.jpg,306374359,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9658186435699463,0.735564112663269
+vit_b_16,False,inat_58249205.jpg,36810006,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.5025047063827515,0.3650343120098114
+vit_b_16,False,inat_589500986.jpg,325577746,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.008954470977187157,0.9631733298301697
+vit_b_16,False,inat_595329479.jpg,328525189,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.03548735752701759,0.9149921536445618
+vit_b_16,False,inat_599714438.jpg,330686266,Daun nangka,Daun nangka,Daun nangka,both_correct,0.993171215057373,0.5589328408241272
+vit_b_16,False,inat_599948745.jpg,330789461,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9909065961837769,0.9848050475120544
+vit_b_16,False,inat_600288549.jpg,330966491,Aglaonema,Aglaonema,Aglaonema,both_correct,0.6460414528846741,0.48681339621543884
+vit_b_16,False,inat_602282977.jpg,331939284,Aglaonema,Aglaonema,Kamboja jepang,regressed,0.7517839074134827,0.002305172383785248
+vit_b_16,False,inat_607616852.jpg,334573904,Daun nangka,Daun nangka,Daun nangka,both_correct,0.8911523818969727,0.971997857093811
+vit_b_16,False,inat_608920524.jpg,335213663,Daun nangka,Daun nangka,Daun nangka,both_correct,0.7125940918922424,0.9507259726524353
+vit_b_16,False,inat_61286851.jpg,38551254,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.8331588506698608,0.3607381284236908
+vit_b_16,False,inat_613855159.jpg,337649809,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9923986792564392,0.9478097558021545
+vit_b_16,False,inat_619526866.jpg,340437084,Aglaonema,Daun nangka,Daun nangka,both_wrong,0.0015432441141456366,0.00149734306614846
+vit_b_16,False,inat_626224705.jpg,343659479,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9729148745536804,0.5570281147956848
+vit_b_16,False,inat_632126509.jpg,346751327,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9894813299179077,0.923214316368103
+vit_b_16,False,inat_632806275.jpg,347094561,Lidah metua,Lidah metua,Peperomium semangka,regressed,0.5068269371986389,0.20882737636566162
+vit_b_16,False,inat_640813687.jpg,351175835,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9936544895172119,0.9808787107467651
+vit_b_16,False,inat_643574726.jpg,352641434,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9474273324012756,0.9392757415771484
+vit_b_16,False,inat_650680929.jpg,356790570,Lidah metua,Lidah metua,Lidah metua,both_correct,0.5972196459770203,0.6103813648223877
+vit_b_16,False,inat_650784405.jpg,356846547,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.9724703431129456,0.49141940474510193
+vit_b_16,False,inat_654389242.jpg,358703163,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9966608285903931,0.9710553288459778
+vit_b_16,False,inat_658959938.jpg,361088442,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.0005371652659960091,0.33823254704475403
+vit_b_16,False,inat_661109224.jpg,362223571,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9980608820915222,0.9834834337234497
+vit_b_16,False,inat_668260483.jpg,365991424,Lidah metua,Paku tanduk rusa,Lidah metua,improved,0.013635659590363503,0.8165973424911499
+vit_b_16,False,inat_669623168.jpg,366712632,Lidah metua,Lidah metua,Lidah metua,both_correct,0.5254116058349609,0.7178794741630554
+vit_b_16,False,inat_673147406.jpg,368541550,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.0023828011471778154,0.03722093626856804
+vit_b_16,False,inat_674072508.jpg,369057683,Peperomium semangka,Daun nangka,Kamboja jepang,both_wrong,0.32852327823638916,0.17145954072475433
+vit_b_16,False,inat_674572215.jpg,368839213,Daun nangka,Paku tanduk rusa,Daun nangka,improved,0.2634281814098358,0.9257610440254211
+vit_b_16,False,inat_677582255.jpg,370875919,Paku tanduk rusa,Lidah metua,Kamboja jepang,both_wrong,0.18340526521205902,0.06471934169530869
+vit_b_16,False,inat_680826304.jpg,372571478,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9893134236335754,0.7266174554824829
+vit_b_16,False,inat_681333944.jpg,372838715,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9407157897949219,0.9543085694313049
+vit_b_16,False,inat_683279493.jpg,373858700,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.8105710744857788,0.7214783430099487
+vit_b_16,False,inat_68426020.jpg,43100761,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.4658583998680115,0.829235315322876
+vit_b_16,False,inat_686530608.jpg,375531847,Lidah metua,Lidah metua,Lidah metua,both_correct,0.6234215497970581,0.7600579261779785
+vit_b_16,False,inat_688972584.jpg,376797890,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9454662799835205,0.9826222658157349
+vit_b_16,False,inat_689417164.jpg,377027561,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9986074566841125,0.9616735577583313
+vit_b_16,False,inat_69193453.jpg,43616592,Kamboja jepang,Paku tanduk rusa,Daun nangka,both_wrong,0.001052797306329012,0.29250630736351013
+vit_b_16,False,inat_694269423.jpg,379542859,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9752230048179626,0.9758062362670898
+vit_b_16,False,inat_695009067.jpg,379922598,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9932898879051208,0.32325753569602966
+vit_b_16,False,inat_695219753.jpg,380032462,Peperomium semangka,Daun nangka,Peperomium semangka,improved,0.3051334619522095,0.2742542326450348
+vit_b_16,False,inat_69742411.jpg,43991441,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.8511954545974731,0.9436395168304443
+vit_b_16,False,inat_697780215.jpg,381355399,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.986172616481781,0.6625071167945862
+vit_b_16,False,inat_702756106.jpg,383937565,Lidah metua,Aglaonema,Lidah metua,improved,0.40656813979148865,0.802960216999054
+vit_b_16,False,inat_703259732.jpg,384222266,Aglaonema,Daun nangka,Daun nangka,both_wrong,0.0026111514307558537,0.002699665492400527
+vit_b_16,False,inat_707441523.jpg,386150500,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9911993145942688,0.98615962266922
+vit_b_16,False,inat_707695472.jpg,386513781,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.024414798244833946,0.12281079590320587
+vit_b_16,False,inat_708758600.jpg,387063842,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9851406812667847,0.6541610360145569
+vit_b_16,False,inat_708761868.jpg,387075040,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.02566765993833542,0.6897929310798645
+vit_b_16,False,inat_709067193.jpg,387262768,Peperomium semangka,Daun nangka,Aglaonema,both_wrong,0.17347870767116547,0.04146813973784447
+vit_b_16,False,inat_715478485.jpg,390247695,Lidah metua,Lidah metua,Kamboja jepang,regressed,0.9868659377098083,0.333591103553772
+vit_b_16,False,inat_715480225.jpg,390527216,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9900773763656616,0.8743991851806641
+vit_b_16,False,inat_715976813.jpg,390783096,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.08158475905656815,0.3918376564979553
+vit_b_16,False,inat_716499258.jpg,391053200,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9806642532348633,0.992475688457489
+vit_b_16,False,inat_719587201.jpg,392638370,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9889756441116333,0.8216390609741211
+vit_b_16,False,inat_721118477.jpg,393420666,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9948685169219971,0.9821616411209106
+vit_b_16,False,inat_721796701.jpg,393768641,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9912988543510437,0.9151312112808228
+vit_b_16,False,inat_726682993.jpg,396258560,Aglaonema,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.00486347358673811,0.4530353844165802
+vit_b_16,False,inat_728790409.jpg,397357110,Paku tanduk rusa,Paku tanduk rusa,Daun nangka,regressed,0.9961291551589966,0.4008529484272003
+vit_b_16,False,inat_734187443.jpg,400120098,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.993648111820221,0.8089359402656555
+vit_b_16,False,inat_734315722.jpg,400185017,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9931032657623291,0.9658427834510803
+vit_b_16,False,inat_734864938.jpg,400454596,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9980596899986267,0.9924314022064209
+vit_b_16,False,inat_736571790.jpg,401318530,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.004339719656854868,0.2628086507320404
+vit_b_16,False,inat_738225964.jpg,402152298,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.024853110313415527,0.7393364906311035
+vit_b_16,False,inat_738565867.jpg,402326701,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9988939166069031,0.8441272377967834
+vit_b_16,False,inat_740106081.jpg,403118109,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.43554332852363586,0.4806412160396576
+vit_b_16,False,inat_742720651.jpg,404436992,Paku tanduk rusa,Lidah metua,Kamboja jepang,both_wrong,0.07050949335098267,0.061379335820674896
+vit_b_16,False,inat_743198082.jpg,404677063,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9728631377220154,0.8959785103797913
+vit_b_16,False,inat_744156464.jpg,405160611,Lidah metua,Lidah metua,Lidah metua,both_correct,0.7138605713844299,0.5932626724243164
+vit_b_16,False,inat_744156551.jpg,405160676,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9969123601913452,0.994612455368042
+vit_b_16,False,inat_744184346.jpg,405175238,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9951784610748291,0.5179519653320312
+vit_b_16,False,inat_744752175.jpg,405458980,Aglaonema,Daun nangka,Aglaonema,improved,0.017954429611563683,0.781302273273468
+vit_b_16,False,inat_746632493.jpg,406392183,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9936956763267517,0.5105428695678711
+vit_b_16,False,inat_748769739.jpg,407452019,Lidah metua,Lidah metua,Lidah metua,both_correct,0.992188572883606,0.9906193017959595
+vit_b_16,False,inat_749041361.jpg,407588416,Peperomium semangka,Paku tanduk rusa,Kamboja jepang,both_wrong,0.3438952565193176,0.14350579679012299
+vit_b_16,False,inat_750183500.jpg,408144496,Peperomium semangka,Aglaonema,Peperomium semangka,improved,0.3333631157875061,0.4214770197868347
+vit_b_16,False,inat_750739922.jpg,408412671,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.8430922627449036,0.5858616828918457
+vit_b_16,False,inat_750895540.jpg,408488117,Daun nangka,Daun nangka,Daun nangka,both_correct,0.8481539487838745,0.9014782905578613
+vit_b_16,False,inat_755244004.jpg,410633359,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.9903724193572998,0.28200873732566833
+vit_b_16,False,inat_755266249.jpg,410641780,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.997014045715332,0.9957212209701538
+vit_b_16,False,inat_757320176.jpg,411649546,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9830827713012695,0.9628632664680481
+vit_b_16,False,inat_757327216.jpg,411653283,Paku tanduk rusa,Daun nangka,Daun nangka,both_wrong,0.34384822845458984,0.047598399221897125
+vit_b_16,False,inat_757889843.jpg,411936748,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.45621782541275024,0.5966352820396423
+vit_b_16,False,inat_759340711.jpg,412649698,Daun nangka,Kamboja jepang,Daun nangka,improved,0.26135334372520447,0.8511587381362915
+vit_b_16,False,inat_759352637.jpg,412654986,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.845580518245697,0.4817626178264618
+vit_b_16,False,inat_760659046.jpg,413303491,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9977458119392395,0.9685542583465576
+vit_b_16,False,inat_760720830.jpg,413337058,Kamboja jepang,Paku tanduk rusa,Daun nangka,both_wrong,0.0005499055841937661,0.300743043422699
+vit_b_16,False,inat_761080813.jpg,413510962,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.8833364248275757,0.07944020628929138
+vit_b_16,False,inat_761429535.jpg,413684398,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9950385689735413,0.9270302653312683
+vit_b_16,False,inat_761493571.jpg,413714691,Peperomium semangka,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.04486507549881935,0.15453004837036133
+vit_b_16,False,inat_764229063.jpg,415071538,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9921103119850159,0.9198145270347595
+vit_b_16,False,inat_765483674.jpg,415694338,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.0011147444602102041,0.0316314734518528
+vit_b_16,False,inat_765747605.jpg,415830535,Aglaonema,Lidah metua,Aglaonema,improved,0.36510729789733887,0.48919180035591125
+vit_b_16,False,inat_765837299.jpg,415878514,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9840185046195984,0.9358685612678528
+vit_b_16,False,inat_766367605.jpg,416158995,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9948906898498535,0.8523713946342468
+vit_b_16,False,inat_766453341.jpg,416197268,Peperomium semangka,Peperomium semangka,Kamboja jepang,regressed,0.5479007959365845,0.02159099467098713
+vit_b_16,False,inat_766738986.jpg,416338059,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9163084626197815,0.9388452768325806
+vit_b_16,False,inat_766753283.jpg,416345388,Peperomium semangka,Aglaonema,Kamboja jepang,both_wrong,0.13909178972244263,0.15289068222045898
+vit_b_16,False,inat_767327946.jpg,416633865,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9970957040786743,0.463081419467926
+vit_b_16,False,inat_81363928.jpg,51219288,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.09325667470693588,0.5827351212501526
+vit_b_16,False,inat_90248290.jpg,56624446,Peperomium semangka,Paku tanduk rusa,Daun nangka,both_wrong,0.029154814779758453,0.10541016608476639
+vit_b_16,False,inat_97743378.jpg,61101507,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.8820967674255371,0.9094836711883545
+vit_b_16,False,inat_98179042.jpg,61359484,Kamboja jepang,Aglaonema,Kamboja jepang,improved,0.31517255306243896,0.9741058349609375
+vit_b_16,False,inat_99776566.jpg,62285098,Kamboja jepang,Aglaonema,Kamboja jepang,improved,0.03415738046169281,0.9939568042755127
+vit_b_16,True,inat_170703797.jpg,102151904,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.7597990036010742,0.5595898628234863
+vit_b_16,True,inat_19219491.jpg,13165279,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.017863130196928978,0.15587879717350006
+vit_b_16,True,inat_216154493.jpg,127326246,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9478626251220703,0.7659000754356384
+vit_b_16,True,inat_21682034.jpg,14554429,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.09896993637084961,0.5626392960548401
+vit_b_16,True,inat_230722694.jpg,135288050,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.9893920421600342,0.45518040657043457
+vit_b_16,True,inat_237087188.jpg,138684842,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.045124974101781845,0.10610116273164749
+vit_b_16,True,inat_245161059.jpg,142957831,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.01624229922890663,0.3859313428401947
+vit_b_16,True,inat_245223200.jpg,142995658,Kamboja jepang,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.06210637465119362,0.19084994494915009
+vit_b_16,True,inat_245411676.jpg,143109712,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.3449481725692749,0.2638069987297058
+vit_b_16,True,inat_245419052.jpg,143114571,Peperomium semangka,Peperomium semangka,Lidah metua,regressed,0.7007565498352051,0.20210544764995575
+vit_b_16,True,inat_245584608.jpg,143211897,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.921505868434906,0.5640537142753601
+vit_b_16,True,inat_245774771.jpg,143317996,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.06210862845182419,0.3387329876422882
+vit_b_16,True,inat_246603535.jpg,143758386,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.7596736550331116,0.3486780524253845
+vit_b_16,True,inat_258868364.jpg,150161071,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9934523105621338,0.5785109996795654
+vit_b_16,True,inat_260721367.jpg,151143233,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.3205522298812866,0.6910414099693298
+vit_b_16,True,inat_26628597.jpg,17502576,Peperomium semangka,Aglaonema,Peperomium semangka,improved,0.41370147466659546,0.43400853872299194
+vit_b_16,True,inat_271962762.jpg,157282131,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9622412919998169,0.9347390532493591
+vit_b_16,True,inat_272679856.jpg,157734066,Kamboja jepang,Paku tanduk rusa,Daun nangka,both_wrong,0.13705794513225555,0.10830526053905487
+vit_b_16,True,inat_293504294.jpg,169301936,Aglaonema,Aglaonema,Aglaonema,both_correct,0.907278299331665,0.9054675102233887
+vit_b_16,True,inat_321390075.jpg,184157779,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9884181618690491,0.8792937397956848
+vit_b_16,True,inat_327995153.jpg,187561223,Kamboja jepang,Daun nangka,Peperomium semangka,both_wrong,0.06962806731462479,0.16695475578308105
+vit_b_16,True,inat_340203678.jpg,193652330,Kamboja jepang,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.0015628900146111846,0.0853680744767189
+vit_b_16,True,inat_342074446.jpg,194582717,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9958733916282654,0.8869456052780151
+vit_b_16,True,inat_352783103.jpg,200002159,Peperomium semangka,Paku tanduk rusa,Daun nangka,both_wrong,0.12446125596761703,0.09126663208007812
+vit_b_16,True,inat_355962235.jpg,201632630,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9901869297027588,0.9509112238883972
+vit_b_16,True,inat_361149626.jpg,204330808,Aglaonema,Paku tanduk rusa,Daun nangka,both_wrong,0.0007124501280486584,0.042859964072704315
+vit_b_16,True,inat_396499002.jpg,223752087,Aglaonema,Aglaonema,Lidah metua,regressed,0.952994167804718,0.30840757489204407
+vit_b_16,True,inat_418438754.jpg,235295475,Aglaonema,Lidah metua,Aglaonema,improved,0.1718212217092514,0.6028187274932861
+vit_b_16,True,inat_430669233.jpg,241629462,Peperomium semangka,Paku tanduk rusa,Aglaonema,both_wrong,0.2415713220834732,0.14876064658164978
+vit_b_16,True,inat_459086886.jpg,256098092,Aglaonema,Aglaonema,Aglaonema,both_correct,0.8872480392456055,0.5724514722824097
+vit_b_16,True,inat_460255957.jpg,256674728,Aglaonema,Paku tanduk rusa,Daun nangka,both_wrong,0.00108639698009938,0.03094027005136013
+vit_b_16,True,inat_461864786.jpg,257470511,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9898948073387146,0.8609322905540466
+vit_b_16,True,inat_469202669.jpg,261194852,Daun nangka,Daun nangka,Daun nangka,both_correct,0.7425782680511475,0.7025421857833862
+vit_b_16,True,inat_471692010.jpg,262649369,Daun nangka,Kamboja jepang,Daun nangka,improved,0.26715487241744995,0.4994894862174988
+vit_b_16,True,inat_472716251.jpg,263164598,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9632808566093445,0.5980479717254639
+vit_b_16,True,inat_473387319.jpg,263502170,Aglaonema,Lidah metua,Lidah metua,both_wrong,0.06600726395845413,0.24684123694896698
+vit_b_16,True,inat_480386621.jpg,267319528,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9945827126502991,0.8840420842170715
+vit_b_16,True,inat_487066344.jpg,270806749,Daun nangka,Daun nangka,Daun nangka,both_correct,0.8666598796844482,0.8541821837425232
+vit_b_16,True,inat_494933665.jpg,275429247,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9916129112243652,0.9306974411010742
+vit_b_16,True,inat_498013053.jpg,277353236,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9528420567512512,0.7608146071434021
+vit_b_16,True,inat_499231407.jpg,278043088,Daun nangka,Daun nangka,Daun nangka,both_correct,0.7201498746871948,0.6651861667633057
+vit_b_16,True,inat_505876694.jpg,281605214,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9611480236053467,0.9504849910736084
+vit_b_16,True,inat_507276723.jpg,282351175,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9714958071708679,0.6392564177513123
+vit_b_16,True,inat_510176828.jpg,283907666,Daun nangka,Daun nangka,Daun nangka,both_correct,0.98325115442276,0.941822350025177
+vit_b_16,True,inat_53778688.jpg,34190501,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.5582773685455322,0.5220726132392883
+vit_b_16,True,inat_540025071.jpg,299674859,Aglaonema,Aglaonema,Paku tanduk rusa,regressed,0.8828783631324768,0.31072336435317993
+vit_b_16,True,inat_54758184.jpg,34766827,Kamboja jepang,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.0009531127871014178,0.04778583347797394
+vit_b_16,True,inat_552499772.jpg,306374359,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9760288596153259,0.5770354270935059
+vit_b_16,True,inat_58249205.jpg,36810006,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.6389095783233643,0.2656654417514801
+vit_b_16,True,inat_589500986.jpg,325577746,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.02835303731262684,0.7077233195304871
+vit_b_16,True,inat_595329479.jpg,328525189,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.03046811744570732,0.44731026887893677
+vit_b_16,True,inat_599714438.jpg,330686266,Daun nangka,Daun nangka,Daun nangka,both_correct,0.982971727848053,0.7463194131851196
+vit_b_16,True,inat_599948745.jpg,330789461,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9913908243179321,0.8477947115898132
+vit_b_16,True,inat_600288549.jpg,330966491,Aglaonema,Aglaonema,Paku tanduk rusa,regressed,0.8647343516349792,0.17101778090000153
+vit_b_16,True,inat_602282977.jpg,331939284,Aglaonema,Aglaonema,Paku tanduk rusa,regressed,0.4244702160358429,0.05176127329468727
+vit_b_16,True,inat_607616852.jpg,334573904,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9179192781448364,0.42932453751564026
+vit_b_16,True,inat_608920524.jpg,335213663,Daun nangka,Paku tanduk rusa,Daun nangka,improved,0.43041616678237915,0.7631261944770813
+vit_b_16,True,inat_61286851.jpg,38551254,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.81650710105896,0.23024600744247437
+vit_b_16,True,inat_613855159.jpg,337649809,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9755071997642517,0.9421603083610535
+vit_b_16,True,inat_619526866.jpg,340437084,Aglaonema,Paku tanduk rusa,Daun nangka,both_wrong,0.001104676746763289,0.015530341304838657
+vit_b_16,True,inat_626224705.jpg,343659479,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9958206415176392,0.3392997980117798
+vit_b_16,True,inat_632126509.jpg,346751327,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9793045520782471,0.47233545780181885
+vit_b_16,True,inat_632806275.jpg,347094561,Lidah metua,Lidah metua,Lidah metua,both_correct,0.8826907277107239,0.3279014229774475
+vit_b_16,True,inat_640813687.jpg,351175835,Lidah metua,Lidah metua,Lidah metua,both_correct,0.8145257234573364,0.7964911460876465
+vit_b_16,True,inat_643574726.jpg,352641434,Lidah metua,Lidah metua,Lidah metua,both_correct,0.8843526840209961,0.6312993764877319
+vit_b_16,True,inat_650680929.jpg,356790570,Lidah metua,Paku tanduk rusa,Kamboja jepang,both_wrong,0.24103668332099915,0.20877598226070404
+vit_b_16,True,inat_650784405.jpg,356846547,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.6996259093284607,0.498969167470932
+vit_b_16,True,inat_654389242.jpg,358703163,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9953466057777405,0.7574018239974976
+vit_b_16,True,inat_658959938.jpg,361088442,Aglaonema,Paku tanduk rusa,Daun nangka,both_wrong,0.003985594026744366,0.10742317885160446
+vit_b_16,True,inat_661109224.jpg,362223571,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9905447959899902,0.915015459060669
+vit_b_16,True,inat_668260483.jpg,365991424,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.0037858791183680296,0.10778415203094482
+vit_b_16,True,inat_669623168.jpg,366712632,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.07135416567325592,0.3793005049228668
+vit_b_16,True,inat_673147406.jpg,368541550,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.004197537433356047,0.08271133899688721
+vit_b_16,True,inat_674072508.jpg,369057683,Peperomium semangka,Peperomium semangka,Daun nangka,regressed,0.33881819248199463,0.17224165797233582
+vit_b_16,True,inat_674572215.jpg,368839213,Daun nangka,Paku tanduk rusa,Daun nangka,improved,0.10154742747545242,0.7977308630943298
+vit_b_16,True,inat_677582255.jpg,370875919,Paku tanduk rusa,Aglaonema,Paku tanduk rusa,improved,0.42276012897491455,0.6320568323135376
+vit_b_16,True,inat_680826304.jpg,372571478,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9435601234436035,0.9082340598106384
+vit_b_16,True,inat_681333944.jpg,372838715,Daun nangka,Daun nangka,Daun nangka,both_correct,0.8406517505645752,0.9229776859283447
+vit_b_16,True,inat_683279493.jpg,373858700,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.8120920658111572,0.5515952110290527
+vit_b_16,True,inat_68426020.jpg,43100761,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.44095972180366516,0.5589617490768433
+vit_b_16,True,inat_686530608.jpg,375531847,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.37649592757225037,0.11525171995162964
+vit_b_16,True,inat_688972584.jpg,376797890,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9593963623046875,0.9156388640403748
+vit_b_16,True,inat_689417164.jpg,377027561,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9974849224090576,0.7243136167526245
+vit_b_16,True,inat_69193453.jpg,43616592,Kamboja jepang,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.002571705961599946,0.03664441779255867
+vit_b_16,True,inat_694269423.jpg,379542859,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9701536297798157,0.6501405835151672
+vit_b_16,True,inat_695009067.jpg,379922598,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9621716737747192,0.6500032544136047
+vit_b_16,True,inat_695219753.jpg,380032462,Peperomium semangka,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.24120314419269562,0.2713853418827057
+vit_b_16,True,inat_69742411.jpg,43991441,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.8827584981918335,0.5785894989967346
+vit_b_16,True,inat_697780215.jpg,381355399,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9763720631599426,0.5006398558616638
+vit_b_16,True,inat_702756106.jpg,383937565,Lidah metua,Aglaonema,Lidah metua,improved,0.11621152609586716,0.4056393802165985
+vit_b_16,True,inat_703259732.jpg,384222266,Aglaonema,Daun nangka,Daun nangka,both_wrong,0.0029290656093508005,0.03269937261939049
+vit_b_16,True,inat_707441523.jpg,386150500,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9929311275482178,0.9248749017715454
+vit_b_16,True,inat_707695472.jpg,386513781,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.010141275823116302,0.10223434120416641
+vit_b_16,True,inat_708758600.jpg,387063842,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9728744626045227,0.45711973309516907
+vit_b_16,True,inat_708761868.jpg,387075040,Kamboja jepang,Paku tanduk rusa,Daun nangka,both_wrong,0.11027053743600845,0.2633022665977478
+vit_b_16,True,inat_709067193.jpg,387262768,Peperomium semangka,Aglaonema,Aglaonema,both_wrong,0.06123647466301918,0.04843613877892494
+vit_b_16,True,inat_715478485.jpg,390247695,Lidah metua,Aglaonema,Paku tanduk rusa,both_wrong,0.2192947119474411,0.22469304502010345
+vit_b_16,True,inat_715480225.jpg,390527216,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9685705900192261,0.5069875717163086
+vit_b_16,True,inat_715976813.jpg,390783096,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.30316460132598877,0.33793213963508606
+vit_b_16,True,inat_716499258.jpg,391053200,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9869738817214966,0.8709686398506165
+vit_b_16,True,inat_719587201.jpg,392638370,Daun nangka,Daun nangka,Daun nangka,both_correct,0.973638653755188,0.8858819007873535
+vit_b_16,True,inat_721118477.jpg,393420666,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9900999665260315,0.8185870051383972
+vit_b_16,True,inat_721796701.jpg,393768641,Paku tanduk rusa,Paku tanduk rusa,Peperomium semangka,regressed,0.9945789575576782,0.29322224855422974
+vit_b_16,True,inat_726682993.jpg,396258560,Aglaonema,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.012897662818431854,0.33515986800193787
+vit_b_16,True,inat_728790409.jpg,397357110,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9820352792739868,0.528168797492981
+vit_b_16,True,inat_734187443.jpg,400120098,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9951637983322144,0.8933225870132446
+vit_b_16,True,inat_734315722.jpg,400185017,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9891557097434998,0.792941689491272
+vit_b_16,True,inat_734864938.jpg,400454596,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9958427548408508,0.9230349659919739
+vit_b_16,True,inat_736571790.jpg,401318530,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.00926603376865387,0.12512479722499847
+vit_b_16,True,inat_738225964.jpg,402152298,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.09285125136375427,0.1270233541727066
+vit_b_16,True,inat_738565867.jpg,402326701,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9979355335235596,0.7866916656494141
+vit_b_16,True,inat_740106081.jpg,403118109,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.3490173816680908,0.4878614544868469
+vit_b_16,True,inat_742720651.jpg,404436992,Paku tanduk rusa,Lidah metua,Lidah metua,both_wrong,0.16810786724090576,0.2962914705276489
+vit_b_16,True,inat_743198082.jpg,404677063,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9800084829330444,0.9607980847358704
+vit_b_16,True,inat_744156464.jpg,405160611,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.4132026433944702,0.2581874430179596
+vit_b_16,True,inat_744156551.jpg,405160676,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9786302447319031,0.8448686599731445
+vit_b_16,True,inat_744184346.jpg,405175238,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9960353970527649,0.7096201181411743
+vit_b_16,True,inat_744752175.jpg,405458980,Aglaonema,Aglaonema,Aglaonema,both_correct,0.6746366620063782,0.7037745714187622
+vit_b_16,True,inat_746632493.jpg,406392183,Lidah metua,Lidah metua,Paku tanduk rusa,regressed,0.9758164286613464,0.3126830756664276
+vit_b_16,True,inat_748769739.jpg,407452019,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9866915941238403,0.4501931667327881
+vit_b_16,True,inat_749041361.jpg,407588416,Peperomium semangka,Paku tanduk rusa,Daun nangka,both_wrong,0.12231427431106567,0.11733469367027283
+vit_b_16,True,inat_750183500.jpg,408144496,Peperomium semangka,Aglaonema,Peperomium semangka,improved,0.2752932012081146,0.32205989956855774
+vit_b_16,True,inat_750739922.jpg,408412671,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9135571718215942,0.3854215443134308
+vit_b_16,True,inat_750895540.jpg,408488117,Daun nangka,Kamboja jepang,Daun nangka,improved,0.3489201068878174,0.6002981066703796
+vit_b_16,True,inat_755244004.jpg,410633359,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9460975527763367,0.5688509941101074
+vit_b_16,True,inat_755266249.jpg,410641780,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9975638389587402,0.9839186668395996
+vit_b_16,True,inat_757320176.jpg,411649546,Lidah metua,Paku tanduk rusa,Lidah metua,improved,0.2399119883775711,0.5814555883407593
+vit_b_16,True,inat_757327216.jpg,411653283,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.6626057028770447,0.7106958031654358
+vit_b_16,True,inat_757889843.jpg,411936748,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.28155043721199036,0.4087882936000824
+vit_b_16,True,inat_759340711.jpg,412649698,Daun nangka,Kamboja jepang,Daun nangka,improved,0.25470486283302307,0.7727246880531311
+vit_b_16,True,inat_759352637.jpg,412654986,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.8026125431060791,0.3904748260974884
+vit_b_16,True,inat_760659046.jpg,413303491,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9981192946434021,0.9014195799827576
+vit_b_16,True,inat_760720830.jpg,413337058,Kamboja jepang,Paku tanduk rusa,Aglaonema,both_wrong,0.0009175320737995207,0.1627219021320343
+vit_b_16,True,inat_761080813.jpg,413510962,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.8954140543937683,0.3651309013366699
+vit_b_16,True,inat_761429535.jpg,413684398,Lidah metua,Lidah metua,Lidah metua,both_correct,0.991344690322876,0.5452665090560913
+vit_b_16,True,inat_761493571.jpg,413714691,Peperomium semangka,Paku tanduk rusa,Daun nangka,both_wrong,0.05547717586159706,0.06215602159500122
+vit_b_16,True,inat_764229063.jpg,415071538,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9917652010917664,0.8085561394691467
+vit_b_16,True,inat_765483674.jpg,415694338,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.0005450296448543668,0.016489116474986076
+vit_b_16,True,inat_765747605.jpg,415830535,Aglaonema,Aglaonema,Paku tanduk rusa,regressed,0.8711995482444763,0.13556621968746185
+vit_b_16,True,inat_765837299.jpg,415878514,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9377347826957703,0.6495535373687744
+vit_b_16,True,inat_766367605.jpg,416158995,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9796236157417297,0.7487766742706299
+vit_b_16,True,inat_766453341.jpg,416197268,Peperomium semangka,Peperomium semangka,Daun nangka,regressed,0.7710939645767212,0.17011035978794098
+vit_b_16,True,inat_766738986.jpg,416338059,Daun nangka,Daun nangka,Daun nangka,both_correct,0.8499554991722107,0.8326782584190369
+vit_b_16,True,inat_766753283.jpg,416345388,Peperomium semangka,Aglaonema,Daun nangka,both_wrong,0.2293407917022705,0.230283722281456
+vit_b_16,True,inat_767327946.jpg,416633865,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9881601333618164,0.3822830319404602
+vit_b_16,True,inat_81363928.jpg,51219288,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.14005951583385468,0.5128434300422668
+vit_b_16,True,inat_90248290.jpg,56624446,Peperomium semangka,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.013408489525318146,0.16590990126132965
+vit_b_16,True,inat_97743378.jpg,61101507,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.7169345021247864,0.6539494395256042
+vit_b_16,True,inat_98179042.jpg,61359484,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.4817664623260498,0.3806892931461334
+vit_b_16,True,inat_99776566.jpg,62285098,Kamboja jepang,Aglaonema,Kamboja jepang,improved,0.02261842042207718,0.7864530086517334
+swin_t,False,inat_170703797.jpg,102151904,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9304353594779968,0.8535046577453613
+swin_t,False,inat_19219491.jpg,13165279,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.012700049206614494,0.9139577150344849
+swin_t,False,inat_216154493.jpg,127326246,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9860300421714783,0.9817233681678772
+swin_t,False,inat_21682034.jpg,14554429,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.7555127739906311,0.9221145510673523
+swin_t,False,inat_230722694.jpg,135288050,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.9835132956504822,0.6378299593925476
+swin_t,False,inat_237087188.jpg,138684842,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.010553446598351002,0.5629666447639465
+swin_t,False,inat_245161059.jpg,142957831,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.06816113740205765,0.6068500280380249
+swin_t,False,inat_245223200.jpg,142995658,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.17671047151088715,0.9567970633506775
+swin_t,False,inat_245411676.jpg,143109712,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9925988912582397,0.9603981375694275
+swin_t,False,inat_245419052.jpg,143114571,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9948141574859619,0.9746021032333374
+swin_t,False,inat_245584608.jpg,143211897,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9786226153373718,0.9426982402801514
+swin_t,False,inat_245774771.jpg,143317996,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.008955546654760838,0.8446677923202515
+swin_t,False,inat_246603535.jpg,143758386,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9933465719223022,0.9699442982673645
+swin_t,False,inat_258868364.jpg,150161071,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9995555281639099,0.9923998713493347
+swin_t,False,inat_260721367.jpg,151143233,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.007538727484643459,0.319706529378891
+swin_t,False,inat_26628597.jpg,17502576,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.6320948600769043,0.6387619972229004
+swin_t,False,inat_271962762.jpg,157282131,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9173824191093445,0.9420309066772461
+swin_t,False,inat_272679856.jpg,157734066,Kamboja jepang,Paku tanduk rusa,Daun nangka,both_wrong,0.006337495520710945,0.3759983777999878
+swin_t,False,inat_293504294.jpg,169301936,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9999920129776001,0.999382734298706
+swin_t,False,inat_321390075.jpg,184157779,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9936622381210327,0.9925881028175354
+swin_t,False,inat_327995153.jpg,187561223,Kamboja jepang,Paku tanduk rusa,Peperomium semangka,both_wrong,0.004464428871870041,0.40305739641189575
+swin_t,False,inat_340203678.jpg,193652330,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.0006711772875860333,0.7345635294914246
+swin_t,False,inat_342074446.jpg,194582717,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9992489218711853,0.9731830358505249
+swin_t,False,inat_352783103.jpg,200002159,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.02696268819272518,0.8113687634468079
+swin_t,False,inat_355962235.jpg,201632630,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9999332427978516,0.9856011271476746
+swin_t,False,inat_361149626.jpg,204330808,Aglaonema,Paku tanduk rusa,Kamboja jepang,both_wrong,0.0009407314355485141,0.028726985678076744
+swin_t,False,inat_396499002.jpg,223752087,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9920932650566101,0.9670664668083191
+swin_t,False,inat_418438754.jpg,235295475,Aglaonema,Lidah metua,Aglaonema,improved,0.18143686652183533,0.5242115259170532
+swin_t,False,inat_430669233.jpg,241629462,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9119805693626404,0.8700593113899231
+swin_t,False,inat_459086886.jpg,256098092,Aglaonema,Lidah metua,Aglaonema,improved,0.39796242117881775,0.9341050386428833
+swin_t,False,inat_460255957.jpg,256674728,Aglaonema,Paku tanduk rusa,Peperomium semangka,both_wrong,2.9495451599359512e-05,0.0843517854809761
+swin_t,False,inat_461864786.jpg,257470511,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9993058443069458,0.991959273815155
+swin_t,False,inat_469202669.jpg,261194852,Daun nangka,Daun nangka,Daun nangka,both_correct,0.8866574168205261,0.9633253216743469
+swin_t,False,inat_471692010.jpg,262649369,Daun nangka,Kamboja jepang,Daun nangka,improved,0.09219122678041458,0.816398024559021
+swin_t,False,inat_472716251.jpg,263164598,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9927785992622375,0.8980320692062378
+swin_t,False,inat_473387319.jpg,263502170,Aglaonema,Lidah metua,Aglaonema,improved,0.03307013213634491,0.4323335289955139
+swin_t,False,inat_480386621.jpg,267319528,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9941523671150208,0.9852557182312012
+swin_t,False,inat_487066344.jpg,270806749,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.9624232649803162,0.18179139494895935
+swin_t,False,inat_494933665.jpg,275429247,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9952722191810608,0.7438080310821533
+swin_t,False,inat_498013053.jpg,277353236,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9909267425537109,0.9273173213005066
+swin_t,False,inat_499231407.jpg,278043088,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9905921816825867,0.7658354640007019
+swin_t,False,inat_505876694.jpg,281605214,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9989683628082275,0.6627009510993958
+swin_t,False,inat_507276723.jpg,282351175,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9298312067985535,0.6743840575218201
+swin_t,False,inat_510176828.jpg,283907666,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.9816763401031494,0.316119521856308
+swin_t,False,inat_53778688.jpg,34190501,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.5305659770965576,0.9533332586288452
+swin_t,False,inat_540025071.jpg,299674859,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9880639910697937,0.8470042943954468
+swin_t,False,inat_54758184.jpg,34766827,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,2.2757865735911764e-05,0.3505887985229492
+swin_t,False,inat_552499772.jpg,306374359,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9991532564163208,0.9821889996528625
+swin_t,False,inat_58249205.jpg,36810006,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9854326844215393,0.7682602405548096
+swin_t,False,inat_589500986.jpg,325577746,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.000753769010771066,0.8309481739997864
+swin_t,False,inat_595329479.jpg,328525189,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9257468581199646,0.785024881362915
+swin_t,False,inat_599714438.jpg,330686266,Daun nangka,Daun nangka,Daun nangka,both_correct,0.989666223526001,0.6056736707687378
+swin_t,False,inat_599948745.jpg,330789461,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9995818734169006,0.904797375202179
+swin_t,False,inat_600288549.jpg,330966491,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9967753291130066,0.598348081111908
+swin_t,False,inat_602282977.jpg,331939284,Aglaonema,Paku tanduk rusa,Peperomium semangka,both_wrong,0.0030378198716789484,0.050456590950489044
+swin_t,False,inat_607616852.jpg,334573904,Daun nangka,Daun nangka,Daun nangka,both_correct,0.5650230646133423,0.9077505469322205
+swin_t,False,inat_608920524.jpg,335213663,Daun nangka,Paku tanduk rusa,Kamboja jepang,both_wrong,0.025165803730487823,0.20727813243865967
+swin_t,False,inat_61286851.jpg,38551254,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9837082028388977,0.8532213568687439
+swin_t,False,inat_613855159.jpg,337649809,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9957089424133301,0.9827104210853577
+swin_t,False,inat_619526866.jpg,340437084,Aglaonema,Paku tanduk rusa,Daun nangka,both_wrong,1.975879422388971e-05,0.026235483586788177
+swin_t,False,inat_626224705.jpg,343659479,Lidah metua,Lidah metua,Kamboja jepang,regressed,0.9778227210044861,0.24256718158721924
+swin_t,False,inat_632126509.jpg,346751327,Lidah metua,Lidah metua,Paku tanduk rusa,regressed,0.9804815649986267,0.22801737487316132
+swin_t,False,inat_632806275.jpg,347094561,Lidah metua,Peperomium semangka,Peperomium semangka,both_wrong,0.30132752656936646,0.03188103437423706
+swin_t,False,inat_640813687.jpg,351175835,Lidah metua,Lidah metua,Lidah metua,both_correct,0.901266872882843,0.36622852087020874
+swin_t,False,inat_643574726.jpg,352641434,Lidah metua,Lidah metua,Peperomium semangka,regressed,0.9645603895187378,0.3162873685359955
+swin_t,False,inat_650680929.jpg,356790570,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9855391979217529,0.5915066599845886
+swin_t,False,inat_650784405.jpg,356846547,Kamboja jepang,Kamboja jepang,Daun nangka,regressed,0.655143141746521,0.08644922822713852
+swin_t,False,inat_654389242.jpg,358703163,Lidah metua,Lidah metua,Peperomium semangka,regressed,0.8051194548606873,0.3741442561149597
+swin_t,False,inat_658959938.jpg,361088442,Aglaonema,Paku tanduk rusa,Peperomium semangka,both_wrong,0.009156160056591034,0.15280038118362427
+swin_t,False,inat_661109224.jpg,362223571,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9997681975364685,0.9690738916397095
+swin_t,False,inat_668260483.jpg,365991424,Lidah metua,Paku tanduk rusa,Aglaonema,both_wrong,0.003380058566108346,0.137177512049675
+swin_t,False,inat_669623168.jpg,366712632,Lidah metua,Lidah metua,Paku tanduk rusa,regressed,0.4980945885181427,0.45161694288253784
+swin_t,False,inat_673147406.jpg,368541550,Kamboja jepang,Paku tanduk rusa,Daun nangka,both_wrong,1.6873204344847181e-07,0.0232304148375988
+swin_t,False,inat_674072508.jpg,369057683,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9475789070129395,0.9150233864784241
+swin_t,False,inat_674572215.jpg,368839213,Daun nangka,Paku tanduk rusa,Daun nangka,improved,0.032097119837999344,0.9886900782585144
+swin_t,False,inat_677582255.jpg,370875919,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.7801377773284912,0.5990812182426453
+swin_t,False,inat_680826304.jpg,372571478,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9982566237449646,0.553390383720398
+swin_t,False,inat_681333944.jpg,372838715,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.9524624347686768,0.34573501348495483
+swin_t,False,inat_683279493.jpg,373858700,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9941891431808472,0.8375029563903809
+swin_t,False,inat_68426020.jpg,43100761,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.16054582595825195,0.9663174748420715
+swin_t,False,inat_686530608.jpg,375531847,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.0009647352853789926,0.17867182195186615
+swin_t,False,inat_688972584.jpg,376797890,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9506722092628479,0.8968169689178467
+swin_t,False,inat_689417164.jpg,377027561,Lidah metua,Lidah metua,Lidah metua,both_correct,0.999951958656311,0.9898723363876343
+swin_t,False,inat_69193453.jpg,43616592,Kamboja jepang,Paku tanduk rusa,Paku tanduk rusa,both_wrong,2.2567285213881405e-06,0.06643538922071457
+swin_t,False,inat_694269423.jpg,379542859,Lidah metua,Lidah metua,Lidah metua,both_correct,0.999363362789154,0.6600730419158936
+swin_t,False,inat_695009067.jpg,379922598,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9991989731788635,0.877566397190094
+swin_t,False,inat_695219753.jpg,380032462,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.17204833030700684,0.7358746528625488
+swin_t,False,inat_69742411.jpg,43991441,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.8437793850898743,0.8731814622879028
+swin_t,False,inat_697780215.jpg,381355399,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.8281290531158447,0.46754831075668335
+swin_t,False,inat_702756106.jpg,383937565,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9887304902076721,0.4788476824760437
+swin_t,False,inat_703259732.jpg,384222266,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.06267714500427246,0.8684822916984558
+swin_t,False,inat_707441523.jpg,386150500,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9998966455459595,0.9609455466270447
+swin_t,False,inat_707695472.jpg,386513781,Lidah metua,Paku tanduk rusa,Peperomium semangka,both_wrong,0.001464730012230575,0.019998157396912575
+swin_t,False,inat_708758600.jpg,387063842,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9998980760574341,0.9523050785064697
+swin_t,False,inat_708761868.jpg,387075040,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.10017070919275284,0.8334274291992188
+swin_t,False,inat_709067193.jpg,387262768,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.5160597562789917,0.6276858448982239
+swin_t,False,inat_715478485.jpg,390247695,Lidah metua,Lidah metua,Lidah metua,both_correct,0.8170374035835266,0.5420103669166565
+swin_t,False,inat_715480225.jpg,390527216,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9999345541000366,0.9635788202285767
+swin_t,False,inat_715976813.jpg,390783096,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.017438849434256554,0.6256165504455566
+swin_t,False,inat_716499258.jpg,391053200,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9993908405303955,0.8073977828025818
+swin_t,False,inat_719587201.jpg,392638370,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.9931336641311646,0.3267025053501129
+swin_t,False,inat_721118477.jpg,393420666,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9968435764312744,0.9520558714866638
+swin_t,False,inat_721796701.jpg,393768641,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9996298551559448,0.7034841775894165
+swin_t,False,inat_726682993.jpg,396258560,Aglaonema,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.0005994281964376569,0.2504291236400604
+swin_t,False,inat_728790409.jpg,397357110,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9999589920043945,0.9106463193893433
+swin_t,False,inat_734187443.jpg,400120098,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9996065497398376,0.9175986647605896
+swin_t,False,inat_734315722.jpg,400185017,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9998351335525513,0.9729209542274475
+swin_t,False,inat_734864938.jpg,400454596,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9999444484710693,0.9960883855819702
+swin_t,False,inat_736571790.jpg,401318530,Kamboja jepang,Daun nangka,Daun nangka,both_wrong,0.0010766690829768777,0.21677155792713165
+swin_t,False,inat_738225964.jpg,402152298,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.06627479195594788,0.9916315674781799
+swin_t,False,inat_738565867.jpg,402326701,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9999203681945801,0.9639791250228882
+swin_t,False,inat_740106081.jpg,403118109,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.934069812297821,0.9330374002456665
+swin_t,False,inat_742720651.jpg,404436992,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9570904970169067,0.7529429197311401
+swin_t,False,inat_743198082.jpg,404677063,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9987840056419373,0.9860871434211731
+swin_t,False,inat_744156464.jpg,405160611,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.3496195673942566,0.2635464668273926
+swin_t,False,inat_744156551.jpg,405160676,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9995679259300232,0.9183198809623718
+swin_t,False,inat_744184346.jpg,405175238,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9999635219573975,0.6439083218574524
+swin_t,False,inat_744752175.jpg,405458980,Aglaonema,Aglaonema,Aglaonema,both_correct,0.8421086668968201,0.9719498157501221
+swin_t,False,inat_746632493.jpg,406392183,Lidah metua,Lidah metua,Paku tanduk rusa,regressed,0.5218372344970703,0.1126386895775795
+swin_t,False,inat_748769739.jpg,407452019,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9957711100578308,0.9317764043807983
+swin_t,False,inat_749041361.jpg,407588416,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.13208478689193726,0.8448387384414673
+swin_t,False,inat_750183500.jpg,408144496,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.7607699036598206,0.8186872601509094
+swin_t,False,inat_750739922.jpg,408412671,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9998462200164795,0.6700291633605957
+swin_t,False,inat_750895540.jpg,408488117,Daun nangka,Daun nangka,Daun nangka,both_correct,0.7958700656890869,0.7876723408699036
+swin_t,False,inat_755244004.jpg,410633359,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.9890580773353577,0.18741947412490845
+swin_t,False,inat_755266249.jpg,410641780,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9998482465744019,0.9951106905937195
+swin_t,False,inat_757320176.jpg,411649546,Lidah metua,Lidah metua,Lidah metua,both_correct,0.8115143775939941,0.7126039862632751
+swin_t,False,inat_757327216.jpg,411653283,Paku tanduk rusa,Daun nangka,Paku tanduk rusa,improved,0.4016542434692383,0.7029725313186646
+swin_t,False,inat_757889843.jpg,411936748,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.06738153845071793,0.8963190913200378
+swin_t,False,inat_759340711.jpg,412649698,Daun nangka,Daun nangka,Daun nangka,both_correct,0.714888870716095,0.9804276823997498
+swin_t,False,inat_759352637.jpg,412654986,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9148681163787842,0.8316963315010071
+swin_t,False,inat_760659046.jpg,413303491,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9999245405197144,0.9435282945632935
+swin_t,False,inat_760720830.jpg,413337058,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,7.301560799533036e-06,0.7002773880958557
+swin_t,False,inat_761080813.jpg,413510962,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.991606593132019,0.2606300115585327
+swin_t,False,inat_761429535.jpg,413684398,Lidah metua,Lidah metua,Paku tanduk rusa,regressed,0.9941792488098145,0.2981514632701874
+swin_t,False,inat_761493571.jpg,413714691,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.1436765491962433,0.6139858961105347
+swin_t,False,inat_764229063.jpg,415071538,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9998902082443237,0.869516134262085
+swin_t,False,inat_765483674.jpg,415694338,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,3.87477848562412e-06,0.0011824100511148572
+swin_t,False,inat_765747605.jpg,415830535,Aglaonema,Aglaonema,Aglaonema,both_correct,0.6531708836555481,0.5281705260276794
+swin_t,False,inat_765837299.jpg,415878514,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9998544454574585,0.910556972026825
+swin_t,False,inat_766367605.jpg,416158995,Lidah metua,Lidah metua,Lidah metua,both_correct,0.996647298336029,0.47788098454475403
+swin_t,False,inat_766453341.jpg,416197268,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9795709848403931,0.8383933901786804
+swin_t,False,inat_766738986.jpg,416338059,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9938001036643982,0.9988163709640503
+swin_t,False,inat_766753283.jpg,416345388,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.8841978907585144,0.974341630935669
+swin_t,False,inat_767327946.jpg,416633865,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9993751645088196,0.7561737895011902
+swin_t,False,inat_81363928.jpg,51219288,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.09640001505613327,0.564728319644928
+swin_t,False,inat_90248290.jpg,56624446,Peperomium semangka,Paku tanduk rusa,Daun nangka,both_wrong,0.00022304906451608986,0.2246854603290558
+swin_t,False,inat_97743378.jpg,61101507,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.9705995917320251,0.9631098508834839
+swin_t,False,inat_98179042.jpg,61359484,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.13564787805080414,0.9846996665000916
+swin_t,False,inat_99776566.jpg,62285098,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.7270975708961487,0.9952799081802368
+swin_t,True,inat_170703797.jpg,102151904,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9763925075531006,0.5161380767822266
+swin_t,True,inat_19219491.jpg,13165279,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.018565868958830833,0.9832637906074524
+swin_t,True,inat_216154493.jpg,127326246,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9741809368133545,0.8946055769920349
+swin_t,True,inat_21682034.jpg,14554429,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.5985260009765625,0.973481297492981
+swin_t,True,inat_230722694.jpg,135288050,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.9828070402145386,0.8941956162452698
+swin_t,True,inat_237087188.jpg,138684842,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.004173320718109608,0.9300300478935242
+swin_t,True,inat_245161059.jpg,142957831,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.012194888666272163,0.9638990163803101
+swin_t,True,inat_245223200.jpg,142995658,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.04105551540851593,0.9835710525512695
+swin_t,True,inat_245411676.jpg,143109712,Peperomium semangka,Peperomium semangka,Kamboja jepang,regressed,0.9960389137268066,0.43911585211753845
+swin_t,True,inat_245419052.jpg,143114571,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9820658564567566,0.6520304679870605
+swin_t,True,inat_245584608.jpg,143211897,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9754691123962402,0.870771050453186
+swin_t,True,inat_245774771.jpg,143317996,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.021840881556272507,0.6874805688858032
+swin_t,True,inat_246603535.jpg,143758386,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.99614417552948,0.8347070217132568
+swin_t,True,inat_258868364.jpg,150161071,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9975687861442566,0.680591344833374
+swin_t,True,inat_260721367.jpg,151143233,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.02013448253273964,0.3227936625480652
+swin_t,True,inat_26628597.jpg,17502576,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.802779495716095,0.6720010042190552
+swin_t,True,inat_271962762.jpg,157282131,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9869166612625122,0.6420950889587402
+swin_t,True,inat_272679856.jpg,157734066,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.007436932995915413,0.4402126669883728
+swin_t,True,inat_293504294.jpg,169301936,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9999890327453613,0.5388790369033813
+swin_t,True,inat_321390075.jpg,184157779,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9992181062698364,0.8621674180030823
+swin_t,True,inat_327995153.jpg,187561223,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.01085042767226696,0.5890290141105652
+swin_t,True,inat_340203678.jpg,193652330,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.00030154595151543617,0.9964174032211304
+swin_t,True,inat_342074446.jpg,194582717,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9994140863418579,0.7306545376777649
+swin_t,True,inat_352783103.jpg,200002159,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.08051042258739471,0.7334724068641663
+swin_t,True,inat_355962235.jpg,201632630,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9994682669639587,0.9676121473312378
+swin_t,True,inat_361149626.jpg,204330808,Aglaonema,Paku tanduk rusa,Kamboja jepang,both_wrong,0.0029609317425638437,0.0071363854221999645
+swin_t,True,inat_396499002.jpg,223752087,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9753937721252441,0.7555208802223206
+swin_t,True,inat_418438754.jpg,235295475,Aglaonema,Lidah metua,Aglaonema,improved,0.2046775370836258,0.3269384205341339
+swin_t,True,inat_430669233.jpg,241629462,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9184791445732117,0.5763379335403442
+swin_t,True,inat_459086886.jpg,256098092,Aglaonema,Aglaonema,Kamboja jepang,regressed,0.898639440536499,0.025445498526096344
+swin_t,True,inat_460255957.jpg,256674728,Aglaonema,Paku tanduk rusa,Kamboja jepang,both_wrong,0.0001420040789525956,0.008531966246664524
+swin_t,True,inat_461864786.jpg,257470511,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9986770749092102,0.9205010533332825
+swin_t,True,inat_469202669.jpg,261194852,Daun nangka,Daun nangka,Daun nangka,both_correct,0.806224524974823,0.9366492033004761
+swin_t,True,inat_471692010.jpg,262649369,Daun nangka,Kamboja jepang,Kamboja jepang,both_wrong,0.14941108226776123,0.466366708278656
+swin_t,True,inat_472716251.jpg,263164598,Daun nangka,Daun nangka,Daun nangka,both_correct,0.995729386806488,0.8372920751571655
+swin_t,True,inat_473387319.jpg,263502170,Aglaonema,Lidah metua,Kamboja jepang,both_wrong,0.025556262582540512,0.0199876856058836
+swin_t,True,inat_480386621.jpg,267319528,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9845324158668518,0.9047027826309204
+swin_t,True,inat_487066344.jpg,270806749,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.9762568473815918,0.48270183801651
+swin_t,True,inat_494933665.jpg,275429247,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9953814744949341,0.7107164859771729
+swin_t,True,inat_498013053.jpg,277353236,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9919888377189636,0.7598881125450134
+swin_t,True,inat_499231407.jpg,278043088,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9945594668388367,0.9421861171722412
+swin_t,True,inat_505876694.jpg,281605214,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9965271353721619,0.6295868754386902
+swin_t,True,inat_507276723.jpg,282351175,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.7022409439086914,0.0982513353228569
+swin_t,True,inat_510176828.jpg,283907666,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9947984218597412,0.6615621447563171
+swin_t,True,inat_53778688.jpg,34190501,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.5831042528152466,0.9835583567619324
+swin_t,True,inat_540025071.jpg,299674859,Aglaonema,Aglaonema,Aglaonema,both_correct,0.9795912504196167,0.5555716753005981
+swin_t,True,inat_54758184.jpg,34766827,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,6.744911843270529e-06,0.9685288071632385
+swin_t,True,inat_552499772.jpg,306374359,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9995142221450806,0.9029378890991211
+swin_t,True,inat_58249205.jpg,36810006,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9889709949493408,0.7530500292778015
+swin_t,True,inat_589500986.jpg,325577746,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.006207509897649288,0.8696268200874329
+swin_t,True,inat_595329479.jpg,328525189,Aglaonema,Aglaonema,Aglaonema,both_correct,0.5578160285949707,0.6842046976089478
+swin_t,True,inat_599714438.jpg,330686266,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9799216985702515,0.7519799470901489
+swin_t,True,inat_599948745.jpg,330789461,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9981433153152466,0.5194752812385559
+swin_t,True,inat_600288549.jpg,330966491,Aglaonema,Aglaonema,Kamboja jepang,regressed,0.9910719990730286,0.03795073553919792
+swin_t,True,inat_602282977.jpg,331939284,Aglaonema,Paku tanduk rusa,Kamboja jepang,both_wrong,0.03517524152994156,0.008263478986918926
+swin_t,True,inat_607616852.jpg,334573904,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.6629378199577332,0.15775398910045624
+swin_t,True,inat_608920524.jpg,335213663,Daun nangka,Paku tanduk rusa,Kamboja jepang,both_wrong,0.020611094310879707,0.040148526430130005
+swin_t,True,inat_61286851.jpg,38551254,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9839927554130554,0.6862877607345581
+swin_t,True,inat_613855159.jpg,337649809,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9977632761001587,0.9817689657211304
+swin_t,True,inat_619526866.jpg,340437084,Aglaonema,Paku tanduk rusa,Daun nangka,both_wrong,4.14465248468332e-05,0.007328521925956011
+swin_t,True,inat_626224705.jpg,343659479,Lidah metua,Lidah metua,Kamboja jepang,regressed,0.9803001880645752,0.13093753159046173
+swin_t,True,inat_632126509.jpg,346751327,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9738368391990662,0.6208259463310242
+swin_t,True,inat_632806275.jpg,347094561,Lidah metua,Lidah metua,Peperomium semangka,regressed,0.7087461948394775,0.10629312694072723
+swin_t,True,inat_640813687.jpg,351175835,Lidah metua,Aglaonema,Lidah metua,improved,0.39141762256622314,0.7079433798789978
+swin_t,True,inat_643574726.jpg,352641434,Lidah metua,Lidah metua,Kamboja jepang,regressed,0.8355033993721008,0.038946185261011124
+swin_t,True,inat_650680929.jpg,356790570,Lidah metua,Lidah metua,Kamboja jepang,regressed,0.9655760526657104,0.019846538081765175
+swin_t,True,inat_650784405.jpg,356846547,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.1637144386768341,0.5230745077133179
+swin_t,True,inat_654389242.jpg,358703163,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9768068194389343,0.4149457812309265
+swin_t,True,inat_658959938.jpg,361088442,Aglaonema,Paku tanduk rusa,Kamboja jepang,both_wrong,0.005598919931799173,0.02122405916452408
+swin_t,True,inat_661109224.jpg,362223571,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9991602897644043,0.9663092494010925
+swin_t,True,inat_668260483.jpg,365991424,Lidah metua,Paku tanduk rusa,Lidah metua,improved,0.0006284937844611704,0.6292967200279236
+swin_t,True,inat_669623168.jpg,366712632,Lidah metua,Paku tanduk rusa,Lidah metua,improved,0.054791975766420364,0.9147214889526367
+swin_t,True,inat_673147406.jpg,368541550,Kamboja jepang,Paku tanduk rusa,Daun nangka,both_wrong,3.0562989650206873e-07,0.1521388441324234
+swin_t,True,inat_674072508.jpg,369057683,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9571083784103394,0.7918024659156799
+swin_t,True,inat_674572215.jpg,368839213,Daun nangka,Paku tanduk rusa,Daun nangka,improved,0.01798560470342636,0.978801429271698
+swin_t,True,inat_677582255.jpg,370875919,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9267358183860779,0.07784391194581985
+swin_t,True,inat_680826304.jpg,372571478,Daun nangka,Daun nangka,Daun nangka,both_correct,0.997973620891571,0.7175294756889343
+swin_t,True,inat_681333944.jpg,372838715,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.9592292904853821,0.3396860957145691
+swin_t,True,inat_683279493.jpg,373858700,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.998417854309082,0.5665295720100403
+swin_t,True,inat_68426020.jpg,43100761,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.12477128952741623,0.9391686320304871
+swin_t,True,inat_686530608.jpg,375531847,Lidah metua,Paku tanduk rusa,Lidah metua,improved,0.0004091444716323167,0.7688347697257996
+swin_t,True,inat_688972584.jpg,376797890,Daun nangka,Daun nangka,Daun nangka,both_correct,0.9561370015144348,0.9803495407104492
+swin_t,True,inat_689417164.jpg,377027561,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9999228715896606,0.7101472616195679
+swin_t,True,inat_69193453.jpg,43616592,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,4.218721187498886e-06,0.35714930295944214
+swin_t,True,inat_694269423.jpg,379542859,Lidah metua,Lidah metua,Kamboja jepang,regressed,0.9981671571731567,0.17692536115646362
+swin_t,True,inat_695009067.jpg,379922598,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9997324347496033,0.021850788965821266
+swin_t,True,inat_695219753.jpg,380032462,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.2123575210571289,0.9406206011772156
+swin_t,True,inat_69742411.jpg,43991441,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.5259143114089966,0.9731715321540833
+swin_t,True,inat_697780215.jpg,381355399,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9738760590553284,0.6075734496116638
+swin_t,True,inat_702756106.jpg,383937565,Lidah metua,Lidah metua,Kamboja jepang,regressed,0.9379541277885437,0.171858549118042
+swin_t,True,inat_703259732.jpg,384222266,Aglaonema,Paku tanduk rusa,Aglaonema,improved,0.23677830398082733,0.4759778678417206
+swin_t,True,inat_707441523.jpg,386150500,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9998563528060913,0.7681666612625122
+swin_t,True,inat_707695472.jpg,386513781,Lidah metua,Paku tanduk rusa,Peperomium semangka,both_wrong,0.0025965427048504353,0.07650186866521835
+swin_t,True,inat_708758600.jpg,387063842,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9999374151229858,0.5528318881988525
+swin_t,True,inat_708761868.jpg,387075040,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.0702098160982132,0.9621539115905762
+swin_t,True,inat_709067193.jpg,387262768,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.4830925166606903,0.8585374355316162
+swin_t,True,inat_715478485.jpg,390247695,Lidah metua,Aglaonema,Kamboja jepang,both_wrong,0.49828240275382996,0.03283625841140747
+swin_t,True,inat_715480225.jpg,390527216,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9998695850372314,0.4275905191898346
+swin_t,True,inat_715976813.jpg,390783096,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.06316390633583069,0.9856987595558167
+swin_t,True,inat_716499258.jpg,391053200,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9990620017051697,0.055361583828926086
+swin_t,True,inat_719587201.jpg,392638370,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.9948471784591675,0.08828006684780121
+swin_t,True,inat_721118477.jpg,393420666,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9986920952796936,0.5676051378250122
+swin_t,True,inat_721796701.jpg,393768641,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9981551766395569,0.026086261495947838
+swin_t,True,inat_726682993.jpg,396258560,Aglaonema,Paku tanduk rusa,Kamboja jepang,both_wrong,0.004009836819022894,0.288754940032959
+swin_t,True,inat_728790409.jpg,397357110,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9999561309814453,0.4269494116306305
+swin_t,True,inat_734187443.jpg,400120098,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9998761415481567,0.031037986278533936
+swin_t,True,inat_734315722.jpg,400185017,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9998651742935181,0.6605584025382996
+swin_t,True,inat_734864938.jpg,400454596,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9997537732124329,0.9214812517166138
+swin_t,True,inat_736571790.jpg,401318530,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,0.00030594621784985065,0.5940625667572021
+swin_t,True,inat_738225964.jpg,402152298,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.058273859322071075,0.9935610294342041
+swin_t,True,inat_738565867.jpg,402326701,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9999057054519653,0.9596061110496521
+swin_t,True,inat_740106081.jpg,403118109,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9869922399520874,0.6091650128364563
+swin_t,True,inat_742720651.jpg,404436992,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9763565063476562,0.06405265629291534
+swin_t,True,inat_743198082.jpg,404677063,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9994825124740601,0.7929286360740662
+swin_t,True,inat_744156464.jpg,405160611,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,0.12103475630283356,0.3655233383178711
+swin_t,True,inat_744156551.jpg,405160676,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9958152174949646,0.9974691867828369
+swin_t,True,inat_744184346.jpg,405175238,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9999449253082275,0.1706184297800064
+swin_t,True,inat_744752175.jpg,405458980,Aglaonema,Aglaonema,Kamboja jepang,regressed,0.9306567907333374,0.09484010189771652
+swin_t,True,inat_746632493.jpg,406392183,Lidah metua,Paku tanduk rusa,Kamboja jepang,both_wrong,0.30233335494995117,0.2335549145936966
+swin_t,True,inat_748769739.jpg,407452019,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9968439340591431,0.9269012212753296
+swin_t,True,inat_749041361.jpg,407588416,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.14603863656520844,0.7759537100791931
+swin_t,True,inat_750183500.jpg,408144496,Peperomium semangka,Peperomium semangka,Kamboja jepang,regressed,0.9250020980834961,0.31937962770462036
+swin_t,True,inat_750739922.jpg,408412671,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9997963309288025,0.45382970571517944
+swin_t,True,inat_750895540.jpg,408488117,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.737273097038269,0.35482096672058105
+swin_t,True,inat_755244004.jpg,410633359,Daun nangka,Daun nangka,Kamboja jepang,regressed,0.9792767763137817,0.16095025837421417
+swin_t,True,inat_755266249.jpg,410641780,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9999138116836548,0.8747267127037048
+swin_t,True,inat_757320176.jpg,411649546,Lidah metua,Lidah metua,Lidah metua,both_correct,0.808907687664032,0.4738527834415436
+swin_t,True,inat_757327216.jpg,411653283,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9705538749694824,0.6188693046569824
+swin_t,True,inat_757889843.jpg,411936748,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.5564133524894714,0.8736737966537476
+swin_t,True,inat_759340711.jpg,412649698,Daun nangka,Daun nangka,Daun nangka,both_correct,0.49697819352149963,0.9208251237869263
+swin_t,True,inat_759352637.jpg,412654986,Peperomium semangka,Peperomium semangka,Kamboja jepang,regressed,0.8733862638473511,0.4026666581630707
+swin_t,True,inat_760659046.jpg,413303491,Paku tanduk rusa,Paku tanduk rusa,Paku tanduk rusa,both_correct,0.9999544620513916,0.7852693200111389
+swin_t,True,inat_760720830.jpg,413337058,Kamboja jepang,Paku tanduk rusa,Kamboja jepang,improved,3.781680061365478e-05,0.9081791043281555
+swin_t,True,inat_761080813.jpg,413510962,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9903752207756042,0.039922505617141724
+swin_t,True,inat_761429535.jpg,413684398,Lidah metua,Lidah metua,Kamboja jepang,regressed,0.9588556289672852,0.22491179406642914
+swin_t,True,inat_761493571.jpg,413714691,Peperomium semangka,Paku tanduk rusa,Peperomium semangka,improved,0.06126120314002037,0.767035186290741
+swin_t,True,inat_764229063.jpg,415071538,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9998420476913452,0.29609206318855286
+swin_t,True,inat_765483674.jpg,415694338,Lidah metua,Paku tanduk rusa,Paku tanduk rusa,both_wrong,8.331729986821301e-06,0.06873971223831177
+swin_t,True,inat_765747605.jpg,415830535,Aglaonema,Aglaonema,Aglaonema,both_correct,0.5822775959968567,0.42201459407806396
+swin_t,True,inat_765837299.jpg,415878514,Lidah metua,Lidah metua,Lidah metua,both_correct,0.9991961121559143,0.992852509021759
+swin_t,True,inat_766367605.jpg,416158995,Lidah metua,Lidah metua,Kamboja jepang,regressed,0.9468278884887695,0.11157152056694031
+swin_t,True,inat_766453341.jpg,416197268,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9802691340446472,0.623214602470398
+swin_t,True,inat_766738986.jpg,416338059,Daun nangka,Daun nangka,Daun nangka,both_correct,0.991273820400238,0.9776442646980286
+swin_t,True,inat_766753283.jpg,416345388,Peperomium semangka,Peperomium semangka,Peperomium semangka,both_correct,0.9705957770347595,0.8768161535263062
+swin_t,True,inat_767327946.jpg,416633865,Paku tanduk rusa,Paku tanduk rusa,Kamboja jepang,regressed,0.9990332126617432,0.07327000051736832
+swin_t,True,inat_81363928.jpg,51219288,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.03891127556562424,0.9166783690452576
+swin_t,True,inat_90248290.jpg,56624446,Peperomium semangka,Paku tanduk rusa,Kamboja jepang,both_wrong,0.00016299138951580971,0.07879649847745895
+swin_t,True,inat_97743378.jpg,61101507,Kamboja jepang,Kamboja jepang,Kamboja jepang,both_correct,0.962108314037323,0.9972387552261353
+swin_t,True,inat_98179042.jpg,61359484,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.07117601484060287,0.992318868637085
+swin_t,True,inat_99776566.jpg,62285098,Kamboja jepang,Daun nangka,Kamboja jepang,improved,0.33181750774383545,0.9931312203407288
