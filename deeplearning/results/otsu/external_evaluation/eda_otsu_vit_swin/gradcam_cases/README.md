@@ -4,7 +4,7 @@ Analisis ini memakai foto sekunder yang sama, dengan model pretrained dan augmen
 
 ## Lima foto yang membaik pada ViT dan Swin
 
-Keempat peta pada satu foto memakai kelas asli sebagai target Grad-CAM yang sama. Skor target adalah nilai softmax dari inferensi. Warna peta dinormalisasi per panel untuk membaca posisi respons spasial.
+Keempat peta pada satu foto memakai kelas asli sebagai target Grad-CAM yang sama. Skor target adalah nilai softmax dari inferensi. Warna peta dinormalisasi per panel untuk membaca posisi respons spasial. Perbandingan besarnya skor kelas memakai angka softmax.
 
 | Foto | Label asli | ViT `N` → `S-O` | Swin `N` → `S-O` |
 |---|---|---|---|
@@ -29,9 +29,9 @@ Pada contoh iNat 245161059, skor kamboja naik dari **0,035 ke 0,956** pada ViT d
 
 Dua peta pertama di tiap contoh ResNet menargetkan paku pada kedua kondisi. Peta terakhir menargetkan label salah yang dipilih model `S-O`. Perbandingan ini menunjukkan lokasi respons untuk kelas paku dan lokasi respons untuk label penggantinya. [Target dan skor setiap peta](skor_dan_target_cam.csv) · [Atribusi foto](atribusi_foto.csv)
 
-Pada iNat 721118477, peta target paku dari N menonjolkan rumpun frond di tengah. Setelah S-O, area paling menonjol untuk target paku bergeser ke sisi kiri foto, sedangkan peta target Peperomia tetap kuat di rumpun tanaman. Pada iNat 757327216, target paku masih memberi respons di sebagian frond walaupun skor kelasnya jatuh. Keduanya memperlihatkan perubahan respons yang berbeda pada foto uji yang sama. [Kasus Peperomia](loss_resnet_paku_721118477.png) ? [Kasus Kamboja](loss_resnet_paku_757327216.png)
+Pada iNat 721118477, peta target paku dari N menonjolkan rumpun frond di tengah. Setelah S-O, area paling menonjol untuk target paku bergeser ke sisi kiri foto, sedangkan area yang menonjol pada peta target Peperomia tetap berada di rumpun tanaman. Pada iNat 757327216, target paku masih memberi respons di sebagian frond walaupun skor kelasnya jatuh. Keduanya memperlihatkan perubahan respons yang berbeda pada foto uji yang sama. [Kasus Peperomia](loss_resnet_paku_721118477.png) ? [Kasus Kamboja](loss_resnet_paku_757327216.png)
 
-**Hipotesis dari input latih.** Mask `S-O` mempertahankan median **45,6%** piksel pada 14 foto primer paku, dengan rentang **23,8–63,2%**. Panel mask memperlihatkan frond yang terputus di beberapa area dan bagian latar yang tetap terlihat. Perubahan pola visual ini masuk akal sebagai salah satu penjelasan mengapa representasi yang dipelajari ResNet sulit mengenali foto paku sekunder utuh. Angka yang langsung terukur adalah skor kelas paku yang jatuh dan peralihan prediksi, terutama ke Peperomia. [Panel mask latih paku](resnet_paku_mask_latih.png) · [Audit mask primer](../../../benchmark/mask_audit.csv)
+**Yang terlihat pada foto latih.** Mask `S-O` mempertahankan median **45,6%** dari seluruh piksel pada 14 foto primer paku, dengan rentang **23,8?63,2%**. Pada tiga contoh di panel, bentuk utama daun paku masih terlihat. Perubahan yang jelas ada pada konteks di sekitarnya, termasuk batang pohon, tanah, dan tanaman lain. Seluruh foto uji masuk ke model dengan persiapan tensor yang sama. Perubahan konteks saat training bisa memengaruhi isyarat yang dipelajari model, tetapi panel ini belum menjelaskan penyebab turunnya skor kelas paku. [Panel mask latih paku](resnet_paku_mask_latih.png) ? [Audit mask primer](../../../benchmark/mask_audit.csv)
 
 **Cakupan temuan.** Pada foto paku yang sama, ViT berubah dari 22/25 ke 19/25 dan Swin dari 24/25 ke 25/25. ResNet dengan `S-O` dan augmentasi ON memperoleh 15/25. Untuk ResNet tanpa augmentasi, `N` dan `S-O` memakai LR `1e-4` dengan masing-masing 11 dan 13 epoch. Peta Grad-CAM memberi petunjuk spasial. Menetapkan penyebab penurunan memerlukan kontrol durasi, seed, dan anotasi daun.
 
