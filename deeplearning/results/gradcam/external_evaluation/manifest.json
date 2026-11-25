@@ -1,0 +1,7 @@
+{
+  "scope": "external_evaluation",
+  "source": "external_evaluation/runs.jsonl",
+  "source_sha256": "7f37a96f27873276b887ba2388de171cf80b9b0b4e33184cf2b6296bd9654937",
+  "code_sha256": "c5a731f195f59bbd2c6519f6142b0f22ca5108e7c68ae6b9aca46b2c2cfd8f69",
+  "archived_model": "refit from archived settings; match measured by predicted label agreement"
+}

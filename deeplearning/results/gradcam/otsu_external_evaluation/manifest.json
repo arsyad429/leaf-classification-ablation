@@ -1,0 +1,7 @@
+{
+  "scope": "otsu_external_evaluation",
+  "source": "otsu/external_evaluation/runs.jsonl",
+  "source_sha256": "d420f5c8417256cb28063c6a5eba0c7919aeb0180051d64483a259451e992b03",
+  "code_sha256": "c5a731f195f59bbd2c6519f6142b0f22ca5108e7c68ae6b9aca46b2c2cfd8f69",
+  "archived_model": "refit from archived settings; match measured by predicted label agreement"
+}

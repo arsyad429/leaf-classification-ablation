@@ -1,0 +1,7 @@
+{
+  "scope": "otsu_benchmark",
+  "source": "otsu/benchmark/folds.jsonl",
+  "source_sha256": "3bcbb75cf8a5bbb97ee45bb713a372d051cfc31c6b8aed2ea2971ea1b24c1456",
+  "code_sha256": "c5a731f195f59bbd2c6519f6142b0f22ca5108e7c68ae6b9aca46b2c2cfd8f69",
+  "archived_model": "refit from archived settings; match measured by predicted label agreement"
+}

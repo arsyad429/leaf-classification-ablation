@@ -1,0 +1,7 @@
+{
+  "scope": "benchmark",
+  "source": "benchmark/folds.jsonl",
+  "source_sha256": "fbfc4250edc02a5c8c36a6f131dd69265f80abef9f36a54dbf72499c281197c2",
+  "code_sha256": "c5a731f195f59bbd2c6519f6142b0f22ca5108e7c68ae6b9aca46b2c2cfd8f69",
+  "archived_model": "refit from archived settings; match measured by predicted label agreement"
+}

@@ -1,0 +1,25 @@
+figure,input,architecture,initialization,augmentation,fold,seed,learning_rate,epochs,matching_predictions,evaluation_photos,refit_macro_f1,refit_accuracy,maps,nonflat_maps,layer
+S-O_resnet50_pretrained_aug0.jpg,S-O,resnet50,pretrained,False,,42,0.0001,13,150,150,0.4094078638016511,0.44666666666666666,6,6,layer4[-1]
+S-O_resnet50_pretrained_aug1.jpg,S-O,resnet50,pretrained,True,,42,0.0001,11,150,150,0.5964164776578679,0.62,6,6,layer4[-1]
+S-O_resnet50_scratch_aug0.jpg,S-O,resnet50,scratch,False,,42,0.001,1,150,150,0.047619047619047616,0.16666666666666666,6,6,layer4[-1]
+S-O_resnet50_scratch_aug1.jpg,S-O,resnet50,scratch,True,,42,0.001,1,150,150,0.047619047619047616,0.16666666666666666,6,6,layer4[-1]
+S-O_vit_b_16_pretrained_aug0.jpg,S-O,vit_b_16,pretrained,False,,42,0.0001,8,150,150,0.7656028983288551,0.76,6,6,encoder.layers[-1].ln_1 (patch tokens)
+S-O_vit_b_16_pretrained_aug1.jpg,S-O,vit_b_16,pretrained,True,,42,3e-05,17,150,150,0.6723306202959897,0.68,6,6,encoder.layers[-1].ln_1 (patch tokens)
+S-O_vit_b_16_scratch_aug0.jpg,S-O,vit_b_16,scratch,False,,42,0.0003,12,150,150,0.11472793669237125,0.14666666666666667,6,5,encoder.layers[-1].ln_1 (patch tokens)
+S-O_vit_b_16_scratch_aug1.jpg,S-O,vit_b_16,scratch,True,,42,0.0003,15,150,150,0.09077380952380952,0.17333333333333334,6,2,encoder.layers[-1].ln_1 (patch tokens)
+S-O_swin_t_pretrained_aug0.jpg,S-O,swin_t,pretrained,False,,42,0.0001,8,150,150,0.7789042023564772,0.7866666666666666,6,6,features[-1][-1].norm1
+S-O_swin_t_pretrained_aug1.jpg,S-O,swin_t,pretrained,True,,42,0.0001,8,150,150,0.7047056753168496,0.68,6,6,features[-1][-1].norm1
+S-O_swin_t_scratch_aug0.jpg,S-O,swin_t,scratch,False,,42,0.0003,12,150,150,0.15605394458086572,0.19333333333333333,6,6,features[-1][-1].norm1
+S-O_swin_t_scratch_aug1.jpg,S-O,swin_t,scratch,True,,42,0.0003,15,150,150,0.11929246254129104,0.16666666666666666,6,6,features[-1][-1].norm1
+E-S-O_resnet50_pretrained_aug0.jpg,E-S-O,resnet50,pretrained,False,,42,0.0001,13,150,150,0.40647917650420773,0.47333333333333333,6,6,layer4[-1]
+E-S-O_resnet50_pretrained_aug1.jpg,E-S-O,resnet50,pretrained,True,,42,0.0001,9,150,150,0.41996406655344404,0.44666666666666666,6,6,layer4[-1]
+E-S-O_resnet50_scratch_aug0.jpg,E-S-O,resnet50,scratch,False,,42,0.0003,1,150,150,0.047619047619047616,0.16666666666666666,6,6,layer4[-1]
+E-S-O_resnet50_scratch_aug1.jpg,E-S-O,resnet50,scratch,True,,42,0.001,1,150,150,0.047619047619047616,0.16666666666666666,6,6,layer4[-1]
+E-S-O_vit_b_16_pretrained_aug0.jpg,E-S-O,vit_b_16,pretrained,False,,42,0.0001,11,150,150,0.7109156407028747,0.7,6,6,encoder.layers[-1].ln_1 (patch tokens)
+E-S-O_vit_b_16_pretrained_aug1.jpg,E-S-O,vit_b_16,pretrained,True,,42,0.0001,10,150,150,0.5571537288233845,0.56,6,6,encoder.layers[-1].ln_1 (patch tokens)
+E-S-O_vit_b_16_scratch_aug0.jpg,E-S-O,vit_b_16,scratch,False,,42,0.0003,12,150,150,0.10517402521666915,0.18,6,6,encoder.layers[-1].ln_1 (patch tokens)
+E-S-O_vit_b_16_scratch_aug1.jpg,E-S-O,vit_b_16,scratch,True,,42,0.0003,15,150,150,0.11545778202880068,0.16666666666666666,6,2,encoder.layers[-1].ln_1 (patch tokens)
+E-S-O_swin_t_pretrained_aug0.jpg,E-S-O,swin_t,pretrained,False,,42,0.0001,8,150,150,0.7475188166487728,0.7533333333333333,6,6,features[-1][-1].norm1
+E-S-O_swin_t_pretrained_aug1.jpg,E-S-O,swin_t,pretrained,True,,42,0.0001,8,150,150,0.6851111821540209,0.6933333333333334,6,6,features[-1][-1].norm1
+E-S-O_swin_t_scratch_aug0.jpg,E-S-O,swin_t,scratch,False,,42,0.0003,11,150,150,0.14975056941968706,0.18666666666666668,6,6,features[-1][-1].norm1
+E-S-O_swin_t_scratch_aug1.jpg,E-S-O,swin_t,scratch,True,,42,0.0003,12,150,150,0.1165028203583895,0.12666666666666668,6,6,features[-1][-1].norm1
